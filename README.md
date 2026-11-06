@@ -2,13 +2,13 @@
 
 Tài liệu hiện hành cập nhật ngày **05/11/2026**. V27 cá nhân hóa theo thông tin Minh Đức cung cấp: hồ sơ doanh nghiệp, các kênh liên hệ và chi nhánh có Google Maps quản lý trong CMS. Xem [kế hoạch, phản biện và kiểm chứng V27](docs/PERSONALIZATION-PLAN-V27.md). CMS demo lưu theo trình duyệt; biểu mẫu không gửi thông tin/CV. Bản V26 đã xuất bản được giữ nguyên trong lúc V27 còn là nháp. Các báo cáo V25/V26 là lịch sử, không phải điểm chấm mới V27. Số phiên bản Sites là bộ đếm riêng.
 
-Địa chỉ GitHub Pages dự kiến: https://kenbinhoainam.github.io/MinhDucWeb/
+Website chính: https://kenbinhoainam.github.io/MinhDucWeb/
 
-Bản Sites hiện tại: https://minh-duc-prototype.kenbinhoainam.chatgpt.site
+Địa chỉ chuyển tiếp từ Sites: https://minh-duc-prototype.kenbinhoainam.chatgpt.site
 
 ## Xuất bản trên GitHub Pages
 
-Kho này được chuyển từ mã nguồn site chính đang xuất bản, commit `cedb74597c54391150d485fdd95d84f3d7fd910e` (Sites version 27). URL GitHub Pages chỉ hoạt động sau khi bật Pages và workflow triển khai thành công.
+Kho này được chuyển từ mã nguồn site chính, commit `cedb74597c54391150d485fdd95d84f3d7fd910e` (Sites version 27). GitHub Pages đã được bật và triển khai thành công tại URL chính ở trên. Các bước dưới đây dùng khi cấu hình lại hoặc khôi phục triển khai.
 
 1. Mở **Settings → Pages** của kho `Kenbinhoainam/MinhDucWeb`, chọn **Source: GitHub Actions**. Kho hiện riêng tư; cần gói GitHub hỗ trợ Pages cho kho riêng tư. Không tự đổi quyền riêng tư chỉ để triển khai.
 2. Trong **Actions → Deploy GitHub Pages**, chọn **Run workflow** trên nhánh `main` nếu lần chạy đầu xảy ra trước khi bật Pages.
@@ -22,7 +22,7 @@ npm run export:pages
 
 Thư mục triển khai là `dist/pages/`. Build tạo HTML, CSS và JavaScript từ nguồn, đặt canonical/Open Graph theo URL mới và giữ điều hướng trong `/MinhDucWeb/`. Có thể đặt `MD_PUBLIC_SITE_URL` để đổi URL khi triển khai ở đường dẫn khác; workflow lấy URL từ cấu hình Pages.
 
-GitHub Pages chỉ chạy prototype tĩnh. CMS demo và các biểu mẫu mô phỏng tiếp tục hoạt động trong trình duyệt; Worker, D1/R2, API và trang quản trị có đăng nhập không nằm trong gói Pages. Bản Sites chưa được chuyển hướng trong khi URL mới chưa được xác minh hoạt động.
+GitHub Pages chỉ chạy prototype tĩnh. CMS demo và các biểu mẫu mô phỏng tiếp tục hoạt động trong trình duyệt; Worker, D1/R2, API và trang quản trị có đăng nhập không nằm trong gói Pages. Bản Sites chuyển hướng HTTP 308 cho các trang công khai sang GitHub, giữ tham số và fragment. API, tài nguyên và trang quản trị có bảo vệ vẫn được xử lý tại Sites. Quy tắc chuyển hướng chỉ áp dụng cho hostname Sites cũ và phương thức GET/HEAD; bản xem trước và URL GitHub không bị chuyển hướng lặp.
 
 Dữ liệu CMS demo và video gắn với từng domain: xuất JSON từ miền cũ, nhập lại ở miền mới và tải lại video từ tệp gốc nếu cần. Việc chuyển mã nguồn không sao chép dữ liệu trình duyệt.
 

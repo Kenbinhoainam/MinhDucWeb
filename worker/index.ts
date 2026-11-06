@@ -1,9 +1,15 @@
 import handler from "vinext/server/fetch-handler";
 import { runWithConnectorBinding } from "../lib/connector-context";
 import type { ConnectorBinding } from "../lib/connector-contract.mjs";
+import { isPublicSitePageRequest, redirectPublicSiteRequest } from "../lib/public-site-redirect";
 
 const worker = {
   fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext<{ CONNECTORS?: ConnectorBinding }>) {
+    const redirect = redirectPublicSiteRequest(request);
+    if (redirect) return redirect;
+    // Worker-first HTML routes still serve their public assets on preview hosts.
+    if (isPublicSitePageRequest(request)) return env.ASSETS.fetch(request);
+
     let binding = ctx.props?.CONNECTORS;
     // Local preview emulates the same request-scoped capability. This branch and
     // the auxiliary service binding are absent from production builds.

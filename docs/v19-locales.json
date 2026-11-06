@@ -1,0 +1,1566 @@
+{
+  "version": "V19",
+  "suite": "locales",
+  "complete": true,
+  "startedAt": "2026-11-01T12:45:09.287Z",
+  "finishedAt": "2026-11-01T12:45:28.896Z",
+  "expectedTotal": 52,
+  "total": 52,
+  "passed": 52,
+  "failed": 0,
+  "elapsedSeconds": 20,
+  "results": [
+    {
+      "id": "switch-reload / index.html / vi→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / vi→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / vi→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / vi→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / en→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / en→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / en→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / en→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / zh→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / zh→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / zh→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / zh→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / ko→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=vi#main",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / ko→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=en#main",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / ko→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=zh#main",
+          "documentLang": "zh",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / index.html / ko→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "reloaded": {
+          "url": "/index.html?preview=1&lang=ko#main",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "preview": "1"
+          },
+          "hash": "#main"
+        },
+        "form": {}
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / vi→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / vi→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / vi→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / vi→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / en→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / en→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / en→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / en→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / zh→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / zh→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / zh→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / zh→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / ko→vi",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=vi&preview=1#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / ko→en",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=en&preview=1#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / ko→zh",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=zh&preview=1#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "switch-reload / viec-lam.html / ko→ko",
+      "pass": true,
+      "actual": {
+        "switched": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=H%C3%A0+N%E1%BB%99i&salary=10&sort=high&lang=ko&preview=1#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Hà Nội",
+            "salary": "10",
+            "sort": "high",
+            "preview": "1"
+          },
+          "hash": "#resultHeading"
+        },
+        "form": {
+          "q": "cong",
+          "area": "Hà Nội",
+          "salary": "10"
+        }
+      }
+    },
+    {
+      "id": "solution-navigation / vi",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=recruitment&lang=vi",
+        "documentLang": "vi",
+        "selected": "vi",
+        "urlLang": "vi",
+        "sessionLang": "vi",
+        "preserved": {
+          "service": "recruitment"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "search-submit-reload / vi",
+      "pass": true,
+      "actual": {
+        "submitted": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=vi",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=vi",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        }
+      }
+    },
+    {
+      "id": "filter-sort-reload / vi",
+      "pass": true,
+      "actual": {
+        "filtered": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=vi#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=vi#resultHeading",
+          "documentLang": "vi",
+          "selected": "vi",
+          "urlLang": "vi",
+          "sessionLang": "vi",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        }
+      }
+    },
+    {
+      "id": "apply-navigation / vi",
+      "pass": true,
+      "actual": {
+        "url": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=vi#ung-tuyen",
+        "documentLang": "vi",
+        "selected": "vi",
+        "urlLang": "vi",
+        "sessionLang": "vi",
+        "preserved": {
+          "id": "cn-dien-tu"
+        },
+        "hash": "#ung-tuyen"
+      }
+    },
+    {
+      "id": "brief-navigation / vi",
+      "pass": true,
+      "actual": {
+        "url": "/lien-he.html?staffing=Nhu+c%E1%BA%A7u+t%C6%B0+v%E1%BA%A5n+nh%C3%A2n+s%E1%BB%B1%3A+Kho+v%E1%BA%ADn+%2F+logistics+%C2%B7+150%E2%80%93350+ng%C6%B0%E1%BB%9Di+%C2%B7+H%C3%A0+N%E1%BB%99i&lang=vi",
+        "documentLang": "vi",
+        "selected": "vi",
+        "urlLang": "vi",
+        "sessionLang": "vi",
+        "preserved": {
+          "staffing": "Nhu cầu tư vấn nhân sự: Kho vận / logistics · 150–350 người · Hà Nội"
+        },
+        "hash": "",
+        "message": "Nhu cầu tư vấn nhân sự: Kho vận / logistics · 150–350 người · Hà Nội"
+      }
+    },
+    {
+      "id": "solution-navigation / en",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=recruitment&lang=en",
+        "documentLang": "en",
+        "selected": "en",
+        "urlLang": "en",
+        "sessionLang": "en",
+        "preserved": {
+          "service": "recruitment"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "search-submit-reload / en",
+      "pass": true,
+      "actual": {
+        "submitted": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=en",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=en",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        }
+      }
+    },
+    {
+      "id": "filter-sort-reload / en",
+      "pass": true,
+      "actual": {
+        "filtered": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=en#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=en#resultHeading",
+          "documentLang": "en",
+          "selected": "en",
+          "urlLang": "en",
+          "sessionLang": "en",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        }
+      }
+    },
+    {
+      "id": "apply-navigation / en",
+      "pass": true,
+      "actual": {
+        "url": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=en#ung-tuyen",
+        "documentLang": "en",
+        "selected": "en",
+        "urlLang": "en",
+        "sessionLang": "en",
+        "preserved": {
+          "id": "cn-dien-tu"
+        },
+        "hash": "#ung-tuyen"
+      }
+    },
+    {
+      "id": "brief-navigation / en",
+      "pass": true,
+      "actual": {
+        "url": "/lien-he.html?staffing=Workforce+consultation+request%3A+Warehousing+%2F+logistics+%C2%B7+150%E2%80%93350+people+%C2%B7+H%C3%A0+N%E1%BB%99i&lang=en",
+        "documentLang": "en",
+        "selected": "en",
+        "urlLang": "en",
+        "sessionLang": "en",
+        "preserved": {
+          "staffing": "Workforce consultation request: Warehousing / logistics · 150–350 people · Hà Nội"
+        },
+        "hash": "",
+        "message": "Workforce consultation request: Warehousing / logistics · 150–350 people · Hà Nội"
+      }
+    },
+    {
+      "id": "solution-navigation / zh",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=recruitment&lang=zh",
+        "documentLang": "zh",
+        "selected": "zh",
+        "urlLang": "zh",
+        "sessionLang": "zh",
+        "preserved": {
+          "service": "recruitment"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "search-submit-reload / zh",
+      "pass": true,
+      "actual": {
+        "submitted": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=zh",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=zh",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        }
+      }
+    },
+    {
+      "id": "filter-sort-reload / zh",
+      "pass": true,
+      "actual": {
+        "filtered": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=zh#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=zh#resultHeading",
+          "documentLang": "zh-CN",
+          "selected": "zh",
+          "urlLang": "zh",
+          "sessionLang": "zh",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        }
+      }
+    },
+    {
+      "id": "apply-navigation / zh",
+      "pass": true,
+      "actual": {
+        "url": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=zh#ung-tuyen",
+        "documentLang": "zh",
+        "selected": "zh",
+        "urlLang": "zh",
+        "sessionLang": "zh",
+        "preserved": {
+          "id": "cn-dien-tu"
+        },
+        "hash": "#ung-tuyen"
+      }
+    },
+    {
+      "id": "brief-navigation / zh",
+      "pass": true,
+      "actual": {
+        "url": "/lien-he.html?staffing=%E4%BA%BA%E5%8A%9B%E5%92%A8%E8%AF%A2%E9%9C%80%E6%B1%82%3A+%E4%BB%93%E5%82%A8+%2F+%E7%89%A9%E6%B5%81+%C2%B7+150%E2%80%93350%E4%BA%BA+%C2%B7+H%C3%A0+N%E1%BB%99i&lang=zh",
+        "documentLang": "zh",
+        "selected": "zh",
+        "urlLang": "zh",
+        "sessionLang": "zh",
+        "preserved": {
+          "staffing": "人力咨询需求: 仓储 / 物流 · 150–350人 · Hà Nội"
+        },
+        "hash": "",
+        "message": "人力咨询需求: 仓储 / 物流 · 150–350人 · Hà Nội"
+      }
+    },
+    {
+      "id": "solution-navigation / ko",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=recruitment&lang=ko",
+        "documentLang": "ko",
+        "selected": "ko",
+        "urlLang": "ko",
+        "sessionLang": "ko",
+        "preserved": {
+          "service": "recruitment"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "search-submit-reload / ko",
+      "pass": true,
+      "actual": {
+        "submitted": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=ko",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&area=B%E1%BA%AFc+Ninh&lang=ko",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "area": "Bắc Ninh"
+          },
+          "hash": ""
+        }
+      }
+    },
+    {
+      "id": "filter-sort-reload / ko",
+      "pass": true,
+      "actual": {
+        "filtered": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=ko#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        },
+        "reloaded": {
+          "url": "/viec-lam.html?q=cong&salary=10&sort=high&lang=ko#resultHeading",
+          "documentLang": "ko",
+          "selected": "ko",
+          "urlLang": "ko",
+          "sessionLang": "ko",
+          "preserved": {
+            "q": "cong",
+            "salary": "10",
+            "sort": "high"
+          },
+          "hash": "#resultHeading"
+        }
+      }
+    },
+    {
+      "id": "apply-navigation / ko",
+      "pass": true,
+      "actual": {
+        "url": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=ko#ung-tuyen",
+        "documentLang": "ko",
+        "selected": "ko",
+        "urlLang": "ko",
+        "sessionLang": "ko",
+        "preserved": {
+          "id": "cn-dien-tu"
+        },
+        "hash": "#ung-tuyen"
+      }
+    },
+    {
+      "id": "brief-navigation / ko",
+      "pass": true,
+      "actual": {
+        "url": "/lien-he.html?staffing=%EC%9D%B8%EB%A0%A5+%EC%83%81%EB%8B%B4+%EC%9A%94%EC%B2%AD%3A+%EC%B0%BD%EA%B3%A0+%2F+%EB%AC%BC%EB%A5%98+%C2%B7+150%7E350%EB%AA%85+%C2%B7+H%C3%A0+N%E1%BB%99i&lang=ko",
+        "documentLang": "ko",
+        "selected": "ko",
+        "urlLang": "ko",
+        "sessionLang": "ko",
+        "preserved": {
+          "staffing": "인력 상담 요청: 창고 / 물류 · 150~350명 · Hà Nội"
+        },
+        "hash": "",
+        "message": "인력 상담 요청: 창고 / 물류 · 150~350명 · Hà Nội"
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+body[data-page="services"] .v14-services {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(16px, 2.5vw, 36px);
+}
+
+body[data-page="services"] .v14-service-tabs {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--paper);
+  overflow: visible;
+}
+
+body[data-page="services"] .v14-service-tabs > button {
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 8px;
+  min-width: 0;
+  min-height: 48px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--navy);
+  font-size: 14px;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+body[data-page="services"] .v14-service-tabs > button[aria-selected="false"]:hover {
+  border-color: var(--blue);
+  background: #edf4ff;
+}
+
+body[data-page="services"] .v14-service-tabs > button[aria-selected="true"] {
+  border-color: var(--navy);
+  background: var(--navy);
+  color: #fff;
+  box-shadow: inset 3px 0 var(--red);
+}
+
+body[data-page="services"] .v14-tab-num {
+  color: var(--muted);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  opacity: 1;
+}
+
+body[data-page="services"] [aria-selected="true"] > .v14-tab-num { color: #c7dcff; }
+body[data-page="services"] .v14-service-tabs > button > .icon { display: none; }
+
+body[data-page="services"] .v14-service-panel {
+  min-width: 0;
+  padding: clamp(16px, 3vw, 40px);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+body[data-page="services"] .v14-service-graphic {
+  max-inline-size: 300px;
+  gap: clamp(6px, 2vw, 12px);
+  margin-bottom: 18px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #edf4ff;
+}
+
+body[data-page="services"] .v14-service-seal { width: 38px; height: 38px; }
+body[data-page="services"] .v14-service-line { background: #a9c2e1; }
+body[data-page="services"] .v14-service-node {
+  width: 28px;
+  height: 28px;
+  color: var(--blue);
+  border-color: #c4d5ea;
+}
+
+body[data-page="services"] .v14-service-panel .eyebrow { margin-bottom: 8px; font-size: 14px; }
+body[data-page="services"] .v14-service-panel .v14-service-title {
+  margin-bottom: 10px;
+  font: 700 clamp(24px, 3vw, 36px)/1.35 var(--sans);
+  text-wrap: wrap;
+}
+
+body[data-page="services"] .v14-service-panel > p { margin-bottom: 14px; }
+body[data-page="services"] .v14-service-panel > p,
+body[data-page="services"] .editorial-scope {
+  max-inline-size: 68ch;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+body[data-page="services"] .editorial-service { margin: 0; }
+body[data-page="services"] .editorial-scope { margin-bottom: 16px; color: var(--navy); }
+body[data-page="services"] .md-blueprint-cta {
+  max-inline-size: 100%;
+  min-height: 48px;
+  margin: 0;
+  padding: 10px 14px;
+  gap: 10px;
+}
+
+body[data-page="services"] .md-service-blueprint {
+  margin-block: 22px;
+  padding: clamp(12px, 2vw, 24px);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--paper);
+}
+
+body[data-page="services"] .md-service-blueprint > .editorial-heading { margin-bottom: 10px; }
+body[data-page="services"] .md-service-blueprint > .editorial-note {
+  padding: 10px 12px;
+  border-radius: 0 8px 8px 0;
+  background: var(--surface);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+body[data-page="services"] .md-blueprint-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+body[data-page="services"] .md-blueprint-step { margin-bottom: 8px; font-size: 14px; }
+body[data-page="services"] .editorial-detail {
+  margin-top: 8px;
+  padding-inline: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+body[data-page="services"] .editorial-detail > summary {
+  min-height: 48px;
+  padding-block: 10px;
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+
+body[data-page="services"] .editorial-detail > summary:hover { color: var(--blue); }
+body[data-page="services"] .editorial-responsibilities dt { font-size: 14px; }
+body[data-page="services"] .editorial-responsibilities dd,
+body[data-page="services"] .editorial-detail .editorial-list li { font-size: 16px; }
+
+@media (min-width: 380px) and (max-width: 1000px) {
+  body[data-page="services"] .v14-service-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 760px) {
+  body[data-page="services"] .md-blueprint-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1001px) {
+  body[data-page="services"] .v14-services { grid-template-columns: clamp(220px, 22vw, 300px) minmax(0, 1fr); }
+  body[data-page="services"] .v14-service-tabs { position: static; }
+  body[data-page="services"] .v14-service-tabs > button { font-size: 16px; }
+}
+
+@media (min-width: 1001px) and (min-height: 560px) {
+  body[data-page="services"] .v14-service-tabs { position: sticky; top: 112px; }
+}

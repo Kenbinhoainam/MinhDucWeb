@@ -1,0 +1,71 @@
+{
+  "purpose": "Prototype visual demonstration requested by the project owner; no verified grant inferred.",
+  "permissionVerified": false,
+  "assets": [
+    {
+      "file": "samsung.svg",
+      "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/samsung.svg",
+      "formatNote": "Original Simple Icons SVG path; Samsung blue #1428a0, viewBox fitted to the wordmark without altering its proportions."
+    },
+    {
+      "file": "lg.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/8d/LG_logo_%282014%29.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "canon.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Canon_wordmark.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "foxconn.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Foxconn_logo.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "asics.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Asics_Logo.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "goertek.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Goertek_logo.png",
+      "formatNote": "Rendered original PNG at 2× dimensions on white, captured without cropping the mark."
+    },
+    {
+      "file": "luxshare.jpg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/68/Luxshare.png",
+      "formatNote": "Rendered at original pixel dimensions on white; captured from original PNG."
+    },
+    {
+      "file": "amkor.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Amkor_Technology_logo.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "pegatron.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pegatron_logo.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "compal.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/80/Compal_logo.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "wistron.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Wistron_logo.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "quanta.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Quanta_Computer.svg",
+      "formatNote": "Original SVG source."
+    },
+    {
+      "file": "inventec.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/24/Inventec.svg",
+      "formatNote": "Original SVG source."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+/* V17: quieter image treatment, useful industry paths and explicit readable states. */
+.md-visual-caption{background:#152e45;color:#fff;padding:15px 20px;border-radius:0;backdrop-filter:none}
+.md-visual-caption span{color:#fff}.md-visual-caption small{display:none}
+.md-save{background:#fff!important;color:#152e45!important;border:1px solid #c8d1d8!important;opacity:1!important}
+.md-save[aria-pressed=true]{background:#b51f37!important;color:#fff!important;border-color:#b51f37!important}
+.gallery-item>span{background:#152e45;color:#fff;padding:9px 13px;bottom:16px;left:16px;right:auto;max-width:calc(100% - 32px);line-height:1.6;border-radius:3px}
+.md-industries{padding-block:80px;background:#f4f3ee;border-block:1px solid #e0e2dc}
+.md-industry-heading{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:64px;align-items:end;margin-bottom:36px}
+.md-industry-heading h2{font-size:clamp(30px,3.4vw,46px);line-height:1.25;margin:12px 0 0;max-width:650px}
+.md-industry-heading p{color:#526373;line-height:1.9;max-width:440px;margin:0}
+.md-industry-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border:1px solid #ccd3d5;background:white}
+.md-industry-card{display:flex;flex-direction:column;min-width:0;padding:28px 24px;min-height:265px;color:#152e45;border-right:1px solid #ccd3d5;transition:background .16s}
+.md-industry-card:last-child{border-right:0}.md-industry-card:hover{background:#f6f8fa}.md-industry-card:focus-visible{outline:3px solid #245b80;outline-offset:-4px}
+.md-industry-card>span:first-child{font-size:12px;letter-spacing:.1em;color:#526373;font-variant-numeric:tabular-nums}
+.md-industry-card h3{font:600 19px/1.5 var(--sans);margin:25px 0 12px;overflow-wrap:anywhere}
+.md-industry-card p{font-size:13px;line-height:1.9;color:#526373;margin:0 0 22px}.md-industry-card .link{margin-top:auto;display:flex;align-items:center;gap:12px;font-size:12px;min-height:44px}
+.md-motion-control{display:inline-flex;align-items:center;gap:9px;background:transparent;border:1px solid #76838c;color:inherit;border-radius:4px;padding:8px 12px;min-height:44px;font:inherit;font-size:12px;cursor:pointer}
+.md-motion-control[aria-pressed=true]{background:#fff;color:#152e45}.footer-bottom{flex-wrap:wrap;gap:14px}.footer-bottom span{line-height:1.8}
+.md-reduce-motion *,.md-reduce-motion *::before,.md-reduce-motion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.md-reduce-motion .reveal{opacity:1!important;transform:none!important}
+.md-rights-state{display:flex;gap:10px;align-items:start;padding:16px;background:#f1f5f7;border-left:3px solid #245b80;font-size:13px;line-height:1.8;margin:18px 0}
+.partner-company-logo,.partner-logo-preview{background:#f1f4f5;color:#526373}.partner-company-logo svg{width:24px;height:24px}.partner-detail .field label{display:block}.partner-detail .form-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.md-policy{max-width:800px;padding-block:52px 90px}.md-policy h1{font-size:clamp(32px,5vw,48px);line-height:1.35;margin:28px 0}.md-policy h2{font:600 20px/1.6 var(--sans);margin:34px 0 12px}.md-policy p{font-size:16px;line-height:1.95;color:#526373}.md-policy-top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.md-policy select{font:inherit;min-height:44px;border:1px solid #a5b0b9;border-radius:4px;padding:8px;background:#fff}.md-policy-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+:lang(zh) h1,:lang(zh) h2,:lang(ko) h1,:lang(ko) h2{line-height:1.45;overflow-wrap:anywhere}:lang(zh) h1,:lang(zh) h2{word-break:normal}:lang(ko) h1,:lang(ko) h2{word-break:keep-all}:lang(zh) p,:lang(ko) p{line-height:1.95}
+.about-services>*,.service-panel,.service-grid>*{min-width:0}
+.md-search-inner>*,.md-search-form,.md-search-form>*{min-width:0}.md-search-title{overflow-wrap:anywhere}
+.md-search-form input,.md-search-form select{min-width:0;max-width:100%;min-height:50px;height:auto;line-height:1.5}
+@media(max-width:600px){.md-search-inner,.md-search-form{grid-template-columns:minmax(0,1fr)}}
+.modal-layer{overflow-y:auto;overscroll-behavior:contain}.modal-card{max-height:calc(100dvh - 32px);overflow:auto}.modal-card>img{max-height:70dvh;object-fit:contain}.v7-studio-dialog{max-height:calc(100dvh - 32px);overflow:auto}
+.v14-result-heading [aria-live],.form-error-summary{line-height:1.8}.field-error,.form-error-summary{color:#9d1830}
+@media(max-width:850px){.md-industry-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.md-industry-card:nth-child(2){border-right:0}.md-industry-card:nth-child(-n+2){border-bottom:1px solid #ccd3d5}.md-industry-heading{gap:24px;grid-template-columns:minmax(0,1fr)}}
+@media(max-width:520px){.md-industries{padding-block:48px}.md-industry-heading{margin-bottom:28px}.md-industry-card{padding:22px 18px;min-height:270px}.md-industry-card h3{font-size:17px;margin-top:19px}.md-industry-card p{font-size:13px}.partner-detail .form-grid{grid-template-columns:minmax(0,1fr)}.partner-detail .field{grid-column:1!important}.md-policy{padding-block:28px 60px}.md-policy p{font-size:15px}.md-visual-caption{padding:13px 15px}}
+@media(max-width:359px){.md-industry-grid{grid-template-columns:minmax(0,1fr)}.md-industry-card{border-right:0;border-bottom:1px solid #ccd3d5;min-height:0}.md-industry-card:last-child{border-bottom:0}.md-industry-card h3{margin-top:12px}.md-industry-card p{margin-bottom:10px}}
+
+.md-loading-content{min-height:520px;padding-block:64px;color:#526373}.md-loading-content>div{width:min(580px,90%);height:220px;border:1px solid #e0e4e6;border-radius:8px;background:#f4f6f7;margin-top:24px}
+
+.detail-block li::before{content:'';width:8px;height:8px;flex:0 0 8px;margin:9px 4px 0 0;background:#245b80;border-radius:50%;border:0}
+
+/* V17.1: restored company demo strip; logos retain their original proportions. */
+.premium-partners .section-head{flex-wrap:wrap;gap:18px}
+.premium-partners .section-head h2{min-width:0}
+.partner-brand-preview .partner-logo-preview{background:#fff}
+.partner-company-logo{background:#fff}
+.md-reduce-motion .partner-marquee{overflow-x:auto;mask-image:none}
+.md-reduce-motion .partner-marquee-group[aria-hidden="true"]{display:none}
+@media(prefers-reduced-motion:reduce){.partner-marquee-group[aria-hidden="true"]{display:none}}
+@media(max-width:600px){.partner-brand-preview{grid-template-columns:1fr}.partner-logo-preview{max-width:240px}.partner-detail .field[style*="grid-column"]{grid-column:1/-1!important}}
+
+/* V17.2: a quiet, keyboard-accessible overview for client presentations. */
+#partners{scroll-margin-top:104px}
+.partner-marquee.is-single .partner-marquee-track{animation:none;width:100%;justify-content:center}
+.partner-directory{margin-top:22px;border-top:1px solid var(--border)}
+.partner-directory>summary{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:54px;cursor:pointer;color:var(--navy,#152e45);font:600 13px/1.6 var(--sans);list-style:none;padding:12px 0}
+.partner-directory>summary::-webkit-details-marker{display:none}
+.partner-directory>summary:focus-visible{outline:3px solid #245b80;outline-offset:5px}
+.partner-directory>summary .icon{flex:0 0 18px;transition:transform .16s}
+.partner-directory[open]>summary .icon{transform:rotate(45deg)}
+.partner-directory-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:1px;background:var(--border);border:1px solid var(--border);margin:12px 0 0}
+.partner-directory-card{min-width:0;background:#fff;padding:24px 14px 20px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px}
+.partner-directory-mark{width:100%;height:64px;display:flex;align-items:center;justify-content:center}
+.partner-directory-mark img{max-width:100%;max-height:58px;width:auto;height:auto;object-fit:contain}
+.partner-directory-card h3{font:600 12px/1.65 var(--sans);margin:0;color:#526373;overflow-wrap:anywhere}
+.partner-directory-mark .partner-mark-text,.partner-company-logo .partner-logo-fallback{font:600 12px/1.5 var(--sans);max-width:100%;overflow-wrap:anywhere}
+.partner-logo-fallback{overflow-wrap:anywhere}
+.partner-company-logo .partner-logo-fallback{font-size:10px}
+@media(max-width:1000px){.partner-directory-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:600px){#partners{scroll-margin-top:88px}.partner-directory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.partner-directory-card{padding:22px 12px 18px}.partner-directory{margin-top:12px}.partner-directory>summary{font-size:12px}}
+.premium-partners:has(.partner-directory[open]) .partner-marquee-track{animation-play-state:paused}

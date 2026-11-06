@@ -1,0 +1,20 @@
+✔ CMS approval flags and imported permission references cannot publish logos (0.875034ms)
+✔ reviewed grants must bind the exact logo, domain, dates and both evidence documents (0.330205ms)
+✔ CMS uses its own local content store and reports quota failure (4.005194ms)
+✔ form completion never serializes contacts, reads CVs or sends a request; repeat is guarded (1.128985ms)
+✔ seed passes server contract and both storage bindings are checked (10.589814ms)
+✔ admin authorization rejects anonymous and non-owner, binds first verified owner ID (4.18153ms)
+✔ draft isolation, stale-write conflict, publish replay and rollback preserve draft (18.434634ms)
+✔ server rejects invalid content, origin and malformed bodies without writing (34.823296ms)
+✔ intake validates consent, phone, job, origin, session, honeypot and body cap (5.042513ms)
+✔ receipt proves stored intake, repeated send has no duplicate and altered payload conflicts (13.004109ms)
+✔ internal application requires signature-checked private CV and owner-only attachment (49.607188ms)
+✔ worker application stores preferences; rate limit and storage outage return errors (15.259957ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 322.198963

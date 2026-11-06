@@ -1,0 +1,197 @@
+{
+  "suite": "stress",
+  "complete": true,
+  "results": [
+    {
+      "id": "S0",
+      "expected": {
+        "count": 0,
+        "route": "index.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S1",
+      "expected": {
+        "count": 0,
+        "route": "viec-lam.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S2",
+      "expected": {
+        "count": 0,
+        "route": "tin-tuc.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S3",
+      "expected": {
+        "count": 1,
+        "route": "index.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S4",
+      "expected": {
+        "count": 1,
+        "route": "viec-lam.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S5",
+      "expected": {
+        "count": 1,
+        "route": "tin-tuc.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S6",
+      "expected": {
+        "count": 2,
+        "route": "index.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S7",
+      "expected": {
+        "count": 2,
+        "route": "viec-lam.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S8",
+      "expected": {
+        "count": 2,
+        "route": "tin-tuc.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S9",
+      "expected": {
+        "count": 5,
+        "route": "index.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S10",
+      "expected": {
+        "count": 5,
+        "route": "viec-lam.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S11",
+      "expected": {
+        "count": 5,
+        "route": "tin-tuc.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S12",
+      "expected": {
+        "count": 9,
+        "route": "index.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S13",
+      "expected": {
+        "count": 9,
+        "route": "viec-lam.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S14",
+      "expected": {
+        "count": 9,
+        "route": "tin-tuc.html"
+      },
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305
+      },
+      "pass": true
+    },
+    {
+      "id": "S404",
+      "expected": "visible fallback or retry",
+      "actual": {
+        "fallback": true,
+        "markup": [
+          "<div class=\"v14-image-unavailable\"><img src=\"assets/deliberate-404.webp\" alt=\"\" loading=\"eager\" decoding=\"async\" width=\"360\" height=\"270\" data-image-guard=\"1\" data-failed-src=\"assets/deliberate-404.webp\" hidden=\"\"><svg class=\"icon \" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"></rect><circle cx=\"8\" cy=\"8\" r=\"1\"></circle><path d=\"m21 16-6-6L4 21\"></path></svg><span>Ảnh hiện chưa tải được</span><button type=\"button\" data-retry-image=\"\">Thử tải lại</button></div>"
+        ]
+      },
+      "pass": true
+    }
+  ]
+}

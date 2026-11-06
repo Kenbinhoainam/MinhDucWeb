@@ -1,0 +1,44 @@
+.md-company-editor {
+  --md-company-border: #d6dfeb;
+  color: #172b45;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.md-company-editor *, .md-company-editor *::before, .md-company-editor *::after { box-sizing: border-box; }
+.md-company-editor form { display: grid; gap: 18px; min-width: 0; }
+.md-company-editor h2, .md-company-editor h3, .md-company-editor p { margin: 0; }
+.md-company-editor > p { margin: 12px 0 24px; }
+.md-company-editor p { line-height: 1.65; }
+.md-company-editor__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.md-company-editor__field { display: grid; gap: 7px; min-width: 0; }
+.md-company-editor__field label { font-weight: 650; line-height: 1.5; }
+.md-company-editor input:not([type="checkbox"]):not([type="hidden"]),
+.md-company-editor textarea {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  border: 1px solid var(--md-company-border);
+  border-radius: 10px;
+  background: #fff;
+  color: #172b45;
+  padding: 12px;
+  font: inherit;
+  line-height: 1.5;
+}
+.md-company-editor textarea { resize: vertical; min-height: 130px; }
+.md-company-editor [data-company-branches] { display: grid; gap: 22px; min-width: 0; }
+.md-company-editor__branch { margin: 0; min-width: 0; border: 1px solid var(--md-company-border); border-radius: 14px; padding: 18px; background: #f8fafc; }
+.md-company-editor__branch legend { max-width: 100%; padding: 0 8px; font-weight: 750; }
+.md-company-editor__visible { display: flex; align-items: center; gap: 10px; width: fit-content; max-width: 100%; margin: 16px 0; min-height: 44px; cursor: pointer; }
+.md-company-editor__visible input { width: 20px; height: 20px; flex-shrink: 0; accent-color: #174a80; }
+.md-company-editor__actions { display: flex; flex-wrap: wrap; gap: 10px; min-width: 0; }
+.md-company-editor__actions button { min-height: 44px; max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+.md-company-editor :is(input, textarea, button):focus-visible { outline: 3px solid #2368bb; outline-offset: 3px; }
+.md-company-editor button:disabled { opacity: .55; cursor: not-allowed; }
+.md-company-editor [data-company-status] { color: #154575; min-height: 1.65em; }
+.md-company-editor [hidden] { display: none !important; }
+@media (max-width: 680px) {
+  .md-company-editor__grid { grid-template-columns: minmax(0, 1fr); }
+  .md-company-editor__branch { padding: 12px; }
+}

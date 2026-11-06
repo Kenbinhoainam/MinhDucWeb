@@ -1,0 +1,68 @@
+[
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true
+  },
+  {
+    "page": "index.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true
+  },
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true
+  }
+]

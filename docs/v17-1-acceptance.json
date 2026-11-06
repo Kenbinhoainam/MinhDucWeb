@@ -1,0 +1,298 @@
+{
+  "version": "V17.1",
+  "baseCommit": "e58f98a44c85a9466ba49f289c99a0090cecce95",
+  "scope": "Selective restoration of company demo logos and editor; all other V17 changes retained.",
+  "matrix": {
+    "complete": true,
+    "results": [
+      {
+        "width": 320,
+        "lang": "vi",
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "heading": "Doanh nghiệp tham khảo",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 320,
+        "lang": "en",
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "heading": "Featured companies",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 320,
+        "lang": "zh",
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "heading": "企业展示",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 320,
+        "lang": "ko",
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "heading": "기업 소개",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "vi",
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "heading": "Doanh nghiệp tham khảo",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "en",
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "heading": "Featured companies",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "zh",
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "heading": "企业展示",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "ko",
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "heading": "기업 소개",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "vi",
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "heading": "Doanh nghiệp tham khảo",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "en",
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "heading": "Featured companies",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "zh",
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "heading": "企业展示",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "ko",
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "heading": "기업 소개",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "vi",
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "heading": "Doanh nghiệp tham khảo",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "en",
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "heading": "Featured companies",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "zh",
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "heading": "企业展示",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "ko",
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "heading": "기업 소개",
+          "logos": 14,
+          "broken": [],
+          "stretched": 0,
+          "industryCards": 0
+        },
+        "pass": true
+      },
+      {
+        "cms": 320,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "companyRows": 14,
+          "logos": 14,
+          "editor": true
+        },
+        "pass": true
+      },
+      {
+        "cms": 1440,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "companyRows": 14,
+          "logos": 14,
+          "editor": true
+        },
+        "pass": true
+      }
+    ]
+  },
+  "cachedV17Migration": {
+    "complete": true,
+    "actual": {
+      "viewport": 375,
+      "scrollWidth": 375,
+      "heading": "Doanh nghiệp tham khảo",
+      "logos": 14,
+      "broken": [],
+      "stretched": 0,
+      "industryCards": 0
+    },
+    "preservedHome": "Customer heading preserved",
+    "preservedJob": "Customer job preserved",
+    "pass": true
+  },
+  "interactionChecks": {
+    "cmsLogoToggleOff": {
+      "logosAfterReload": 13,
+      "saved": true
+    },
+    "cmsLogoToggleOn": {
+      "logosAfterReload": 14,
+      "saved": true
+    },
+    "marqueePause": {
+      "animationPlayState": "paused",
+      "ariaPressed": true
+    },
+    "reduceMotion": {
+      "animation": "none",
+      "overflowX": "auto",
+      "duplicateGroupDisplay": "none"
+    }
+  },
+  "unitTests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "build": "Recorded by official Sites workflow at publication.",
+  "permissionReview": "No new verification performed; sample approved flags remain false.",
+  "score": "No new full evaluation requested or performed."
+}

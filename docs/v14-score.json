@@ -1,0 +1,165 @@
+{
+  "schema_version": "2.0",
+  "rubric_version": "2.0.0",
+  "project": {
+    "title": "Website Minh Đức",
+    "target": "https://minh-duc-premium-v13.kenbinhoainam.chatgpt.site",
+    "version": "V14 — prototype, source pending publication",
+    "date": "2026-10-31"
+  },
+  "mode": "prototype",
+  "earned_points": 64.6,
+  "tested_weight": 87.0,
+  "applicable_weight": 100.0,
+  "observed_score": 74.3,
+  "coverage_percent": 87.0,
+  "lower_bound": 64.6,
+  "upper_bound": 77.6,
+  "excluded_weight": 0.0,
+  "domains": [
+    {
+      "id": "A",
+      "name": "Chiến lược và nội dung",
+      "earned_points": 6.4,
+      "tested_weight": 8.0,
+      "applicable_weight": 10.0,
+      "observed_score": 80.0,
+      "coverage_percent": 80.0,
+      "lower_bound": 64.0,
+      "upper_bound": 84.0
+    },
+    {
+      "id": "B",
+      "name": "Bản sắc và chỉ đạo nghệ thuật",
+      "earned_points": 11.2,
+      "tested_weight": 14.0,
+      "applicable_weight": 14.0,
+      "observed_score": 80.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 80.0,
+      "upper_bound": 80.0
+    },
+    {
+      "id": "C",
+      "name": "Typography và ngôn ngữ",
+      "earned_points": 7.2,
+      "tested_weight": 10.0,
+      "applicable_weight": 10.0,
+      "observed_score": 72.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 72.0,
+      "upper_bound": 72.0
+    },
+    {
+      "id": "D",
+      "name": "Bố cục và đa thiết bị",
+      "earned_points": 8.6,
+      "tested_weight": 12.0,
+      "applicable_weight": 12.0,
+      "observed_score": 71.7,
+      "coverage_percent": 100.0,
+      "lower_bound": 71.7,
+      "upper_bound": 71.7
+    },
+    {
+      "id": "E",
+      "name": "Hành trình và chuyển đổi",
+      "earned_points": 11.0,
+      "tested_weight": 14.0,
+      "applicable_weight": 14.0,
+      "observed_score": 78.6,
+      "coverage_percent": 100.0,
+      "lower_bound": 78.6,
+      "upper_bound": 78.6
+    },
+    {
+      "id": "F",
+      "name": "Khả năng tiếp cận",
+      "earned_points": 8.2,
+      "tested_weight": 12.0,
+      "applicable_weight": 12.0,
+      "observed_score": 68.3,
+      "coverage_percent": 100.0,
+      "lower_bound": 68.3,
+      "upper_bound": 68.3
+    },
+    {
+      "id": "G",
+      "name": "Tương tác và chuyển động",
+      "earned_points": 3.2,
+      "tested_weight": 4.0,
+      "applicable_weight": 6.0,
+      "observed_score": 80.0,
+      "coverage_percent": 66.7,
+      "lower_bound": 53.3,
+      "upper_bound": 86.7
+    },
+    {
+      "id": "H",
+      "name": "Hiệu năng",
+      "earned_points": 1.2,
+      "tested_weight": 2.0,
+      "applicable_weight": 8.0,
+      "observed_score": 60.0,
+      "coverage_percent": 25.0,
+      "lower_bound": 15.0,
+      "upper_bound": 90.0
+    },
+    {
+      "id": "I",
+      "name": "Khả năng tìm thấy",
+      "earned_points": 4.2,
+      "tested_weight": 6.0,
+      "applicable_weight": 6.0,
+      "observed_score": 70.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 70.0,
+      "upper_bound": 70.0
+    },
+    {
+      "id": "J",
+      "name": "CMS và độ bền vận hành",
+      "earned_points": 3.4,
+      "tested_weight": 5.0,
+      "applicable_weight": 8.0,
+      "observed_score": 68.0,
+      "coverage_percent": 62.5,
+      "lower_bound": 42.5,
+      "upper_bound": 80.0
+    }
+  ],
+  "flagship_threshold_verified": false,
+  "blockers": [
+    "Mode is not runtime; design/prototype results cannot verify whole-site quality.",
+    "Whole-scope lower bound is below 90.",
+    "Evidence coverage is below 90%.",
+    "Domain A lower bound is below 70.",
+    "Domain F lower bound is below 70.",
+    "Domain G lower bound is below 70.",
+    "Domain H lower bound is below 70.",
+    "Domain J lower bound is below 70.",
+    "Gate G1 is unknown.",
+    "Gate G2 is unknown.",
+    "Gate G3 is unknown.",
+    "Gate G4 is unknown.",
+    "Gate G5 is unknown.",
+    "Gate G6 is unknown."
+  ],
+  "untested_criteria": [
+    "A03",
+    "G03",
+    "G04",
+    "H01",
+    "H02",
+    "H03",
+    "J03",
+    "J05"
+  ],
+  "field_performance_status": "unknown",
+  "limits": [
+    "Evidence references are required but their contents are not verified by this calculator.",
+    "Bounds describe untested criteria; they are not statistical confidence intervals.",
+    "This is an internal rubric, not a WCAG certificate, market valuation or business-outcome guarantee.",
+    "Field performance remains unverified unless supported by appropriate real-user data."
+  ]
+}

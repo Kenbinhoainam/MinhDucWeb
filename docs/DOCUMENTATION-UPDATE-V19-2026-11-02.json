@@ -1,0 +1,24 @@
+{
+  "productVersion": "V19",
+  "documentationRevision": "2026-11-02",
+  "baselineSourceCommit": "848425392ec54e9aafe70922a0de203b5b862222",
+  "currentDocumentsChecked": 8,
+  "localLinksVerified": 60,
+  "runtimeAndBackendFilesCompared": 117,
+  "byteIdenticalFiles": 116,
+  "generatedMetadataRefreshed": [
+    "public/site-runtime.js"
+  ],
+  "runtimeBodyByteIdentical": true,
+  "runtimeBodySha256": "3d10b011d803b8c551f2b7811a949b21e94aef5966515f5f4a5742d8548da325",
+  "historicalMarkdownContextOnly": 23,
+  "historicalScoreAndEvidenceValuesRewritten": false,
+  "build": "Official Sites build helper completed before this check.",
+  "runtimeVerification": "node scripts/verify-runtime.mjs passed after regeneration.",
+  "browserSuite": "362-case V19 results retained; not rerun for documentation changes.",
+  "nodeSuite": "24-test V19 result retained; not rerun for documentation changes.",
+  "notes": [
+    "Original generated runtime source-hash comment did not match the checkout. Regeneration refreshed that comment; the entire application body remains byte-identical.",
+    "Sites publication counter can increase for this documentation revision; product version remains V19."
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Minh Đức V23 — kiểm tra tiếp cận nội bộ</title>
+<style>body{font:16px/1.6 system-ui;margin:24px}button{padding:12px 20px}pre{white-space:pre-wrap}iframe{height:844px;border:0}</style>
+<h1>Kiểm tra tiếp cận V23</h1>
+<p>Kiểm tra tự động WCAG 2.2 A/AA bằng axe-core. Không thay thế đánh giá trình đọc màn hình hoặc thiết bị thật.</p>
+<button id="run">Chạy kiểm tra</button>
+<button id="textResize">Kiểm tra cỡ chữ 200%</button>
+<button id="newFeatures">Kiểm tra tính năng V25</button>
+<button id="audiences">Kiểm tra hành trình V26</button>
+<pre id="report" role="status">Sẵn sàng</pre>
+<iframe id="frame" title="Trang đang kiểm tra" src="about:blank"></iframe>
+<script>
+const frame=document.querySelector('#frame'),report=document.querySelector('#report'),button=document.querySelector('#run');
+const routes=['index.html','ve-minh-duc.html','dich-vu.html','lien-he.html','viec-lam.html','tin-tuc.html','chi-tiet-viec-lam.html?id=cn-dien-tu'];
+const results=[];
+function show(complete=false){report.textContent=JSON.stringify({complete,total:results.length,failed:results.filter(result=>result.violations?.length||result.error).length,results},null,2);}
+let navigationId=0;
+function load(route,width){frame.style.width=width+'px';return new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Load timeout')),10000);frame.onload=async()=>{clearTimeout(timer);const doc=frame.contentDocument;await doc.fonts.ready;resolve(doc);};const url=new URL(route,location.href);if(!url.searchParams.has('lang'))url.searchParams.set('lang','vi');url.searchParams.set('__qa',String(++navigationId));frame.src=url.href;});}
+async function inject(doc){await new Promise((resolve,reject)=>{const script=doc.createElement('script');script.src='/__axe.js';script.onload=resolve;script.onerror=reject;doc.head.append(script);});}
+button.onclick=async()=>{button.disabled=true;results.length=0;show();try{for(const width of [390,1440])for(const route of routes){try{const doc=await load(route,width);await inject(doc);const audit=await doc.defaultView.axe.run(doc,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}});results.push({route,width,passes:audit.passes.length,incomplete:audit.incomplete.map(item=>({id:item.id,nodes:item.nodes.length})),violations:audit.violations.map(item=>({id:item.id,impact:item.impact,description:item.description,nodes:item.nodes.map(node=>({target:node.target,summary:node.failureSummary}))}))});}catch(error){results.push({route,width,error:String(error)});}show();}}finally{button.disabled=false;show(true);}};
+document.querySelector('#textResize').onclick=async()=>{results.length=0;show();for(const width of [390,1440])for(const route of routes){try{const doc=await load(route,width);const elements=[doc.body,...doc.body.querySelectorAll('*')];const sizes=elements.map(element=>[element,parseFloat(doc.defaultView.getComputedStyle(element).fontSize)]);for(const [element,size] of sizes)element.style.setProperty('font-size',size*2+'px','important');await new Promise(resolve=>setTimeout(resolve,30));const viewport=doc.documentElement.clientWidth,scrollWidth=doc.documentElement.scrollWidth;results.push({route,width,method:'Double each computed element font size; does not claim native browser zoom testing',viewport,scrollWidth,violations:scrollWidth>viewport+1?[{id:'text-resize-overflow',nodes:[...doc.body.querySelectorAll('*')].filter(element=>element.getBoundingClientRect().right>viewport+1).slice(0,12).map(element=>({tag:element.tagName,className:element.className}))}]:[]});}catch(error){results.push({route,width,error:String(error)});}show();}show(true);};
+</script>
+<script>
+document.querySelector('#newFeatures').onclick=async()=>{const b=document.querySelector('#newFeatures');b.disabled=true;results.length=0;show();
+ const scan=async(doc,id,width)=>{try{await inject(doc);const a=await doc.defaultView.axe.run(doc,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}});results.push({route:id,width,passes:a.passes.length,incomplete:a.incomplete.map(x=>({id:x.id,nodes:x.nodes.length})),violations:a.violations.map(x=>({id:x.id,impact:x.impact,nodes:x.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}))});}catch(e){results.push({route:id,width,error:String(e)})}show();};
+ try{for(const width of [390,1440])for(const lang of ['vi','en','zh','ko']){
+  let d=await load('viec-lam.html?lang='+lang,width); // load adds VI; set the locale through the actual UI.
+  const select=d.querySelector('#languageSelect');select.value=lang;select.dispatchEvent(new d.defaultView.Event('change',{bubbles:true}));await new Promise(r=>setTimeout(r,40));
+  d.querySelectorAll('.ct-tool').forEach(e=>e.open=true);d.querySelector('#md-career-calculator').requestSubmit();await scan(d,'career '+lang,width);
+  d.querySelector('.md-ai-inline').click();await scan(d,'assistant chat '+lang,width);
+  d.querySelector('.md-ai-close').click();
+ }
+ for(const width of [390,1440]){const d=await load('cms-demo.html#ops-candidates',width);const button=d.querySelector('[data-ops-tab=candidates]');button.click();await scan(d,'operations candidates',width);d.querySelector('[data-ops-tab=notifications]').click();await scan(d,'operations notifications',width);}
+ }finally{b.disabled=false;show(true);}
+};
+</script>
+</html>
+<script>
+document.querySelector('#audiences').onclick=async()=>{const b=document.querySelector('#audiences');b.disabled=true;results.length=0;show();
+ async function scan(d,id,width){try{await inject(d);const a=await d.defaultView.axe.run(d,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}});results.push({route:id,width,passes:a.passes.length,incomplete:a.incomplete.map(x=>({id:x.id,nodes:x.nodes.length})),violations:a.violations.map(x=>({id:x.id,impact:x.impact,nodes:x.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}))});}catch(e){results.push({route:id,width,error:String(e)})}show()}
+ try{for(const width of [390,1440])for(const lang of ['vi','en','zh','ko']){
+  let d=await load('chi-tiet-viec-lam.html?id=cn-dien-tu&lang='+lang,width);await new Promise(r=>setTimeout(r,40));d.querySelector('#applyShiftUncertain').click();d.querySelector('#applyShuttleUncertain').click();d.querySelector('#applyArea').value='Chưa rõ';d.querySelector('#applyNext').click();await new Promise(r=>setTimeout(r,30));await scan(d,'worker review '+lang,width);
+  d=await load('lien-he.html?wb=1&wb_i=warehouse&wb_s=large&wb_n=180&wb_t=month&wb_h=rotating&lang='+lang,width);await new Promise(r=>setTimeout(r,40));d.querySelector('.wb-details').open=true;await scan(d,'business editing '+lang,width);d.querySelector('#contactNext').click();await new Promise(r=>setTimeout(r,30));await scan(d,'business review '+lang,width);
+ }}catch(e){results.push({route:'harness',error:String(e)})}finally{b.disabled=false;show(true)}};
+</script>

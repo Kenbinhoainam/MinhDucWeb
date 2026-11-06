@@ -1,0 +1,24 @@
+{
+  "productVersion": "V20",
+  "documentationRevision": "2026-11-04",
+  "runtimeBaselineCommit": "95105f351f9264336ae01ba5daea1eb6cd259d5a",
+  "baselineSitesVersion": 13,
+  "baselineDeploymentStatus": "succeeded",
+  "currentDocumentsChecked": 8,
+  "localLinksVerified": 71,
+  "runtimeAndBackendFilesCompared": 119,
+  "byteIdenticalFiles": 118,
+  "runtimeApplicationBodyIdentical": true,
+  "generatedMetadataUpdated": [
+    "public/site-runtime.js"
+  ],
+  "oldEvidenceJsonUnchanged": 57,
+  "historicalMarkdownContextOnly": 27,
+  "originalV20HandoffPreserved": true,
+  "runtimeVerification": "Passed: source/bundle startup, 9 public APIs, 4 locales and prototype no-send/repeat-submit guards.",
+  "build": "Official Sites helper completed before this check.",
+  "browserSuite": "412/412 V20 results retained, not rerun for this documentation-only revision.",
+  "nodeSuite": "30/30 V20 results retained, not rerun for this documentation-only revision.",
+  "score": "FQ1 89.25 inherited from V20 acceptance; no new grading.",
+  "note": "Only the generated runtime source-hash comment was refreshed; application body and all other runtime/backend files remain byte-identical. A later documentation publication can increase the Sites counter while product version stays V20."
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(33, 75, 107)",
+    "fontSize": "15px",
+    "height": 48,
+    "selector": "#mobileMenu",
+    "width": 48,
+    "contrast": 9.2
+  },
+  {
+    "bg": "rgb(181, 31, 55)",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "height": 48,
+    "selector": ".v14-listing-job .btn.red",
+    "width": 301,
+    "contrast": 6.53
+  },
+  {
+    "bg": "rgb(21, 46, 69)",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "11px",
+    "height": 44,
+    "selector": ".sortbtn",
+    "width": 81,
+    "contrast": 13.92
+  },
+  {
+    "bg": "rgba(255, 255, 255, 0.93)",
+    "color": "rgb(21, 46, 69)",
+    "fontSize": "0px",
+    "height": 48,
+    "selector": ".md-save",
+    "width": 48,
+    "contrast": null,
+    "note": "Nền alpha trên ảnh: không coi màu CSS là phép đo pixel; chưa lấy mẫu ảnh nền."
+  },
+  {
+    "bg": "rgb(232, 240, 243)",
+    "color": "rgb(33, 75, 107)",
+    "fontSize": "11px",
+    "height": 48,
+    "selector": ".v14-compare-toggle",
+    "width": 91.703125,
+    "contrast": 7.97
+  },
+  {
+    "bg": "rgb(247, 246, 242)",
+    "color": "rgb(82, 99, 115)",
+    "fontSize": "11px",
+    "height": 44,
+    "selector": ".crumb",
+    "width": 339,
+    "contrast": 5.73
+  }
+]

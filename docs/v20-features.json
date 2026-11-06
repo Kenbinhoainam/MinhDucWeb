@@ -1,0 +1,450 @@
+{
+  "version": "V20",
+  "suite": "features",
+  "complete": true,
+  "startedAt": "2026-11-03T18:37:36.917Z",
+  "finishedAt": "2026-11-03T18:37:44.003Z",
+  "total": 50,
+  "passed": 50,
+  "failed": 0,
+  "elapsedSeconds": 7,
+  "results": [
+    {
+      "id": "social geometry / 320 / vi",
+      "pass": true,
+      "actual": {
+        "left": 0.800000011920929,
+        "right": 288.80000001192093,
+        "top": 216.35000610351562,
+        "viewport": 305,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 320 / vi",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 320 / en",
+      "pass": true,
+      "actual": {
+        "left": 0.800000011920929,
+        "right": 288.80000001192093,
+        "top": 216.35000610351562,
+        "viewport": 305,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 320 / en",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 320 / zh",
+      "pass": true,
+      "actual": {
+        "left": 0.800000011920929,
+        "right": 288.80000001192093,
+        "top": 234.1999969482422,
+        "viewport": 305,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 320 / zh",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 320 / ko",
+      "pass": true,
+      "actual": {
+        "left": 0.800000011920929,
+        "right": 288.80000001192093,
+        "top": 212.75,
+        "viewport": 305,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 320 / ko",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 390 / vi",
+      "pass": true,
+      "actual": {
+        "left": 9.199999809265137,
+        "right": 359.19999980926514,
+        "top": 216.35000610351562,
+        "viewport": 375,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 390 / vi",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 390 / en",
+      "pass": true,
+      "actual": {
+        "left": 9.199999809265137,
+        "right": 359.19999980926514,
+        "top": 216.35000610351562,
+        "viewport": 375,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 390 / en",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 390 / zh",
+      "pass": true,
+      "actual": {
+        "left": 9.199999809265137,
+        "right": 359.19999980926514,
+        "top": 257,
+        "viewport": 375,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 390 / zh",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 390 / ko",
+      "pass": true,
+      "actual": {
+        "left": 9.199999809265137,
+        "right": 359.19999980926514,
+        "top": 235.5500030517578,
+        "viewport": 375,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 390 / ko",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 768 / vi",
+      "pass": true,
+      "actual": {
+        "left": 368.8000183105469,
+        "right": 728.8000183105469,
+        "top": 169.25,
+        "viewport": 753,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 768 / vi",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 768 / en",
+      "pass": true,
+      "actual": {
+        "left": 368.8000183105469,
+        "right": 728.8000183105469,
+        "top": 169.25,
+        "viewport": 753,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 768 / en",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 768 / zh",
+      "pass": true,
+      "actual": {
+        "left": 368.8000183105469,
+        "right": 728.8000183105469,
+        "top": 209.90000915527344,
+        "viewport": 753,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 768 / zh",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 768 / ko",
+      "pass": true,
+      "actual": {
+        "left": 368.8000183105469,
+        "right": 728.8000183105469,
+        "top": 188.4499969482422,
+        "viewport": 753,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 768 / ko",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 1440 / vi",
+      "pass": true,
+      "actual": {
+        "left": 1040.800048828125,
+        "right": 1400.800048828125,
+        "top": 169.25,
+        "viewport": 1425,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 1440 / vi",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 1440 / en",
+      "pass": true,
+      "actual": {
+        "left": 1040.800048828125,
+        "right": 1400.800048828125,
+        "top": 169.25,
+        "viewport": 1425,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 1440 / en",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 1440 / zh",
+      "pass": true,
+      "actual": {
+        "left": 1040.800048828125,
+        "right": 1400.800048828125,
+        "top": 209.90000915527344,
+        "viewport": 1425,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 1440 / zh",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "social geometry / 1440 / ko",
+      "pass": true,
+      "actual": {
+        "left": 1040.800048828125,
+        "right": 1400.800048828125,
+        "top": 188.4499969482422,
+        "viewport": 1425,
+        "pending": 3
+      }
+    },
+    {
+      "id": "social keyboard / 1440 / ko",
+      "pass": true,
+      "actual": {
+        "hidden": true,
+        "focus": ""
+      }
+    },
+    {
+      "id": "CMS settings mobile reflow",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      }
+    },
+    {
+      "id": "CMS social saved",
+      "pass": true,
+      "actual": {
+        "status": "Đã lưu kênh liên hệ trên trình duyệt này."
+      }
+    },
+    {
+      "id": "CMS social rejects unrelated destination",
+      "pass": true,
+      "actual": {
+        "error": "Nhập liên kết HTTPS đúng của zalo.me."
+      }
+    },
+    {
+      "id": "public configured links",
+      "pass": true,
+      "actual": {
+        "links": [
+          "https://zalo.me/minhduc-qa",
+          "https://m.me/minhduc-qa",
+          "tel:0901234567"
+        ]
+      }
+    },
+    {
+      "id": "disabled widget omitted",
+      "pass": true,
+      "actual": {}
+    },
+    {
+      "id": "CMS upload mobile reflow",
+      "pass": true,
+      "actual": {
+        "width": 375,
+        "viewport": 375
+      }
+    },
+    {
+      "id": "reject nonvideo upload",
+      "pass": true,
+      "actual": {
+        "message": "Chọn video MP4 hoặc WebM, tối đa 100 MB."
+      }
+    },
+    {
+      "id": "reject corrupt MP4",
+      "pass": true,
+      "actual": {
+        "message": "Không đọc được video. Hãy thử MP4 H.264 hoặc WebM."
+      }
+    },
+    {
+      "id": "save valid upload and preview",
+      "pass": true,
+      "actual": {
+        "message": "Đã tải và lưu video. Mở trang chủ hoặc bài viết để xem.",
+        "size": 14830,
+        "reference": "md-video:c3700f00-0ae9-4b45-b548-b860db8141e3"
+      }
+    },
+    {
+      "id": "video survives CMS reload",
+      "pass": true,
+      "actual": {
+        "label": "minhduc-synthetic-qa.webm · 0.0 MB · Đã lưu trên trình duyệt"
+      }
+    },
+    {
+      "id": "uploaded video section becomes visible",
+      "pass": true,
+      "actual": {
+        "source": "md-video:c3700f00-0ae9-4b45-b548-b860db8141e3"
+      }
+    },
+    {
+      "id": "public player decodes saved video",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "controls": true
+      }
+    },
+    {
+      "id": "video dialog closes cleanly",
+      "pass": true,
+      "actual": {}
+    },
+    {
+      "id": "remove and save never resurrects video",
+      "pass": true,
+      "actual": {}
+    },
+    {
+      "id": "apply remote video source",
+      "pass": true,
+      "actual": {}
+    },
+    {
+      "id": "invalid remote video preserves saved source",
+      "pass": true,
+      "actual": {
+        "message": "Dùng liên kết YouTube hoặc tệp MP4/WebM qua HTTPS."
+      }
+    },
+    {
+      "id": "missing local video has localized recovery",
+      "pass": true,
+      "actual": {
+        "message": "This video is not available in this browser. Upload it again in the CMS or use a video link."
+      }
+    },
+    {
+      "id": "article supports same upload control",
+      "pass": true,
+      "actual": {
+        "width": 375,
+        "viewport": 375
+      }
+    }
+  ]
+}

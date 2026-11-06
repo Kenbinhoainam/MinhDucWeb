@@ -1,0 +1,157 @@
+{
+  "version": "V20",
+  "date": "2026-11-04",
+  "scope": "Flagship prototype: social contact configuration, bright landing page typography/color, origin-local video upload.",
+  "browser": {
+    "total": 412,
+    "passed": 412,
+    "failed": 0,
+    "suites": [
+      {
+        "name": "matrix",
+        "total": 180,
+        "passed": 180,
+        "failed": 0,
+        "finishedAt": "2026-11-03T19:01:46.034Z",
+        "evidence": "v20-matrix.json"
+      },
+      {
+        "name": "reflow",
+        "total": 21,
+        "passed": 21,
+        "failed": 0,
+        "finishedAt": "2026-11-03T18:36:26.158Z",
+        "evidence": "v20-reflow.json"
+      },
+      {
+        "name": "locales",
+        "total": 52,
+        "passed": 52,
+        "failed": 0,
+        "finishedAt": "2026-11-03T18:38:22.057Z",
+        "evidence": "v20-locales.json"
+      },
+      {
+        "name": "mobile",
+        "total": 48,
+        "passed": 48,
+        "failed": 0,
+        "finishedAt": "2026-11-03T19:00:14.764Z",
+        "evidence": "v20-mobile.json"
+      },
+      {
+        "name": "interactions",
+        "total": 61,
+        "passed": 61,
+        "failed": 0,
+        "finishedAt": "2026-11-03T19:00:39.894Z",
+        "evidence": "v20-interactions.json"
+      },
+      {
+        "name": "features",
+        "total": 50,
+        "passed": 50,
+        "failed": 0,
+        "finishedAt": "2026-11-03T18:37:44.003Z",
+        "evidence": "v20-features.json"
+      }
+    ]
+  },
+  "node": {
+    "total": 30,
+    "passed": 30,
+    "failed": 0,
+    "command": "node --test tests/prototype-v16.test.mjs tests/brand-rights-v17.test.mjs tests/site-api.test.ts tests/locale-routing.test.mjs tests/contact-media.test.mjs"
+  },
+  "build": {
+    "officialBuildHelper": "passed",
+    "runtimePublicApiChecks": 9,
+    "assetParity": [
+      {
+        "file": "index.html",
+        "sha256": "9479776da4a6990f1f3cae64a1e3ac1f84db17ddab87abe8a59d4279fcfae230",
+        "matches": true
+      },
+      {
+        "file": "site-runtime.js",
+        "sha256": "465bdfb6b33b3aac5cc5e4e0c2b1ecb06f51cf71dabd7c980af99d68097189e0",
+        "matches": true
+      },
+      {
+        "file": "site.css",
+        "sha256": "d41c8153ffd8956c23b3052e71763dff42783507c2ba0b5b6d38dcb98bfeb7bf",
+        "matches": true
+      },
+      {
+        "file": "cms.css",
+        "sha256": "7751825b8f249a0a7efecbe50744f0bf237901430602fa54fa6080fd8cb1b9fc",
+        "matches": true
+      },
+      {
+        "file": "cms-demo.html",
+        "sha256": "4d12fad7c18b7e52038a3e552fb66dddb56a798b36b576778d960875ea170e9a",
+        "matches": true
+      },
+      {
+        "file": "contact-media.js",
+        "sha256": "51e6f2c33beaa52b459479108976eafcc20848706d9fb937e4e8848c2fcf4dbd",
+        "matches": true
+      },
+      {
+        "file": "contact-media.css",
+        "sha256": "7c8ae814368a07d5f9127ab5a4d457a10d2fa9f40868f39a35074bceec329a20",
+        "matches": true
+      },
+      {
+        "file": "chinh-sach-du-lieu.html",
+        "sha256": "5186976dae1e360469d09aa7c50adb288e2715cc535dd8c4d4295aaab53798eb",
+        "matches": true
+      }
+    ],
+    "excluded": [
+      {
+        "path": "public/__qa.html",
+        "absent": true
+      },
+      {
+        "path": "dist/client/__qa.html",
+        "absent": true
+      },
+      {
+        "path": "public/quan-tri.html",
+        "absent": true
+      },
+      {
+        "path": "dist/client/quan-tri.html",
+        "absent": true
+      },
+      {
+        "path": "dist/client/output",
+        "absent": true
+      },
+      {
+        "path": "dist/client/tmp",
+        "absent": true
+      }
+    ],
+    "runtimeBytes": 343054,
+    "runtimeGzipBytes": 120005
+  },
+  "review": {
+    "rubric": "FQ1 expert review, same weights as V19; not Lighthouse or production certification",
+    "score": 89.25,
+    "displayScore": 89,
+    "previous": 86.25,
+    "reference": "PROTOTYPE-HANDOFF-V20.md"
+  },
+  "screenshots": [
+    "v20-desktop.png",
+    "v20-mobile-contact.png"
+  ],
+  "limitations": [
+    "CMS configuration and uploaded video are local to this browser and origin; no shared media publication.",
+    "No real contact call/message performed; all channels await CMS configuration.",
+    "Browser viewport simulation; no physical-device or target-user evaluation.",
+    "Existing prototype forms do not send real requests or CVs."
+  ]
+}

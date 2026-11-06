@@ -1,0 +1,26 @@
+[
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(167, 25, 48)",
+    "text": "Please enter a name with at least 2 characters.",
+    "ratio": 7.434074852699427
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(167, 25, 48)",
+    "text": "Enter a valid Vietnamese mobile number, e.g. 0912345678.",
+    "ratio": 7.434074852699427
+  },
+  {
+    "background": "rgb(248, 251, 255)",
+    "color": "rgb(167, 25, 48)",
+    "text": "Please check the highlighted fields.",
+    "ratio": 7.162966110721003
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(167, 25, 48)",
+    "text": "Please confirm your consent to continue.",
+    "ratio": 7.434074852699427
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "suite": "media",
+  "complete": true,
+  "results": [
+    {
+      "id": "CROP0",
+      "expected": {
+        "naturalWidth": 1800,
+        "naturalHeight": 600,
+        "width": 320
+      },
+      "actual": {
+        "natural": [
+          1800,
+          600
+        ],
+        "box": [
+          277,
+          250
+        ],
+        "objectFit": "cover",
+        "overflow": false
+      },
+      "pass": true
+    },
+    {
+      "id": "CROP1",
+      "expected": {
+        "naturalWidth": 1800,
+        "naturalHeight": 600,
+        "width": 1440
+      },
+      "actual": {
+        "natural": [
+          1800,
+          600
+        ],
+        "box": [
+          578.125,
+          501
+        ],
+        "objectFit": "cover",
+        "overflow": false
+      },
+      "pass": true
+    },
+    {
+      "id": "CROP2",
+      "expected": {
+        "naturalWidth": 600,
+        "naturalHeight": 1800,
+        "width": 320
+      },
+      "actual": {
+        "natural": [
+          600,
+          1800
+        ],
+        "box": [
+          277,
+          250
+        ],
+        "objectFit": "cover",
+        "overflow": false
+      },
+      "pass": true
+    },
+    {
+      "id": "CROP3",
+      "expected": {
+        "naturalWidth": 600,
+        "naturalHeight": 1800,
+        "width": 1440
+      },
+      "actual": {
+        "natural": [
+          600,
+          1800
+        ],
+        "box": [
+          578.125,
+          501
+        ],
+        "objectFit": "cover",
+        "overflow": false
+      },
+      "pass": true
+    },
+    {
+      "id": "RIGHTSvi",
+      "expected": "unverified logos remain hidden",
+      "actual": {
+        "blocked": true,
+        "industryCards": 4
+      },
+      "pass": true
+    },
+    {
+      "id": "RIGHTSen",
+      "expected": "unverified logos remain hidden",
+      "actual": {
+        "blocked": true,
+        "industryCards": 4
+      },
+      "pass": true
+    },
+    {
+      "id": "RIGHTSzh",
+      "expected": "unverified logos remain hidden",
+      "actual": {
+        "blocked": true,
+        "industryCards": 4
+      },
+      "pass": true
+    },
+    {
+      "id": "RIGHTSko",
+      "expected": "unverified logos remain hidden",
+      "actual": {
+        "blocked": true,
+        "industryCards": 4
+      },
+      "pass": true
+    }
+  ]
+}

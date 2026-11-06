@@ -1,0 +1,2104 @@
+{
+  "version": "V21",
+  "suite": "browser-regression",
+  "complete": true,
+  "startedAt": "2026-11-04T07:22:34.188Z",
+  "finishedAt": "2026-11-04T07:23:09.042Z",
+  "elapsedSeconds": 35,
+  "matrixExpected": 112,
+  "matrixCompleted": 112,
+  "total": 178,
+  "passed": 178,
+  "failed": 0,
+  "method": "Same-origin iframe; programmatic clicks/focus, form submissions and synthetic events. CMS suite snapshots and restores browser storage. No native keyboard or physical-device claim.",
+  "results": [
+    {
+      "id": "matrix / index.html / 320 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 320 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 320 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 320 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 320 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 320 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 320 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 320 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 320 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 320 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 320 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 320 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 320 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 320 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 320 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 320 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 320 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 320 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 320 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 320 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 320 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 320 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 320 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 320 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 320 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 320 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 320 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 320 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 390 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 390 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 390 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 390 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 390 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 390 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 390 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 390 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 390 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 390 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 390 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 390 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 390 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 390 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 390 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 390 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 390 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 390 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 390 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 390 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 390 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 390 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 390 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 390 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 390 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 390 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 390 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 390 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 768 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 768 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 768 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 768 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 768 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 768 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 768 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 768 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 768 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 768 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 768 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 768 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 768 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 768 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 768 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 768 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 768 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 768 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 768 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 768 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 768 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 768 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 768 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 768 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 768 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 768 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 768 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 768 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 1440 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 1440 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 1440 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 1440 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 1440 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 1440 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 1440 / vi",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "vi",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 1440 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 1440 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 1440 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 1440 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 1440 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 1440 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 1440 / en",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "en",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 1440 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 1440 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 1440 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 1440 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 1440 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 1440 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "zh-CN",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 1440 / zh",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "zh",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / index.html / 1440 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / ve-minh-duc.html / 1440 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / dich-vu.html / 1440 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / lien-he.html / 1440 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / viec-lam.html / 1440 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / tin-tuc.html / 1440 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "matrix / chi-tiet-viec-lam.html?id=cn-dien-tu / 1440 / ko",
+      "kind": "matrix",
+      "pass": true,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "visibleH1": 1,
+        "lang": "ko",
+        "unnamed": [],
+        "duplicateIds": []
+      }
+    },
+    {
+      "id": "menu-open-focus / 320 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=vi\" class=\"active\" aria-current=\"page\">Trang chủ</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 320 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 320 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-open-focus / 320 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=en\" class=\"active\" aria-current=\"page\">Home</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 320 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 320 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-open-focus / 320 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=zh\" class=\"active\" aria-current=\"page\">首页</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 320 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 320 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-open-focus / 320 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=ko\" class=\"active\" aria-current=\"page\">홈</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 320 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 320 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-open-focus / 390 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=vi\" class=\"active\" aria-current=\"page\">Trang chủ</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 390 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 390 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-open-focus / 390 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=en\" class=\"active\" aria-current=\"page\">Home</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 390 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 390 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-open-focus / 390 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=zh\" class=\"active\" aria-current=\"page\">首页</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 390 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 390 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-open-focus / 390 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "true",
+        "active": "<a href=\"index.html?lang=ko\" class=\"active\" aria-current=\"page\">홈</a>"
+      }
+    },
+    {
+      "id": "menu-escape / 390 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "mobileMenu",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "menu-focus-leaves / 390 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "expanded": "false",
+        "activeId": "homeQuery",
+        "navVisible": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 320 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "viec-lam.html?lang=vi",
+        "apply": "#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 320 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "tuyen-dung-noi-bo.html?lang=vi",
+        "apply": "#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 320 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/viec-lam.html?lang=en",
+        "apply": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=en#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 320 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/tuyen-dung-noi-bo.html?lang=en",
+        "apply": "/chi-tiet-viec-lam.html?id=ky-su-co-dien&lang=en#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 320 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/viec-lam.html?lang=zh",
+        "apply": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=zh#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 320 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/tuyen-dung-noi-bo.html?lang=zh",
+        "apply": "/chi-tiet-viec-lam.html?id=ky-su-co-dien&lang=zh#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 320 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/viec-lam.html?lang=ko",
+        "apply": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=ko#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 320 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/tuyen-dung-noi-bo.html?lang=ko",
+        "apply": "/chi-tiet-viec-lam.html?id=ky-su-co-dien&lang=ko#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 390 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "viec-lam.html?lang=vi",
+        "apply": "#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 390 / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "tuyen-dung-noi-bo.html?lang=vi",
+        "apply": "#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 390 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/viec-lam.html?lang=en",
+        "apply": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=en#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 390 / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/tuyen-dung-noi-bo.html?lang=en",
+        "apply": "/chi-tiet-viec-lam.html?id=ky-su-co-dien&lang=en#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 390 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/viec-lam.html?lang=zh",
+        "apply": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=zh#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 390 / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/tuyen-dung-noi-bo.html?lang=zh",
+        "apply": "/chi-tiet-viec-lam.html?id=ky-su-co-dien&lang=zh#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / cn-dien-tu / 390 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/viec-lam.html?lang=ko",
+        "apply": "/chi-tiet-viec-lam.html?id=cn-dien-tu&lang=ko#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "detail-dock / ky-su-co-dien / 390 / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "listing": "/tuyen-dung-noi-bo.html?lang=ko",
+        "apply": "/chi-tiet-viec-lam.html?id=ky-su-co-dien&lang=ko#ung-tuyen",
+        "contactBinding": false
+      }
+    },
+    {
+      "id": "pause-persists-five-seconds",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "before": "matrix(1, 0, 0, 1, -3.4532, 0)",
+        "after": "matrix(1, 0, 0, 1, -3.4532, 0)",
+        "animationPlayState": "paused",
+        "waitMilliseconds": 5100,
+        "focus": "homeQuery"
+      }
+    },
+    {
+      "id": "resume-or-reduced-motion",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "before": "matrix(1, 0, 0, 1, -3.4532, 0)",
+        "after": "matrix(1, 0, 0, 1, -21.5825, 0)",
+        "reducedMotion": false,
+        "animationPlayState": "running",
+        "animationName": "company-strip"
+      }
+    },
+    {
+      "id": "footer-video-filter / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&lang=vi",
+        "count": "1 · Video"
+      }
+    },
+    {
+      "id": "video-count-context / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "count": "1 · Video",
+        "query": "Mộ"
+      }
+    },
+    {
+      "id": "article-preserves-filter / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/bai-viet.html?id=video-moi-truong&kind=video&q=M%E1%BB%99&lang=vi"
+      }
+    },
+    {
+      "id": "back-preserves-filter / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=M%E1%BB%99&lang=vi",
+        "query": "Mộ"
+      }
+    },
+    {
+      "id": "reload-preserves-filter / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=M%E1%BB%99&lang=vi",
+        "query": "Mộ"
+      }
+    },
+    {
+      "id": "footer-video-filter / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&lang=en",
+        "count": "1 · Videos"
+      }
+    },
+    {
+      "id": "video-count-context / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "count": "1 · Videos",
+        "query": "A "
+      }
+    },
+    {
+      "id": "article-preserves-filter / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/bai-viet.html?id=video-moi-truong&kind=video&q=A+&lang=en"
+      }
+    },
+    {
+      "id": "back-preserves-filter / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=A+&lang=en",
+        "query": "A "
+      }
+    },
+    {
+      "id": "reload-preserves-filter / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=A+&lang=en",
+        "query": "A "
+      }
+    },
+    {
+      "id": "footer-video-filter / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&lang=zh",
+        "count": "1 · 视频"
+      }
+    },
+    {
+      "id": "video-count-context / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "count": "1 · 视频",
+        "query": "工厂"
+      }
+    },
+    {
+      "id": "article-preserves-filter / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/bai-viet.html?id=video-moi-truong&kind=video&q=%E5%B7%A5%E5%8E%82&lang=zh"
+      }
+    },
+    {
+      "id": "back-preserves-filter / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=%E5%B7%A5%E5%8E%82&lang=zh",
+        "query": "工厂"
+      }
+    },
+    {
+      "id": "reload-preserves-filter / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=%E5%B7%A5%E5%8E%82&lang=zh",
+        "query": "工厂"
+      }
+    },
+    {
+      "id": "footer-video-filter / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&lang=ko",
+        "count": "1 · 영상"
+      }
+    },
+    {
+      "id": "video-count-context / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "count": "1 · 영상",
+        "query": "공장"
+      }
+    },
+    {
+      "id": "article-preserves-filter / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/bai-viet.html?id=video-moi-truong&kind=video&q=%EA%B3%B5%EC%9E%A5&lang=ko"
+      }
+    },
+    {
+      "id": "back-preserves-filter / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=%EA%B3%B5%EC%9E%A5&lang=ko",
+        "query": "공장"
+      }
+    },
+    {
+      "id": "reload-preserves-filter / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "url": "/tin-tuc.html?kind=video&q=%EA%B3%B5%EC%9E%A5&lang=ko",
+        "query": "공장"
+      }
+    },
+    {
+      "id": "video-unconfigured / vi",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "emptyVisible": true,
+        "playControl": false,
+        "label": "Video đang được chuẩn bịNội dung giới thiệu sẽ xuất hiện tại đây khi video được cập nhật."
+      }
+    },
+    {
+      "id": "video-unconfigured / en",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "emptyVisible": true,
+        "playControl": false,
+        "label": "Video coming soonThe introduction will be available here when a video is added."
+      }
+    },
+    {
+      "id": "video-unconfigured / zh",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "emptyVisible": true,
+        "playControl": false,
+        "label": "视频准备中添加视频后，您可在此观看介绍。"
+      }
+    },
+    {
+      "id": "video-unconfigured / ko",
+      "kind": "interaction",
+      "pass": true,
+      "actual": {
+        "emptyVisible": true,
+        "playControl": false,
+        "label": "동영상 준비 중동영상이 추가되면 여기에서 소개를 볼 수 있습니다."
+      }
+    }
+  ]
+}

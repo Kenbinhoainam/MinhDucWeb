@@ -1,0 +1,175 @@
+.md-job-draft {
+  min-width: 0;
+  color: #17365e;
+  background: #f6faff;
+  border: 1px solid #bfd5f4;
+  border-radius: 14px;
+}
+
+.md-job-draft > summary,
+.md-job-draft-facts > summary {
+  min-height: 44px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 750;
+}
+
+.md-job-draft > summary {
+  font-size: 15px;
+}
+
+.md-job-draft-badge {
+  display: inline-block;
+  margin-inline: 4px 6px;
+  padding: 2px 7px;
+  color: #154782;
+  background: #dcecff;
+  border-radius: 5px;
+  font-size: 10px;
+  letter-spacing: .06em;
+  vertical-align: 1px;
+}
+
+.md-job-draft-body {
+  display: grid;
+  gap: 12px;
+  padding: 0 clamp(12px, 3vw, 20px) 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.md-job-draft-body p {
+  margin: 0;
+}
+
+.md-job-draft-body fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #cbdcf0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.md-job-draft-body legend {
+  padding: 0 5px;
+  font-weight: 750;
+}
+
+.md-job-draft-note {
+  color: #445a77;
+  font-size: 13px;
+}
+
+.md-job-draft-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 44px;
+  margin-block: 6px;
+  padding: 8px;
+  border: 1px solid #dbe6f3;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.md-job-draft-option:has(input:disabled) {
+  color: #52657f;
+  cursor: default;
+}
+
+.md-job-draft-option input,
+.md-job-draft-replace input {
+  flex: 0 0 auto;
+  inline-size: 18px;
+  block-size: 18px;
+  margin: 2px 0 0;
+  accent-color: #174c96;
+}
+
+.md-job-draft-option span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.md-job-draft-option [data-job-fact-value] {
+  display: block;
+  max-block-size: 10rem;
+  overflow-y: auto;
+  color: #445a77;
+  font-size: 13px;
+  white-space: pre-wrap;
+}
+
+.md-job-draft-facts > summary {
+  padding-inline: 8px;
+  color: #234f8c;
+  font-size: 13px;
+}
+
+.md-job-draft-field {
+  display: grid;
+  gap: 4px;
+  margin-block: 12px;
+  font-weight: 650;
+}
+
+.md-job-draft-field textarea {
+  inline-size: 100%;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  min-block-size: 104px;
+  padding: 8px 10px;
+  resize: vertical;
+  color: #17365e;
+  background: #fff;
+  border: 1px solid #8da9ca;
+  border-radius: 7px;
+  font: inherit;
+  font-weight: 400;
+}
+
+.md-job-draft-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.md-job-draft-actions button {
+  min-height: 44px;
+  white-space: normal;
+}
+
+.md-job-draft-actions button:disabled {
+  color: #445a77;
+  background: #e5edf8;
+  border-color: #cbdcf0;
+  cursor: default;
+}
+
+.md-job-draft-replace {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+}
+
+.md-job-draft :focus-visible {
+  outline: 2px solid #1954a4;
+  outline-offset: 2px;
+}
+
+.md-job-draft [hidden] {
+  display: none;
+}
+
+.md-job-draft-status {
+  color: #234f8c;
+  font-weight: 650;
+}
+
+@media (max-width: 560px) {
+  .md-job-draft-actions { align-items: stretch; flex-direction: column; }
+  .md-job-draft-field textarea { font-size: 16px; }
+}

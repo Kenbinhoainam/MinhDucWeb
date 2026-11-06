@@ -1,0 +1,440 @@
+{
+  "companyDemoRevision": 1,
+  "realMediaRevision": 24,
+  "illustrationRevision": 26,
+  "videoIllustrationRevision": 27,
+  "social": {
+    "enabled": true,
+    "hotline": "0364562868",
+    "zalo": "https://zalo.me/0329138082",
+    "messenger": ""
+  },
+  "jobs": [
+    {
+      "id": "cn-dien-tu",
+      "type": "worker",
+      "title": "Công nhân sản xuất linh kiện điện tử",
+      "company": "Nhà máy sản xuất điện tử (minh họa)",
+      "location": "Bắc Ninh",
+      "park": "KCN Yên Phong",
+      "min": 9,
+      "max": 12,
+      "urgent": true,
+      "open": true,
+      "openings": 200,
+      "posted": "2026-10-26",
+      "image": "gallery-line.webp",
+      "tags": [
+        "Bao ăn",
+        "Ký túc xá",
+        "Tăng ca",
+        "BHXH đầy đủ"
+      ],
+      "description": "Lắp ráp, kiểm tra linh kiện trên dây chuyền sản xuất.\nTuân thủ quy trình thao tác, 5S và an toàn lao động.\nHỗ trợ kiểm tra chất lượng sản phẩm.",
+      "requirements": "Đủ 18 tuổi, sức khỏe phù hợp công việc.\nChăm chỉ, có thể làm việc theo ca.\nĐược hướng dẫn nếu chưa có kinh nghiệm.",
+      "benefits": "Thu nhập 9–12 triệu/tháng tùy vị trí.\nCó phụ cấp và hỗ trợ ăn ca.\nTham gia bảo hiểm theo quy định.",
+      "apply": "Điền form 5 thông tin trên website.\nNhân viên tuyển dụng liên hệ để hướng dẫn."
+    },
+    {
+      "id": "cn-co-khi",
+      "type": "worker",
+      "title": "Công nhân lắp ráp cơ khí",
+      "company": "Nhà máy cơ khí (minh họa)",
+      "location": "Bắc Giang",
+      "park": "KCN Vân Trung",
+      "min": 10,
+      "max": 14,
+      "urgent": true,
+      "open": true,
+      "openings": 150,
+      "posted": "2026-10-25",
+      "image": "mechanical-assembly-v23.webp",
+      "tags": [
+        "Bao ăn",
+        "Xe đưa đón",
+        "Phụ cấp ca"
+      ],
+      "description": "Gia công, lắp ráp linh kiện cơ khí theo hướng dẫn.\nVận hành thiết bị đơn giản trong phân xưởng.\nGiữ vệ sinh và an toàn khu vực làm việc.",
+      "requirements": "Sức khỏe tốt, chịu khó.\nƯu tiên người có kinh nghiệm, không bắt buộc.\nCó thể làm theo ca.",
+      "benefits": "Thu nhập 10–14 triệu/tháng theo năng lực.\nPhụ cấp ca và hỗ trợ ăn.\nĐào tạo kỹ năng tại chỗ.",
+      "apply": "Đăng ký thông tin trên website.\nChờ telesale liên hệ tư vấn lịch tuyển."
+    },
+    {
+      "id": "qc",
+      "type": "worker",
+      "title": "Nhân viên kiểm tra chất lượng (QC)",
+      "company": "Nhà máy điện tử (minh họa)",
+      "location": "Bắc Ninh",
+      "park": "KCN Quế Võ",
+      "min": 9,
+      "max": 13,
+      "urgent": false,
+      "open": true,
+      "openings": 80,
+      "posted": "2026-10-24",
+      "image": "gallery-operator.webp",
+      "tags": [
+        "BHXH",
+        "Thưởng chuyên cần",
+        "Đào tạo"
+      ],
+      "description": "Kiểm tra ngoại quan sản phẩm theo tiêu chuẩn.\nGhi nhận sản phẩm lỗi và báo trưởng nhóm.\nHỗ trợ cải tiến chất lượng sản xuất.",
+      "requirements": "Cẩn thận, trung thực.\nCó thể làm việc theo ca.\nƯu tiên từng làm QC.",
+      "benefits": "Mức lương 9–13 triệu/tháng.\nThưởng theo chính sách nhà máy.\nĐầy đủ chế độ pháp luật quy định.",
+      "apply": "Gửi form ứng tuyển 5 trường.\nBộ phận tuyển dụng sẽ liên hệ."
+    },
+    {
+      "id": "kho-van",
+      "type": "worker",
+      "title": "Nhân viên kho vận",
+      "company": "Trung tâm hậu cần (minh họa)",
+      "location": "Bắc Giang",
+      "park": "KCN Quang Châu",
+      "min": 12,
+      "max": 16,
+      "urgent": false,
+      "open": true,
+      "openings": 50,
+      "posted": "2026-10-23",
+      "image": "gallery-warehouse.webp",
+      "tags": [
+        "Đào tạo",
+        "Phụ cấp",
+        "Thưởng năng suất"
+      ],
+      "description": "Tiếp nhận hàng hóa, kiểm đếm xuất nhập kho.\nSắp xếp hàng theo vị trí và bảo quản an toàn.",
+      "requirements": "Có sức khỏe tốt.\nCó thể làm việc theo ca.\nBiết dùng thiết bị kho là một lợi thế.",
+      "benefits": "Lương 12–16 triệu/tháng theo vị trí.\nPhụ cấp và thưởng theo hiệu quả.",
+      "apply": "Gửi thông tin đăng ký để được tư vấn trực tiếp."
+    },
+    {
+      "id": "van-hanh-may",
+      "type": "worker",
+      "title": "Công nhân vận hành máy",
+      "company": "Nhà máy sản xuất (minh họa)",
+      "location": "Hà Nội",
+      "park": "KCN Thăng Long",
+      "min": 8,
+      "max": 11,
+      "urgent": true,
+      "open": true,
+      "openings": 120,
+      "posted": "2026-10-22",
+      "image": "gallery-line.webp",
+      "tags": [
+        "Không cần kinh nghiệm",
+        "Có ký túc xá",
+        "Tăng ca"
+      ],
+      "description": "Theo dõi máy sản xuất, tiếp vật liệu.\nBáo lỗi kỹ thuật cho tổ trưởng.\nKiểm tra chất lượng theo ca.",
+      "requirements": "Có tinh thần học hỏi.\nSức khỏe phù hợp.\nCó thể làm ca.",
+      "benefits": "Thu nhập 8–11 triệu/tháng.\nPhúc lợi và bảo hiểm theo quy định.",
+      "apply": "Điền form ứng tuyển, nhân viên sẽ gọi hỗ trợ."
+    },
+    {
+      "id": "ky-su-co-dien",
+      "type": "internal",
+      "title": "Kỹ sư Cơ điện (Bảo trì máy)",
+      "company": "Minh Đức – Khối kỹ thuật (minh họa)",
+      "location": "Hà Nội",
+      "park": "KCN Thăng Long",
+      "min": 12,
+      "max": 18,
+      "urgent": true,
+      "open": true,
+      "openings": 5,
+      "posted": "2026-10-26",
+      "image": "gallery-technician.webp",
+      "tags": [
+        "Toàn thời gian",
+        "BHXH",
+        "Đào tạo"
+      ],
+      "description": "Thực hiện bảo trì, bảo dưỡng định kỳ và sửa chữa hệ thống máy móc, thiết bị sản xuất.\nPhân tích, chẩn đoán và xử lý các sự cố liên quan đến hệ thống cơ điện.\nĐề xuất cải tiến nhằm tăng hiệu suất thiết bị.\nLập báo cáo công việc và kế hoạch bảo trì.",
+      "requirements": "Tốt nghiệp Cao đẳng/Đại học chuyên ngành Cơ điện, Điện – Điện tử.\nCó từ 1–3 năm kinh nghiệm ở vị trí tương đương.\nBiết đọc bản vẽ kỹ thuật và tài liệu hướng dẫn.\nTinh thần trách nhiệm và kỹ năng giải quyết vấn đề tốt.",
+      "benefits": "Thu nhập 12–18 triệu/tháng tùy năng lực.\nĐược tham gia đầy đủ BHXH/BHYT/BHTN.\nĐào tạo chuyên môn và cơ hội thăng tiến.\nMôi trường làm việc chuyên nghiệp.",
+      "apply": "Điền thông tin ứng tuyển.\nĐính kèm CV PDF/DOC/DOCX.\nBộ phận nhân sự liên hệ để trao đổi và hẹn phỏng vấn."
+    },
+    {
+      "id": "nhan-vien-telesale",
+      "type": "internal",
+      "title": "Chuyên viên Telesale tuyển dụng",
+      "company": "Minh Đức – Phòng tuyển dụng (minh họa)",
+      "location": "Bắc Ninh",
+      "park": "Văn phòng",
+      "min": 9,
+      "max": 15,
+      "urgent": false,
+      "open": true,
+      "openings": 3,
+      "posted": "2026-10-24",
+      "image": "gallery-meeting.webp",
+      "tags": [
+        "Có thưởng",
+        "Đào tạo",
+        "Giờ hành chính"
+      ],
+      "description": "Tư vấn ứng viên từ các chiến dịch tuyển dụng.\nHướng dẫn hồ sơ và chuyển dữ liệu vào Google Sheets.\nPhối hợp đăng tin tuyển dụng nội bộ.",
+      "requirements": "Giao tiếp tốt, sử dụng máy tính cơ bản.\nƯu tiên kinh nghiệm tư vấn, telesale.\nChủ động và có trách nhiệm.",
+      "benefits": "Lương cơ bản và thưởng theo hiệu quả.\nĐào tạo nghiệp vụ.\nMôi trường đồng đội.",
+      "apply": "Điền thông tin và đính kèm CV để bộ phận nhân sự liên hệ."
+    },
+    {
+      "id": "seo-content",
+      "type": "internal",
+      "title": "Nhân viên Nội dung & SEO",
+      "company": "Minh Đức – Phòng Marketing (minh họa)",
+      "location": "Bắc Giang",
+      "park": "Văn phòng",
+      "min": 10,
+      "max": 16,
+      "urgent": false,
+      "open": true,
+      "openings": 2,
+      "posted": "2026-10-20",
+      "image": "gallery-meeting.webp",
+      "tags": [
+        "Giờ hành chính",
+        "Đào tạo",
+        "Thưởng"
+      ],
+      "description": "Biên tập bài viết, tin tuyển dụng chuẩn SEO.\nQuản lý hình ảnh, video và chuyên mục trên website.\nTheo dõi hiệu quả nội dung.",
+      "requirements": "Viết tiếng Việt tốt và có tư duy nội dung.\nCó hiểu biết SEO cơ bản.\nBiết sử dụng công cụ CMS.",
+      "benefits": "Thu nhập phù hợp năng lực.\nCơ hội học hỏi và phát triển dài hạn.",
+      "apply": "Nộp CV và thông tin ứng tuyển qua website."
+    }
+  ],
+  "posts": [
+    {
+      "id": "xu-huong-kcn",
+      "type": "article",
+      "title": "Tìm việc tại khu công nghiệp: từ tin tuyển dụng đến quyết định",
+      "category": "Thị trường lao động",
+      "date": "2026-10-24",
+      "cover": "editorial-career.svg",
+      "excerpt": "Một cách kiểm tra công việc, ca làm và đường đi để lựa chọn dựa trên thông tin rõ ràng.",
+      "body": "Đọc vị trí cụ thể trước khi nhìn mức thu nhập\nCùng một tên “nhân viên sản xuất” có thể chỉ những công việc rất khác nhau. Hãy ghi lại điều tin tuyển dụng đã nêu và tách riêng điều còn thiếu; tên khu công nghiệp chưa đủ để xác định nơi làm việc.\n• Xác định nhà máy, địa chỉ làm việc, bộ phận và nhiệm vụ chính; phân biệt với địa điểm phỏng vấn.\n• Hỏi về tư thế làm việc, thiết bị sử dụng, môi trường và phần hướng dẫn trước khi bắt đầu.\n• Làm rõ kinh nghiệm cần có và phần được đào tạo; không tự suy ra từ tên vị trí.\n\nĐặt ca làm cạnh lịch sinh hoạt thực tế\nMột công việc phù hợp cần tính cả hành trình đến nơi làm và trở về. Lịch xe, chỗ ở và trách nhiệm gia đình có thể ảnh hưởng đến khả năng theo ca lâu dài.\n• Kiểm tra giờ bắt đầu, kết thúc, cách đổi ca và cách thông báo thay đổi.\n• Nếu có xe đưa đón, hỏi điểm đón, giờ xe và phương án khi kết thúc ca muộn.\n• Tự tính chi phí đi lại, ăn ở và thời gian dành cho việc riêng trước khi so sánh hai công việc.\nCâu hỏi nên đặt ra\n“Ca làm thường thay đổi thế nào? Nếu lịch đổi, tôi sẽ nhận thông báo từ ai và qua kênh nào?”\n\nXác nhận trước khi đến phỏng vấn hoặc nhận việc\nLưu lại tin tuyển dụng và nội dung đã trao đổi. Nếu thông tin mới khác với tin ban đầu, hãy yêu cầu người liên hệ giải thích và gửi lại nội dung đã thống nhất để bạn có thể kiểm tra.\n• Xác nhận đơn vị tuyển dụng, người liên hệ, địa điểm, thời gian và giấy tờ cần mang.\n• Hỏi rõ mục đích của giấy tờ được yêu cầu và chỉ gửi thông tin cần thiết qua kênh đã xác minh.\n\nĐiều nên mang theo\nLập một ghi chú gồm: việc làm gì, ở đâu, ca nào, thu nhập tính ra sao và liên hệ ai. Chỗ nào chưa rõ, hãy hỏi trước khi quyết định.",
+      "video": "",
+      "seoTitle": "Xu hướng tuyển dụng lao động KCN 2026",
+      "meta": "Tìm hiểu các xu hướng tuyển dụng và lưu ý khi tìm việc tại khu công nghiệp.",
+      "keyword": "tuyển dụng khu công nghiệp",
+      "visible": true
+    },
+    {
+      "id": "video-moi-truong",
+      "type": "video",
+      "title": "Một ngày làm việc tại nhà máy – Video giới thiệu",
+      "category": "Video",
+      "date": "2026-10-23",
+      "cover": "video-poster.webp",
+      "excerpt": "Hình dung quy trình làm việc tại môi trường sản xuất hiện đại.",
+      "body": "Video giới thiệu mẫu, cần thay bằng nội dung công ty được phép đăng tải.",
+      "video": "",
+      "seoTitle": "Video một ngày làm việc trong nhà máy",
+      "meta": "Tham khảo môi trường làm việc và cơ hội nghề nghiệp.",
+      "keyword": "video môi trường làm việc",
+      "visible": true
+    },
+    {
+      "id": "chinh-sach-phuc-loi",
+      "type": "article",
+      "title": "Đọc thông tin thu nhập và phúc lợi trước khi nhận việc",
+      "category": "Cẩm nang",
+      "date": "2026-10-19",
+      "cover": "editorial-benefits.svg",
+      "excerpt": "Tách từng khoản thu nhập, kiểm tra điều kiện áp dụng và đặt đúng câu hỏi để so sánh công việc.",
+      "body": "Phân biệt khoản cố định và khoản phụ thuộc điều kiện\nKhoảng “tổng thu nhập” trong tin tuyển dụng có thể gộp nhiều khoản. Để hiểu một con số, cần biết nó được tính với ca làm, thời lượng làm việc và điều kiện nào. Đừng tự coi mức cao nhất là khoản chắc chắn nhận được.\n• Hỏi riêng mức lương cho công việc theo lịch làm việc thỏa thuận.\n• Với phụ cấp hoặc thưởng, ghi lại điều kiện, cách tính và thời điểm chi trả.\n• Yêu cầu giải thích các khoản khấu trừ được thông báo và cách thể hiện trên bảng thanh toán.\nCâu hỏi nên đặt ra\n“Khoảng thu nhập này gồm những khoản nào? Nếu điều kiện làm việc của tôi khác giả định đó thì cách tính thay đổi ra sao?”\n\nĐọc phúc lợi cùng điều kiện sử dụng\n“Có hỗ trợ” chưa cho biết hỗ trợ theo hình thức nào hoặc ai được sử dụng. Một khoản tiền, một dịch vụ do đơn vị bố trí và khoản hoàn trả chi phí có thể tạo trải nghiệm rất khác nhau.\n• Bữa ăn: cung cấp tại nơi làm việc hay hỗ trợ tiền; áp dụng cho ca nào?\n• Chỗ ở và xe đưa đón: địa điểm, điều kiện đăng ký, chi phí người lao động cần tự trả.\n• Đào tạo và các chương trình khác: nội dung, đối tượng tham gia, người giải đáp và tài liệu áp dụng.\n\nSo sánh bằng cùng một bộ câu hỏi\nKhi so sánh, đặt các công việc cạnh nhau theo cùng lịch làm việc và cùng loại khoản thu nhập. Ghi “chưa xác nhận” thay vì tự điền thông tin còn thiếu. Với điều khoản ảnh hưởng đến quyết định, hãy xin tài liệu áp dụng và đọc trước khi đồng ý.\nCâu hỏi nên đặt ra\n“Thông tin nào sẽ được ghi trong giấy tờ nhận việc? Nếu có điểm khác với nội dung đã tư vấn, tôi cần trao đổi với ai?”\n\nĐiều nên mang theo\nGiữ một bảng so sánh với ba cột: khoản được thông báo, điều kiện áp dụng và nội dung cần xác nhận. Sự rõ ràng giúp bạn chọn phù hợp với hoàn cảnh của mình.",
+      "video": "",
+      "seoTitle": "Quyền lợi người lao động khi tìm việc",
+      "meta": "Danh sách các quyền lợi cần đọc kỹ trước khi đi làm.",
+      "keyword": "quyền lợi người lao động",
+      "visible": true
+    },
+    {
+      "id": "kinh-nghiem-phong-van",
+      "type": "article",
+      "title": "Chuẩn bị phỏng vấn bằng kinh nghiệm thật và câu hỏi rõ",
+      "category": "Kinh nghiệm",
+      "date": "2026-10-15",
+      "cover": "editorial-insight.svg",
+      "excerpt": "Chuẩn bị điều cần kể, điều cần hỏi và bước tiếp theo để cuộc trao đổi hữu ích cho cả hai bên.",
+      "body": "Trước buổi gặp: hiểu việc và kiểm tra thông tin\nĐọc lại tin tuyển dụng và chọn những nhiệm vụ bạn hiểu rõ nhất, cùng những điểm cần hỏi thêm. Bạn không cần thuộc một bài giới thiệu dài; cần giúp người phỏng vấn hiểu kinh nghiệm và khả năng đáp ứng công việc của mình.\n• Xác nhận địa điểm hoặc đường dẫn, giờ hẹn, người liên hệ và giấy tờ đã được yêu cầu.\n• Chuẩn bị phần giới thiệu ngắn: kinh nghiệm liên quan, công việc muốn làm và lịch có thể bắt đầu.\n• Ghi sẵn các giới hạn thực tế về ca làm hoặc đi lại để trao đổi chính xác.\n\nKể một việc đã làm, không chỉ một điểm mạnh\nMột ví dụ cụ thể giúp người nghe hiểu cách bạn làm việc. Chọn một tình huống có thật và nói rõ phần mình trực tiếp thực hiện. Nếu chưa có kinh nghiệm đúng vị trí, có thể dùng việc học, việc trước đây hoặc hoạt động khác có liên quan.\n• Bối cảnh: nhiệm vụ là gì và điều gì cần xử lý?\n• Hành động: bạn đã làm gì, phối hợp với ai và hỏi lại khi chưa rõ như thế nào?\n• Kết quả và bài học: điều gì thay đổi, điều gì chưa đạt và lần sau bạn sẽ làm gì khác?\nCâu hỏi nên đặt ra\n“Tôi chưa sử dụng loại thiết bị này. Vị trí yêu cầu kinh nghiệm đầu vào thế nào và có phần hướng dẫn nào trước khi bắt đầu?”\n\nKết thúc bằng những điểm đã hiểu và bước kế tiếp\nPhỏng vấn cũng là lúc bạn kiểm tra mức độ phù hợp của công việc. Ưu tiên các câu hỏi ảnh hưởng trực tiếp đến quyết định và nhắc lại điều đã hiểu để tránh hai bên diễn giải khác nhau.\n• “Khi bắt đầu, tôi sẽ được hướng dẫn những gì và ai là người hỗ trợ trực tiếp?”\n• “Nhiệm vụ và ca làm thực tế có điểm nào khác nội dung tin tuyển dụng không?”\n• “Bước tiếp theo là gì, tôi sẽ được liên hệ qua đâu và có thể hỏi lại ai?”\n\nĐiều nên mang theo\nSau buổi gặp, ghi lại điều đã thống nhất, câu hỏi còn mở và đầu mối theo dõi. Một quyết định tốt bắt đầu từ thông tin trung thực và rõ ràng ở cả hai phía.",
+      "video": "",
+      "seoTitle": "Kinh nghiệm phỏng vấn nhà máy FDI",
+      "meta": "Những kinh nghiệm phỏng vấn giúp ứng viên tự tin hơn.",
+      "keyword": "phỏng vấn công ty nước ngoài",
+      "visible": true
+    }
+  ],
+  "home": {
+    "heroLine1": "Nhân lực vững vàng.",
+    "heroLine2": "Doanh nghiệp vươn xa.",
+    "heroIntro": "Tuyển đúng người. Tìm đúng việc. Kết nối nhu cầu nhân lực và cơ hội nghề nghiệp tại các khu công nghiệp.",
+    "aboutTitle": "Hiểu công việc.\nAn tâm bắt đầu.",
+    "aboutIntro": "Một lựa chọn việc làm không chỉ nằm ở tên vị trí. Đó còn là môi trường, điều kiện và những người sẽ cùng bạn làm việc.",
+    "galleryTitle": "Để mỗi ngày đi làm\nlà một bước tiến.",
+    "videoTitle": "Khám phá Minh Đức qua video",
+    "videoIntro": "Tìm hiểu hành trình, sứ mệnh và những giá trị Minh Đức mong muốn mang lại cho người lao động và doanh nghiệp.",
+    "videoUrl": "",
+    "kpi": [
+      "3.000+",
+      "50+",
+      "98%",
+      "10+ năm"
+    ],
+    "gallery": [
+      {
+        "src": "gallery-facility.webp",
+        "caption": "Không gian doanh nghiệp (minh họa)"
+      },
+      {
+        "src": "gallery-line.webp",
+        "caption": "Đội ngũ lao động (minh họa)"
+      },
+      {
+        "src": "gallery-group.webp",
+        "caption": "Hoạt động tập thể (minh họa)"
+      },
+      {
+        "src": "gallery-operator.webp",
+        "caption": "Môi trường sản xuất (minh họa)"
+      },
+      {
+        "src": "gallery-meeting.webp",
+        "caption": "Đào tạo và phát triển (minh họa)"
+      }
+    ],
+    "sections": {
+      "stats": true,
+      "about": true,
+      "gallery": true,
+      "video": true,
+      "jobs": true,
+      "partners": true,
+      "news": true,
+      "cta": true
+    },
+    "heroImg": "hero-photo.webp",
+    "videoPoster": "video-poster.webp"
+  },
+  "partners": [
+    {
+      "id": "md-source-luxshare-ict",
+      "name": "Luxshare - ICT",
+      "sector": "Linh kiện điện tử, thiết bị thông minh",
+      "country": "",
+      "website": "",
+      "logo": "",
+      "demoLogoVisible": false,
+      "approved": false,
+      "sample": false,
+      "sourceListed": true,
+      "visible": true,
+      "featured": true,
+      "priority": 1,
+      "note": "KCN Bắc Ninh / Bắc Giang. Theo danh sách Minh Đức cung cấp; chưa xác nhận quyền sử dụng logo."
+    },
+    {
+      "id": "md-source-foxconn",
+      "name": "Foxconn",
+      "sector": "Điện tử, linh kiện công nghệ cao",
+      "country": "",
+      "website": "",
+      "logo": "",
+      "demoLogoVisible": false,
+      "approved": false,
+      "sample": false,
+      "sourceListed": true,
+      "visible": true,
+      "featured": true,
+      "priority": 2,
+      "note": "KCN Vân Trung / Quang Châu. Theo danh sách Minh Đức cung cấp; chưa xác nhận quyền sử dụng logo."
+    },
+    {
+      "id": "md-source-samsung",
+      "name": "Samsung",
+      "sector": "Thiết bị di động, điện tử gia dụng",
+      "country": "",
+      "website": "",
+      "logo": "",
+      "demoLogoVisible": false,
+      "approved": false,
+      "sample": false,
+      "sourceListed": true,
+      "visible": true,
+      "featured": true,
+      "priority": 3,
+      "note": "KCN Bắc Ninh / Thái Nguyên. Theo danh sách Minh Đức cung cấp; chưa xác nhận quyền sử dụng logo."
+    },
+    {
+      "id": "md-source-jeiltech-vina",
+      "name": "Jeiltech - Vina",
+      "sector": "Sản xuất, gia công thiết bị viễn thông (mặt hàng nhôm)",
+      "country": "",
+      "website": "",
+      "logo": "",
+      "demoLogoVisible": false,
+      "approved": false,
+      "sample": false,
+      "sourceListed": true,
+      "visible": true,
+      "featured": true,
+      "priority": 4,
+      "note": "KCN Vân Trung, Bắc Ninh. Theo danh sách Minh Đức cung cấp; chưa xác nhận quyền sử dụng logo."
+    },
+    {
+      "id": "md-source-tacu",
+      "name": "TACU",
+      "sector": "Đối tác sản xuất tiêu biểu",
+      "country": "",
+      "website": "",
+      "logo": "",
+      "demoLogoVisible": false,
+      "approved": false,
+      "sample": false,
+      "sourceListed": true,
+      "visible": true,
+      "featured": true,
+      "priority": 5,
+      "note": "KCN Vân Trung. Theo danh sách Minh Đức cung cấp; chưa xác nhận quyền sử dụng logo."
+    }
+  ],
+  "mediaTransforms": {},
+  "audit": [],
+  "i18n": {},
+  "companyProfileRevision": 27,
+  "company": {
+    "legalName": "CÔNG TY TNHH NHÂN LỰC MINH ĐỨC VINA",
+    "description": "Cung ứng nguồn nhân lực, tư vấn và giới thiệu việc làm, hỗ trợ tuyển dụng lao động phổ thông cho nhà máy.",
+    "facebook": "https://www.facebook.com/md668.com.vn"
+  },
+  "branches": [
+    {
+      "id": "voi",
+      "name": "Chi nhánh Vôi",
+      "address": "",
+      "mapsUrl": "https://maps.app.goo.gl/2hj5gqjuaLS4t6hk8",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14863.567724490309!2d106.2507006!3d21.3547575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31356d35c76fdbc5%3A0xdf7f9c998ab7ef61!2zQ8O0bmcgdHkgVE5ISCBOaMOibiBMxrDMo2MgTWluaCDEkMawzIFjIFZpbmE!5e0!3m2!1sen!2s!4v1793845290681!5m2!1sen!2s",
+      "visible": true
+    },
+    {
+      "id": "bac-ninh",
+      "name": "Chi nhánh Bắc Ninh",
+      "address": "",
+      "mapsUrl": "https://maps.app.goo.gl/VjV1DbkajBXDqGUE7?g_st=iz",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.408263619011!2d106.14966299999999!3d21.2553011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350d96e2bf4c4f%3A0x940bfed5d4736488!2sCty%20TNHH%20MD668%20VINA!5e0!3m2!1sen!2s!4v1793845315824!5m2!1sen!2s",
+      "visible": true
+    },
+    {
+      "id": "quang-ninh",
+      "name": "Chi nhánh Quảng Ninh",
+      "address": "",
+      "mapsUrl": "",
+      "embedUrl": "",
+      "visible": true
+    }
+  ],
+  "jobImageryRevision": 25,
+  "homeCopyRevision": 23,
+  "editorialRevision": 21
+}

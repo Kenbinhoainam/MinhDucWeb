@@ -1,0 +1,24 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Minh Đức V15 QA</title><style>body{font:15px/1.6 system-ui;margin:24px;color:#152e45}pre{white-space:pre-wrap}iframe{border:1px solid #ddd;height:900px}</style><h1>V15 runtime acceptance</h1><button id="runApi">Run API acceptance</button> <button id="runLayout">Run responsive samples</button><pre id="report">Ready</pre><div id="stage"></div><script>
+const report=document.querySelector('#report'),results=[];const record=(id,expected,actual,pass)=>{results.push({id,expected,actual,pass});report.textContent=JSON.stringify({complete:false,results},null,2);};
+const requestId=()=>{const bytes=crypto.getRandomValues(new Uint8Array(16));bytes[6]=(bytes[6]&15)|64;bytes[8]=(bytes[8]&63)|128;return [...bytes].map((b,i)=>([4,6,8,10].includes(i)?'-':'')+b.toString(16).padStart(2,'0')).join('');};
+async function api(path,options={}){const res=await fetch(path,{credentials:'same-origin',...options,headers:{'Content-Type':'application/json',...options.headers}});return {status:res.status,data:await res.json()};}
+document.querySelector('#runApi').onclick=async()=>{results.length=0;try{
+let r=await api('/api/health');record('API-01','D1/R2 ready',r,r.status===200&&r.data.database&&r.data.files);
+r=await api('/api/admin/content');record('API-02','anonymous denied',r.status,r.status===401);
+r=await api('/api/content');record('API-03','published content only',{status:r.status,revision:r.data.revision},r.status===200&&!!r.data.data.home);
+await api('/api/session');const key=requestId(),body={kind:'enquiry',name:'Người thử V15',phone:'0900000000',company:'Công ty giả',message:'Dữ liệu giả cho kiểm thử V15.',locale:'vi',consent:true,testOnly:true};
+r=await api('/api/intake',{method:'POST',headers:{'Idempotency-Key':requestId()},body:JSON.stringify({...body,phone:'invalid'})});record('API-04','phone rejected',r.status,r.status===422);
+r=await api('/api/intake',{method:'POST',headers:{'Idempotency-Key':key},body:JSON.stringify(body)});const receipt=r.data;record('API-05','stored receipt',{status:r.status,id:receipt.id,stored:receipt.stored},r.status===201&&receipt.stored);
+r=await api('/api/intake',{method:'POST',headers:{'Idempotency-Key':key},body:JSON.stringify(body)});record('API-06','same receipt on replay',{status:r.status,id:r.data.id,replayed:r.data.replayed},r.status===200&&r.data.id===receipt.id&&r.data.replayed);
+r=await api('/api/intake',{method:'POST',headers:{'Idempotency-Key':key},body:JSON.stringify({...body,name:'Đổi tên thử'})});record('API-07','changed payload conflicts',r.status,r.status===409);
+r=await api('/api/receipt',{method:'POST',body:JSON.stringify({id:receipt.id,receiptToken:receipt.receiptToken})});record('API-08','server receipt proof, no PII',{status:r.status,data:r.data},r.status===200&&r.data.stored&&!r.data.phone);
+r=await api('/api/admin/intakes');record('API-09','private inbox denied',r.status,r.status===401);
+r=await api('/api/admin/cv/'+receipt.id);record('API-10','private file denied',r.status,r.status===401);
+}catch(error){record('ERROR','no exception',error.message,false);}report.textContent=JSON.stringify({complete:true,results},null,2);};
+document.querySelector('#runLayout').onclick=async()=>{results.length=0;const routes=['index.html','viec-lam.html','chi-tiet-viec-lam.html?id=cn-dien-tu','dich-vu.html','lien-he.html','tin-tuc.html','bai-viet.html?id=xu-huong-kcn','ve-minh-duc.html','tuyen-dung-noi-bo.html'];
+for(const [width,locale] of [[320,'vi'],[390,'en'],[768,'zh'],[1440,'ko']])for(const route of routes){
+ const frame=document.createElement('iframe');frame.style.width=width+'px';frame.title=route;document.querySelector('#stage').replaceChildren(frame);await new Promise(resolve=>{frame.onload=resolve;frame.src=route+(route.includes('?')?'&':'?')+'lang='+locale;});await new Promise(r=>setTimeout(r,350));const d=frame.contentDocument;await d.fonts.ready;for(const img of d.images){img.loading='eager';try{await img.decode();}catch{}}
+ const broken=[...d.images].filter(i=>!i.naturalWidth).map(i=>i.getAttribute('src'));const overflow=d.documentElement.scrollWidth>width+1;const h1=[...d.querySelectorAll('h1')].filter(h=>h.getClientRects().length).length;
+ record('LAYOUT-'+results.length,{route,width,locale,overflow:false,broken:0,h1:1},{scrollWidth:d.documentElement.scrollWidth,broken,h1},!overflow&&!broken.length&&h1===1);
+}report.textContent=JSON.stringify({complete:true,results},null,2);};
+</script></html>

@@ -1,0 +1,267 @@
+[
+  {
+    "file": "hero-photo.webp",
+    "source": "nữ_công_nhân_trong_nhà_máy_công_nghệ_cao.png",
+    "role": "Hero chính / Hero trang phụ",
+    "width": 1672,
+    "height": 941,
+    "bytes": 138948,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa nhân sự trong nhà máy; chưa phải nhân viên thật"
+  },
+  {
+    "file": "gallery-facility.webp",
+    "source": "khuôn_viên_minh_đức_hiện_đại.png",
+    "role": "Gallery cơ sở / Giới thiệu doanh nghiệp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 331820,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Phối cảnh AI, không phải trụ sở được xác minh"
+  },
+  {
+    "file": "gallery-line.webp",
+    "source": "nữ_công_nhân_lắp_ráp_mạch_điện_tử.png",
+    "role": "Gallery dây chuyền / công nhân điện tử",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 150590,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa công việc sản xuất điện tử"
+  },
+  {
+    "file": "gallery-group.webp",
+    "source": "đội_ngũ_minh_đức_trong_nhà_máy_hiện_đại.png",
+    "role": "Gallery tập thể / đội ngũ",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 163704,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Nhân sự AI minh họa, không phải đội ngũ thực"
+  },
+  {
+    "file": "gallery-operator.webp",
+    "source": "nữ_kỹ_thuật_viên_kiểm_tra_mạch_điện_tử.png",
+    "role": "Gallery kỹ thuật / QC",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 119808,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa thao tác kỹ thuật"
+  },
+  {
+    "file": "gallery-meeting.webp",
+    "source": "cuộc_họp_doanh_nghiệp_minh_đức.png",
+    "role": "Gallery phòng họp / Content tuyển dụng nội bộ",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 143328,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa cuộc họp doanh nghiệp"
+  },
+  {
+    "file": "gallery-machine.webp",
+    "source": "nữ_công_nhân_lắp_ráp_mạch_điện_tử.png",
+    "role": "Công việc lắp ráp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 150590,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa dây chuyền"
+  },
+  {
+    "file": "gallery-warehouse.webp",
+    "source": "nhân_viên_minh_đức_vận_hành_xe_nâng_kho_hàng.png",
+    "role": "Công việc kho vận",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 151248,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa xe nâng kho hàng"
+  },
+  {
+    "file": "gallery-technician.webp",
+    "source": "nữ_kỹ_thuật_viên_kiểm_tra_mạch_điện_tử.png",
+    "role": "Việc làm kỹ thuật / bảo trì",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 119808,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa kiểm tra thiết bị"
+  },
+  {
+    "file": "video-poster.webp",
+    "source": "toàn_cảnh_khu_công_nghiệp_hiện_đại_xanh_mát.png",
+    "role": "Poster video / tin tức video",
+    "width": 1672,
+    "height": 941,
+    "bytes": 348654,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Phối cảnh AI minh họa khu công nghiệp, không phải footage thực"
+  },
+  {
+    "file": "mechanical-assembly-v23.webp",
+    "source": "OpenAI ImageGen built-in, generated 2026-11-04",
+    "role": "Tin mẫu lắp ráp cơ khí",
+    "width": 1672,
+    "height": 941,
+    "bytes": 175566,
+    "kind": "AI-generated illustration",
+    "disclaimer": "Ảnh AI minh họa công việc cơ khí; không phải người lao động hoặc nhà máy thực của Minh Đức"
+  },
+  {
+    "file": "md-team-v24.webp",
+    "role": "Hero and team",
+    "sourceId": "1fiuaoWijpeJYgzpPcZdhu8TKSoIp5R8i",
+    "sourceName": "20260429_171503.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/1fiuaoWijpeJYgzpPcZdhu8TKSoIp5R8i/view?usp=drivesdk",
+    "kind": "Owner-supplied photograph, AI-assisted retouch",
+    "editing": "Built-in ImageGen: white balance, exposure, restrained color correction; requested preservation of faces, people, clothing, logos and factual scene. AI retouch may modify fine details; original retained in Drive.",
+    "license": "Supplied and authorized for website use by user; no independent rights/release audit.",
+    "format": "webp",
+    "mediaType": "image/webp",
+    "width": 1832,
+    "height": 859,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "isProgressive": false,
+    "isPalette": false,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 1832,
+      "height": 859
+    },
+    "bytes": 279126,
+    "activeOnWebsite": false,
+    "retiredReason": "User requested restoration of the previous illustrative photo set on 2026-11-04."
+  },
+  {
+    "file": "md-culture-v24.webp",
+    "role": "Team culture",
+    "sourceId": "1Uuj8WWSY9yzcDqr2xbZU92E7PEP7wNoM",
+    "sourceName": "20260328_160410.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/1Uuj8WWSY9yzcDqr2xbZU92E7PEP7wNoM/view?usp=drivesdk",
+    "kind": "Owner-supplied photograph, AI-assisted retouch",
+    "editing": "Built-in ImageGen: white balance, exposure, restrained color correction; requested preservation of faces, people, clothing, logos and factual scene. AI retouch may modify fine details; original retained in Drive.",
+    "license": "Supplied and authorized for website use by user; no independent rights/release audit.",
+    "format": "webp",
+    "mediaType": "image/webp",
+    "width": 1835,
+    "height": 857,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "isProgressive": false,
+    "isPalette": false,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 1835,
+      "height": 857
+    },
+    "bytes": 255882,
+    "activeOnWebsite": false,
+    "retiredReason": "User requested restoration of the previous illustrative photo set on 2026-11-04."
+  },
+  {
+    "file": "md-consultation-v24.webp",
+    "role": "Community recruitment outreach",
+    "sourceId": "1M_OJHjfjZnTiQQSexkGN2d7kOJutOOvf",
+    "sourceName": "IMG_4126.JPG",
+    "sourceUrl": "https://drive.google.com/file/d/1M_OJHjfjZnTiQQSexkGN2d7kOJutOOvf/view?usp=drivesdk",
+    "kind": "Owner-supplied photograph, AI-assisted retouch",
+    "editing": "Built-in ImageGen: white balance, exposure, restrained color correction; requested preservation of faces, people, clothing, logos and factual scene. AI retouch may modify fine details; original retained in Drive.",
+    "license": "Supplied and authorized for website use by user; no independent rights/release audit.",
+    "format": "webp",
+    "mediaType": "image/webp",
+    "width": 1448,
+    "height": 1086,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "isProgressive": false,
+    "isPalette": false,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 1448,
+      "height": 1086
+    },
+    "bytes": 420284,
+    "activeOnWebsite": false,
+    "retiredReason": "User requested restoration of the previous illustrative photo set on 2026-11-04."
+  },
+  {
+    "file": "md-community-v24.webp",
+    "role": "Community outreach",
+    "sourceId": "1IVL-zoS6LsaKuvxatntNIZ3dsJArLcty",
+    "sourceName": "IMG_4009.JPG",
+    "sourceUrl": "https://drive.google.com/file/d/1IVL-zoS6LsaKuvxatntNIZ3dsJArLcty/view?usp=drivesdk",
+    "kind": "Owner-supplied photograph, AI-assisted retouch",
+    "editing": "Built-in ImageGen: white balance, exposure, restrained color correction; requested preservation of faces, people, clothing, logos and factual scene. AI retouch may modify fine details; original retained in Drive.",
+    "license": "Supplied and authorized for website use by user; no independent rights/release audit.",
+    "format": "webp",
+    "mediaType": "image/webp",
+    "width": 1448,
+    "height": 1086,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "isProgressive": false,
+    "isPalette": false,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 1448,
+      "height": 1086
+    },
+    "bytes": 434844,
+    "activeOnWebsite": false,
+    "retiredReason": "User requested restoration of the previous illustrative photo set on 2026-11-04."
+  },
+  {
+    "file": "md-field-film-v24.mp4",
+    "poster": "md-film-poster-v24.webp",
+    "kind": "Edited owner-supplied footage; no generative video",
+    "sources": [
+      {
+        "id": "1RDbyJRYZK8WupcQVCeTg9GVaz7hhLM1F",
+        "name": "DJI_20261104093346_0095_D.MP4",
+        "url": "https://drive.google.com/file/d/1RDbyJRYZK8WupcQVCeTg9GVaz7hhLM1F/view?usp=drivesdk"
+      },
+      {
+        "id": "1eMJ7Y8sXPReyKsctF2LSM1vPXzkKkiBH",
+        "name": "DJI_20261104092840_0088_D.MP4",
+        "url": "https://drive.google.com/file/d/1eMJ7Y8sXPReyKsctF2LSM1vPXzkKkiBH/view?usp=drivesdk"
+      },
+      {
+        "id": "1u3AJEl6oroguYrmaqbI9listFspahtK7",
+        "name": "DJI_20261104080409_0007_D.MP4",
+        "url": "https://drive.google.com/file/d/1u3AJEl6oroguYrmaqbI9listFspahtK7/view?usp=drivesdk"
+      }
+    ],
+    "timeline": [
+      {
+        "sourceIndex": 2,
+        "in": 3,
+        "seconds": 7
+      },
+      {
+        "sourceIndex": 1,
+        "in": 5,
+        "seconds": 7
+      },
+      {
+        "sourceIndex": 0,
+        "in": 1,
+        "seconds": 7
+      }
+    ],
+    "encoding": "720x1280, 30fps, H.264 yuv420p, CRF22, SDR BT.709 Hable tone mapping from HLG, original synchronized AAC audio 160 kbps stereo 48 kHz, normalized to -16 LUFS with -1.5 dBTP ceiling, 0.4s visual fades and 0.08s audio fades, faststart",
+    "durationSeconds": 21,
+    "activeOnWebsite": false,
+    "retiredReason": "User requested restoration of the previous video presentation on 2026-11-04; original site had no configured playable video."
+  }
+]

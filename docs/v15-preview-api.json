@@ -1,0 +1,94 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "id": "API-01",
+      "expected": "D1/R2 ready",
+      "actual": {
+        "status": 200,
+        "data": {
+          "ok": true,
+          "version": "V15",
+          "mode": "staging",
+          "database": true,
+          "files": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "API-02",
+      "expected": "anonymous denied",
+      "actual": 401,
+      "pass": true
+    },
+    {
+      "id": "API-03",
+      "expected": "published content only",
+      "actual": {
+        "status": 200,
+        "revision": 0
+      },
+      "pass": true
+    },
+    {
+      "id": "API-04",
+      "expected": "phone rejected",
+      "actual": 422,
+      "pass": true
+    },
+    {
+      "id": "API-05",
+      "expected": "stored receipt",
+      "actual": {
+        "status": 201,
+        "id": "MD-019b8510-bc2a-4230-857f-4da26aa0befc",
+        "stored": true
+      },
+      "pass": true
+    },
+    {
+      "id": "API-06",
+      "expected": "same receipt on replay",
+      "actual": {
+        "status": 200,
+        "id": "MD-019b8510-bc2a-4230-857f-4da26aa0befc",
+        "replayed": true
+      },
+      "pass": true
+    },
+    {
+      "id": "API-07",
+      "expected": "changed payload conflicts",
+      "actual": 409,
+      "pass": true
+    },
+    {
+      "id": "API-08",
+      "expected": "server receipt proof, no PII",
+      "actual": {
+        "status": 200,
+        "data": {
+          "id": "MD-019b8510-bc2a-4230-857f-4da26aa0befc",
+          "kind": "enquiry",
+          "receivedAt": 1793433853761,
+          "stored": true,
+          "testOnly": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "API-09",
+      "expected": "private inbox denied",
+      "actual": 401,
+      "pass": true
+    },
+    {
+      "id": "API-10",
+      "expected": "private file denied",
+      "actual": 401,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "schema_version": "2.0",
+  "rubric_version": "2.0.0",
+  "project": {
+    "title": "Website Minh Đức",
+    "target": "https://minh-duc-premium-v13.kenbinhoainam.chatgpt.site",
+    "version": "V14 — prototype, source pending publication",
+    "date": "2026-10-31"
+  },
+  "mode": "prototype",
+  "field_performance": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "criteria": [
+    {
+      "id": "A01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E05"
+      ],
+      "reason": "Expert review rõ hai đối tượng và hành động tiếp; chưa có nghiên cứu người dùng."
+    },
+    {
+      "id": "A02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E04"
+      ],
+      "reason": "Thu nhập, địa điểm, quyền lợi và điều kiện hồ sơ phục vụ lựa chọn trong tin mẫu."
+    },
+    {
+      "id": "A03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa có hồ sơ chứng minh năng lực, quan hệ doanh nghiệp hoặc nguồn case study do chủ nội dung xác nhận."
+    },
+    {
+      "id": "A04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E11"
+      ],
+      "reason": "Ba đường đi ứng viên, doanh nghiệp và tìm kiến thức đã thử theo task; menu dễ dự đoán."
+    },
+    {
+      "id": "A05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E05"
+      ],
+      "reason": "CTA và thông báo cụ thể; trạng thái demo trung thực. Nội dung chuyên môn vẫn cần duyệt."
+    },
+    {
+      "id": "B01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E04",
+        "E05"
+      ],
+      "reason": "Hệ hình chữ và màu cùng thương hiệu qua nhiều template; còn thiếu tư liệu thật."
+    },
+    {
+      "id": "B02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E04",
+        "E05"
+      ],
+      "reason": "Ảnh phù hợp môi trường lao động, nét và cùng tông; AI có nhãn, không dùng làm case study."
+    },
+    {
+      "id": "B03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E05",
+        "E07"
+      ],
+      "reason": "Màu phân vai rõ; đối chiếu chủ đạo và selected/CTA."
+    },
+    {
+      "id": "B04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E04",
+        "E05"
+      ],
+      "reason": "Marketing có vùng nghỉ, danh sách và form cô đọng hơn. Expert review, chưa user test."
+    },
+    {
+      "id": "B05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "reason": "Icon/button/radius nhất quán, bảng so sánh căn hàng; kiểm qua trạng thái được chọn."
+    },
+    {
+      "id": "C01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E05"
+      ],
+      "reason": "Phân cấp type rõ giữa headline, danh sách, caption và label."
+    },
+    {
+      "id": "C02",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E01",
+        "E05"
+      ],
+      "reason": "Đã quan sát article/detail mobile/desktop ở cỡ mặc định; chưa zoom/đọc dài với người dùng."
+    },
+    {
+      "id": "C03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E06",
+        "E01"
+      ],
+      "reason": "CJK đủ glyph demo ở ba weight; có self-host/font fallback; chưa kiểm mọi ký tự và font load mạng chậm."
+    },
+    {
+      "id": "C04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E03",
+        "E04"
+      ],
+      "reason": "Heading/nút gấp đôi giữ reflow trong 6 trường hợp; tag có break policy. Chưa đủ URL/tên cực trị toàn template."
+    },
+    {
+      "id": "C05",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E01",
+        "E02",
+        "E06"
+      ],
+      "reason": "4 locale và ngày bằng Intl, link mang lang, fallbackVI; chưa hiệu đính bản ngữ."
+    },
+    {
+      "id": "D01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E04"
+      ],
+      "reason": "Container/card lưới và hàng so sánh được đối chiếu ở nhiều viewport."
+    },
+    {
+      "id": "D02",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E01",
+        "E03"
+      ],
+      "reason": "Reflow 320px có bằng chứng; gấp đôi độ dài khác text resize, chưa đủ 200%/400% zoom."
+    },
+    {
+      "id": "D03",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E01",
+        "E02"
+      ],
+      "reason": "Trình duyệt mobile viewport có CTA/bộ lọc gọn; chưa touch và keyboard ảo trên điện thoại thật."
+    },
+    {
+      "id": "D04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E03",
+        "E08"
+      ],
+      "reason": "Tỷ lệ, tâm ảnh và ảnh dọc được thử; ảnh404 có khung phục hồi."
+    },
+    {
+      "id": "D05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E04",
+        "E05"
+      ],
+      "reason": "Mật độ phân biệt marketing/list/form; lương và địa điểm ưu tiên."
+    },
+    {
+      "id": "E01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E10"
+      ],
+      "reason": "Tác vụ tìm/lưu/so sánh và phác thảo/form hoàn tất trong prototype; dữ liệu gửi thật chưa xác nhận ở J03."
+    },
+    {
+      "id": "E02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E02"
+      ],
+      "reason": "CTA theo persona và service, truyền ngữ cảnh; bằng chứng doanh nghiệp vẫn thiếu."
+    },
+    {
+      "id": "E03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02"
+      ],
+      "reason": "Tìm kiếm không dấu, empty/reset, URL và sort qua assertion. Chưa bao phủ full back/pagination data lớn."
+    },
+    {
+      "id": "E04",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E02",
+        "E10"
+      ],
+      "reason": "Nhãn, invalid, back và completion mô phỏng rõ; lỗi mạng/gửi lại thật chưa có backend."
+    },
+    {
+      "id": "E05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "E02",
+        "E11"
+      ],
+      "reason": "Dialog đóng/focus phục hồi, quay lại giữ lựa chọn, consent rõ, giới hạn compare có thông báo và đảo ngược được."
+    },
+    {
+      "id": "F01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E11"
+      ],
+      "reason": "Keyboard tab service và Escape/restore dialog đã thử; chưa đủ mọi tổ hợp bàn phím template."
+    },
+    {
+      "id": "F02",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E07",
+        "E03"
+      ],
+      "reason": "Các cặp chữ chủ đạo đạt ngưỡng; chưa đo toàn UI, hình và trạng thái."
+    },
+    {
+      "id": "F03",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E01",
+        "E02"
+      ],
+      "reason": "Một H1, landmarks, labels/status và control names có bằng chứng DOM/AX; chưa screen reader thực."
+    },
+    {
+      "id": "F04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E01",
+        "E05"
+      ],
+      "reason": "CTA và điều khiển chính 48px, không chỉ phụ thuộc hover; chưa usability touch thật."
+    },
+    {
+      "id": "F05",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E01",
+        "E02"
+      ],
+      "reason": "Alt và trạng thái mô phỏng đúng scope; chưa kiểm video có lời/caption và reduced-motion runtime."
+    },
+    {
+      "id": "G01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E04"
+      ],
+      "reason": "Default/pressed/disabled/loading/error/success được thử trong demo, không báo gửi thật."
+    },
+    {
+      "id": "G02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E05",
+        "E13"
+      ],
+      "reason": "Motion nhỏ hỗ trợ phản hồi và luôn đọc được nội dung; không khóa native scroll."
+    },
+    {
+      "id": "G03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Có CSS reduced-motion và nút pause trong source, nhưng chưa thực sự bật media preference để kiểm tra runtime."
+    },
+    {
+      "id": "G04",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa có performance trace trên thiết bị đại diện."
+    },
+    {
+      "id": "G05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E11"
+      ],
+      "reason": "Giữ preferences, query và restore focus; chưa full route/back inventory."
+    },
+    {
+      "id": "H01",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa có LCP lab đại diện, ba lượt và cấu hình mạng/CPU/cache đáng tin cậy."
+    },
+    {
+      "id": "H02",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa đo độ trễ thao tác bằng phương pháp lab chuẩn hoặc INP field."
+    },
+    {
+      "id": "H03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Quan sát CLS iframe dao động và chưa xác định đủ điều kiện; giữ diagnostic, không coi pass hoặc zero CLS."
+    },
+    {
+      "id": "H04",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E13"
+      ],
+      "reason": "Ảnh WebP, font local, tài nguyên đo kích thước; chưa có ngân sách prior được giám sát tự động."
+    },
+    {
+      "id": "H05",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E12",
+        "E13",
+        "E02"
+      ],
+      "reason": "Có baseline geometry, build và lỗi ảnh; chưa có baseline lab đầy đủ/cadence vận hành."
+    },
+    {
+      "id": "I01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E09",
+        "E14"
+      ],
+      "reason": "Preview public vẫn chủ đích noindex; cấu hình phù hợp dữ liệu demo."
+    },
+    {
+      "id": "I02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E09"
+      ],
+      "reason": "Title/description/OG theo ngữ cảnh; chưa xác nhận preview mạng xã hội khi public."
+    },
+    {
+      "id": "I03",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E09"
+      ],
+      "reason": "Không phát schema tuyển dụng cho dữ liệu mẫu; gate verified có lý do, chưa validate lifecycle production."
+    },
+    {
+      "id": "I04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E09"
+      ],
+      "reason": "URL id ổn định, query/locale và localassetlinks được kiểm; chưa crawler định kỳ."
+    },
+    {
+      "id": "I05",
+      "status": "scored",
+      "rating": 2,
+      "evidence": [
+        "E05",
+        "E09",
+        "E10"
+      ],
+      "reason": "Cẩm nang demo phù hợp chủ đề nhưng ngắn và thiếu nguồn/người biên tập được xác nhận."
+    },
+    {
+      "id": "J01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "E02",
+        "E08"
+      ],
+      "reason": "Mô hình trường, validation và correct-record preview đã thử; quyền biên tập máy chủ còn thiếu."
+    },
+    {
+      "id": "J02",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E02",
+        "E03"
+      ],
+      "reason": "Ảnh404, ảnhdọc và textlong có phục hồi; chưa đủ item-count 0/1/2/5/9 toàn locale."
+    },
+    {
+      "id": "J03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa triển khai backend nhận lead/CV; không có kết quả từ form đến nơi lưu để đối soát."
+    },
+    {
+      "id": "J04",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "E08",
+        "E14"
+      ],
+      "reason": "Source/version/archive và preview có quy trình mô tả; chưa diễn tập rollback hoặc CMS nhiều người."
+    },
+    {
+      "id": "J05",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa có vận hành thực, kênh nhận lỗi, analytics và người xử lý được chốt."
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Các luồng UI đã qua nhưng chưa có tiếp nhận dữ liệu thật."
+    },
+    {
+      "id": "G2",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Keyboard/focus chọn mẫu qua; chưa screen reader và zoom đủ phạm vi."
+    },
+    {
+      "id": "G3",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "168 viewport/locale qua; zoom và thiết bị thật chưa đủ."
+    },
+    {
+      "id": "G4",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Ảnh và nội dung demo có nhãn; chứng cứ thương hiệu chưa xác nhận."
+    },
+    {
+      "id": "G5",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Lỗi ảnh có retry; chưa test backend network failure/rollback."
+    },
+    {
+      "id": "G6",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Chưa có lab performance đại diện và ngân sách đo trước."
+    }
+  ],
+  "scope": {
+    "personas": [
+      "Người lao động phổ thông",
+      "Người phụ trách nhân sự/FDI"
+    ],
+    "templates": [
+      "home",
+      "jobs",
+      "internal",
+      "worker detail",
+      "internal detail",
+      "services",
+      "about",
+      "knowledge hub",
+      "article",
+      "business enquiry",
+      "CMS"
+    ],
+    "viewports": [
+      320,
+      390,
+      768,
+      1440,
+      2560
+    ],
+    "locales": [
+      "vi",
+      "en",
+      "zh",
+      "ko"
+    ],
+    "browser": "Chromium cloud browser; desktop and iframe viewport simulation",
+    "exclusions": [],
+    "na_policy": "Không loại tiêu chí nào; backend, vận hành và phép đo thiếu bằng chứng giữ untested."
+  },
+  "evidence_index": [
+    {
+      "id": "E01",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-responsive-qa.json",
+      "test": "10 biến thể public × 4 locale × 4 viewport; home 2560 ×4; CMS VI ×4. Tải cả ảnh dưới fold.",
+      "expected": "Không tràn ngang, heading/nút không bị cắt, một H1, ảnh decode.",
+      "actual": "168 cấu hình, 0 lỗi theo các assertion hình học."
+    },
+    {
+      "id": "E02",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-interaction-qa.json",
+      "test": "Tìm kiếm, URL, bookmark, sort, compare, B2B context, forms, news, image404, CMS.",
+      "expected": "Kết quả theo trạng thái và dữ liệu; demo nói rõ không gửi.",
+      "actual": "29 assertion passed."
+    },
+    {
+      "id": "E03",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-stress-qa.json",
+      "test": "6 trường hợp gấp đôi độ dài heading/nút, có ảnh dọc sáng trên home.",
+      "expected": "Không mất nội dung hoặc tràn ngang trong các trường hợp đã chọn.",
+      "actual": "6/6 qua assertion; chưa tương đương browser zoom/text resize."
+    },
+    {
+      "id": "E04",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-comparison-desktop.jpg",
+      "selector": ".v14-compare-dialog",
+      "test": "Quan sát 3 role, căn hàng, hình, lương, địa điểm, quyền lợi.",
+      "actual": "Các hàng CV cùng cao độ 821px trong phép thử desktop; screenshot được đọc trực tiếp."
+    },
+    {
+      "id": "E05",
+      "date": "2026-10-31",
+      "artifact": "dist/flagship-v14.css; dist/flagship-v13.css",
+      "test": "Token map và expert review nhiều template.",
+      "actual": "Ivory/navy/crimson, vai trò serif/sans, trạng thái và vùng chạm được khai báo; quan sát home/jobs/services/article/contact."
+    },
+    {
+      "id": "E06",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-static-checks.json",
+      "test": "TTFont.getBestCmap kiểm tra ký tự CJK trong v14-copy ở 400/600/700.",
+      "actual": "Thiếu 41 ký tự Trung, 15 ký tự Hàn ở subset cũ; đã sửa, 0 ký tự CJK demo thiếu ở 6 file mới. Chưa kiểm toàn bộ ký tự CMS tương lai."
+    },
+    {
+      "id": "E07",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-static-checks.json",
+      "test": "Tính tương phản cặp màu theo relative luminance.",
+      "actual": "Ink/white 13.92; muted/white 6.12; muted/ivory 5.66; crimson/white 6.53; blue/white 9.20. Chưa đo toàn bộ UI/media/state."
+    },
+    {
+      "id": "E08",
+      "date": "2026-10-31",
+      "artifact": "dist/app.js; docs/v14-interaction-qa.json",
+      "test": "CMS edit/preview, required fields, image crop and salary validation.",
+      "actual": "Preview đúng job ID; min>max bị chặn; content checks dựa dữ liệu đang lưu. CMS chỉ localStorage."
+    },
+    {
+      "id": "E09",
+      "date": "2026-10-31",
+      "artifact": "dist/seo-preview.js; scripts/prerender.mjs; dist/robots.txt; dist/*.html",
+      "test": "Kiểm tra nguồn các trang, noindex/canonical và metadata.",
+      "actual": "10 trang dựng sẵn; noindex cho preview; metadata theo context/locale. Không phát JobPosting giả; production schema có gate verified."
+    },
+    {
+      "id": "E10",
+      "date": "2026-10-31",
+      "artifact": "dist/app.js; dist/v14-copy.js; docs/v14-interaction-qa.json",
+      "test": "Đọc data contract và thông báo form.",
+      "actual": "Demo xác nhận không gửi/lưu contact hoặc CV; chưa có API nhận hồ sơ/CRM. Thiếu backend không được tính pass."
+    },
+    {
+      "id": "E11",
+      "date": "2026-10-31",
+      "artifact": "docs/AUDIT-V14.md#e11",
+      "test": "Thao tác CUA trực tiếp: ArrowDown service tab; chọn role thứ 4; Escape dialog.",
+      "actual": "Đổi đúng service-recruitment; chọn thứ 4 bị từ chối, giữ 3; dialog đóng và focus về open-comparison."
+    },
+    {
+      "id": "E12",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-responsive-qa.json#lab",
+      "test": "Quan sát PerformanceObserver trong iframe, unthrottled, 900px high.",
+      "actual": "Chỉ diagnostic; cache/CPU/network không kiểm soát, một số kết quả dao động, chưa đủ lab đại diện ba lượt. Không dùng để xác nhận H01-H03 hoặc field CWV."
+    },
+    {
+      "id": "E13",
+      "date": "2026-10-31",
+      "artifact": "docs/v14-static-checks.json",
+      "test": "Build, JS syntax, local asset paths, SVG XML, git diff whitespace, resource size.",
+      "actual": "Build thành công; JS syntax và SVG hợp lệ; asset refs tồn tại. site.css khoảng 151KB raw/32.8KB gzip; không thêm runtime framework."
+    },
+    {
+      "id": "E14",
+      "date": "2026-10-31",
+      "artifact": "README.md; .openai/hosting.json; Sites project appgprj_6ae4cb07f2bc8191acfcf361308f40ad",
+      "test": "Đọc Site hiện tại, audience, source và workflow version.",
+      "actual": "Owner; audience public do cấu hình hiện tại; source/hosting giữ cùng project. Archive có commit để phục hồi; chưa diễn tập rollback."
+    }
+  ],
+  "issues": [
+    {
+      "id": "MD14-01",
+      "severity": "P1 trước vận hành",
+      "criteria": [
+        "J03",
+        "E04"
+      ],
+      "description": "Chưa có intake lead/CV và đối soát dữ liệu thật.",
+      "acceptance": "Gửi fixture staging, xác minh record/CV ở nơi lưu và notification, thử lỗi/retry/duplicate."
+    },
+    {
+      "id": "MD14-02",
+      "severity": "P2",
+      "criteria": [
+        "A03",
+        "I05"
+      ],
+      "description": "Tư liệu thương hiệu và nội dung chuyên môn cần chủ doanh nghiệp xác nhận.",
+      "acceptance": "Có hồ sơ năng lực, ảnh, nguồn và quyền sử dụng; hiệu đính locale."
+    },
+    {
+      "id": "MD14-03",
+      "severity": "P1 trước vận hành",
+      "criteria": [
+        "J01",
+        "J04",
+        "J05"
+      ],
+      "description": "CMS cục bộ, chưa phân quyền/lịch sử/kênh xử lý lỗi máy chủ.",
+      "acceptance": "Tài khoản/role/audit log, save/preview/publish và restore trên staging nhiều người."
+    },
+    {
+      "id": "MD14-04",
+      "severity": "P2",
+      "criteria": [
+        "G04",
+        "H01",
+        "H02",
+        "H03"
+      ],
+      "description": "Chưa đủ lab/RUM để kết luận hiệu năng.",
+      "acceptance": "Ít nhất ba lượt theo route, cấu hình và cache rõ; kiểm trace chậm, ghi field p75 riêng nếu có."
+    },
+    {
+      "id": "MD14-05",
+      "severity": "P2",
+      "criteria": [
+        "D02",
+        "F01",
+        "F03",
+        "G03"
+      ],
+      "description": "Cần zoom, screen reader, reduced motion và thiết bị thật.",
+      "acceptance": "Task trace 200% text/400% reflow, screen reader, media preference, không mất CTA/trap."
+    }
+  ]
+}

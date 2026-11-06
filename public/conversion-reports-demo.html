@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#102c46">
+  <title>Báo cáo chuyển đổi DEMO | Minh Đức</title>
+  <link rel="icon" href="assets/logo-icon.png">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="conversion-reports-demo.css">
+  <script type="module" src="conversion-reports-demo.js"></script>
+</head>
+<body>
+  <header class="report-topbar">
+    <div class="report-shell">
+      <a class="report-brand" href="cms-demo.html">
+        <img src="assets/logo-icon.png" alt="" width="34" height="34">
+        <span>Minh Đức <small>CMS DEMO</small></span>
+      </a>
+      <a class="report-back" href="cms-demo.html"><span aria-hidden="true">←</span> Về CMS demo</a>
+    </div>
+  </header>
+  <main class="report-shell">
+    <section class="report-hero" aria-labelledby="report-title">
+      <p class="report-kicker">DEMO · DỮ LIỆU GIẢ LẬP</p>
+      <h1 id="report-title">Báo cáo chuyển đổi</h1>
+      <p>Theo dõi từ lượt xem trang đến mở và hoàn tất biểu mẫu theo từng kênh. Bộ dữ liệu mẫu có các phiên hư cấu từ 01/11 đến 06/11/2026, tách riêng khỏi hoạt động của người dùng và cổng thông tin thực tế.</p>
+    </section>
+
+    <section class="report-panel" aria-labelledby="filter-title">
+      <h2 id="filter-title">Khoảng ngày báo cáo</h2>
+      <p class="report-note" id="date-help">Bao gồm cả ngày bắt đầu và ngày kết thúc, tính theo ngày xem trang trong dữ liệu mẫu.</p>
+      <form id="report-filters" novalidate>
+        <fieldset class="report-filters" disabled>
+          <div>
+            <label for="report-start">Từ ngày</label>
+            <input id="report-start" type="date" required value="2026-11-01" aria-describedby="date-help report-error">
+          </div>
+          <div>
+            <label for="report-end">Đến ngày</label>
+            <input id="report-end" type="date" required value="2026-11-06" aria-describedby="date-help report-error">
+          </div>
+          <button class="report-apply" type="submit">Áp dụng</button>
+        </fieldset>
+        <p id="report-error" class="report-error" role="alert"></p>
+      </form>
+      <noscript><p class="report-note">Bật JavaScript để lọc dữ liệu mẫu và tải CSV.</p></noscript>
+    </section>
+
+    <section class="report-panel" aria-labelledby="funnel-title">
+      <div class="report-section-heading">
+        <div>
+          <h2 id="funnel-title">Phễu theo nguồn</h2>
+          <p class="report-note">Mỗi phiên mẫu được tính một lần ở mỗi bước đã đạt. Tỷ lệ hoàn tất = số phiên hoàn tất ÷ số phiên xem trang.</p>
+        </div>
+        <button class="report-download" id="report-download" type="button" disabled>Tải CSV sự kiện</button>
+      </div>
+      <p class="report-status" id="report-status" role="status"></p>
+      <div id="report-results" hidden>
+        <dl class="report-metrics">
+          <div><dt>Phiên xem trang</dt><dd id="report-viewers"></dd></div>
+          <div><dt>Phiên mở biểu mẫu</dt><dd id="report-opens"></dd></div>
+          <div><dt>Phiên hoàn tất</dt><dd id="report-completions"></dd></div>
+          <div><dt>Tỷ lệ hoàn tất</dt><dd id="report-rate"></dd></div>
+        </dl>
+        <p class="report-empty" id="report-empty" hidden>Khoảng ngày này không có phiên mẫu. Hãy thử chọn ngày từ 01/11 đến 06/11/2026.</p>
+        <div id="report-channel-region" class="report-table-scroll" role="region" aria-labelledby="report-table-title" tabindex="0" hidden>
+          <table>
+            <caption id="report-table-title">Số phiên theo từng kênh</caption>
+            <thead>
+              <tr>
+                <th scope="col">Kênh nguồn</th>
+                <th scope="col">Xem trang</th>
+                <th scope="col">Mở biểu mẫu</th>
+                <th scope="col">Hoàn tất</th>
+                <th scope="col">Hoàn tất / xem</th>
+              </tr>
+            </thead>
+            <tbody id="report-channels"></tbody>
+          </table>
+        </div>
+      </div>
+      <p class="report-note report-export-note">CSV gồm các sự kiện của đúng khoảng ngày đã áp dụng. Mỗi dòng chỉ chứa ngày, mã phiên hư cấu, kênh mẫu và bước đã đạt.</p>
+    </section>
+  </main>
+</body>
+</html>

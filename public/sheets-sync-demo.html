@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Mô phỏng hàng đợi và ánh xạ dữ liệu mẫu sang Google Sheets trong CMS Demo Minh Đức.">
+  <meta name="theme-color" content="#102340">
+  <title>Mô phỏng đồng bộ Google Sheets | Minh Đức</title>
+  <link rel="icon" href="assets/logo-icon.png">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="sheets-sync-demo.css?v=2">
+  <script type="module" src="sheets-sync-demo.js?v=3"></script>
+</head>
+<body>
+  <header class="sync-header">
+    <div class="sync-shell sync-header-inner">
+      <a class="sync-brand" href="cms-demo.html">
+        <img src="assets/logo-icon.png" width="35" height="35" alt="">
+        <span><strong>MINH ĐỨC</strong><small>CONTENT STUDIO</small></span>
+      </a>
+      <a class="sync-back" href="cms-demo.html"><span aria-hidden="true">←</span> Về CMS Demo</a>
+    </div>
+  </header>
+  <main class="sync-shell sync-main">
+    <section class="sync-hero" aria-labelledby="sync-title">
+      <p class="sync-kicker">CÔNG CỤ VẬN HÀNH <span aria-hidden="true">/</span>  BẢN MÔ PHỎNG</p>
+      <h1 id="sync-title">Đồng bộ Google Sheets</h1>
+      <p>Thử ánh xạ cột, chạy hàng đợi và xử lý lỗi đồng bộ với một bảng tính giả lập.</p>
+      <div class="sync-notice"><strong>Dữ liệu mẫu độc lập.</strong> Hồ sơ hoàn toàn hư cấu, tách biệt với biểu mẫu và cổng thông tin của website. Toàn bộ thao tác diễn ra trong trang mô phỏng.</div>
+    </section>
+
+    <noscript><p class="sync-notice">Hãy bật JavaScript để chạy bản mô phỏng.</p></noscript>
+    <div id="sync-workspace" hidden>
+      <p id="sync-storage-scope" class="sync-help sync-scope" aria-live="polite"></p>
+      <p id="sync-feedback" class="sync-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1">Chọn một hồ sơ mẫu để bắt đầu.</p>
+      <div class="sync-grid">
+        <section class="sync-card" aria-labelledby="sync-source-title">
+          <p class="sync-eyebrow">01 · CẤU HÌNH MẪU</p>
+          <h2 id="sync-source-title">Tệp đích và hồ sơ</h2>
+          <div class="sync-file">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6m-3-4v4"/></svg>
+            <div><strong>Minh Đức · Vận hành mẫu</strong><small>Tệp Google Sheets giả lập · 2 trang tính</small></div>
+          </div>
+          <form id="sync-form" class="sync-form">
+            <div>
+              <label for="sync-sheet">Trang tính</label>
+              <select id="sync-sheet" name="sheet"></select>
+            </div>
+            <div>
+              <label for="sync-record">Hồ sơ mẫu</label>
+              <select id="sync-record" name="record"></select>
+            </div>
+            <div>
+              <label for="sync-revision">Phiên bản dữ liệu</label>
+              <select id="sync-revision" name="revision" aria-describedby="sync-revision-help">
+                <option value="1">V1 · Bản đầu</option>
+                <option value="2">V2 · Bản cập nhật</option>
+              </select>
+              <p id="sync-revision-help" class="sync-help">V2 cập nhật dòng theo mã hồ sơ. Thử V1 trước để thấy sự thay đổi.</p>
+            </div>
+            <button class="sync-button sync-primary" type="submit">Thêm vào hàng đợi</button>
+          </form>
+        </section>
+
+        <section class="sync-card" aria-labelledby="sync-mapping-title">
+          <p class="sync-eyebrow">02 · KIỂM TRA TRƯỚC KHI GHI</p>
+          <h2 id="sync-mapping-title">Ánh xạ cột</h2>
+          <p id="sync-mapping-help" class="sync-help">Xem giá trị sẽ được ghi cho hồ sơ và phiên bản đang chọn.</p>
+          <div class="sync-table-wrap" role="region" tabindex="0" aria-labelledby="sync-mapping-title">
+            <table class="sync-table" aria-describedby="sync-mapping-help">
+              <thead><tr><th scope="col">Trường nguồn</th><th scope="col">Cột đích</th><th scope="col">Giá trị mẫu</th></tr></thead>
+              <tbody id="sync-mapping"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <section class="sync-card" aria-labelledby="sync-queue-title">
+        <div class="sync-section-head">
+          <div><p class="sync-eyebrow">03 · THỬ VẬN HÀNH</p><h2 id="sync-queue-title" tabindex="-1">Hàng đợi</h2></div>
+          <span id="sync-queue-count" class="sync-badge"></span>
+        </div>
+        <p class="sync-help">Chọn “Mô phỏng lỗi” để giữ hồ sơ trong hàng đợi, sau đó chọn “Thử lại” để ghi vào bảng.</p>
+        <ul id="sync-queue" class="sync-list"></ul>
+        <p id="sync-queue-empty" class="sync-empty">Hàng đợi trống. Hãy thêm một hồ sơ mẫu ở trên.</p>
+      </section>
+
+      <section class="sync-card" aria-labelledby="sync-rows-title">
+        <div class="sync-section-head">
+          <div><p class="sync-eyebrow">04 · KẾT QUẢ</p><h2 id="sync-rows-title">Dữ liệu trên trang tính</h2></div>
+          <span id="sync-rows-count" class="sync-badge"></span>
+        </div>
+        <p class="sync-help">Đổi trang tính trong phần cấu hình để xem các dòng đã ghi vào Applications hoặc B2B.</p>
+        <div class="sync-table-wrap" role="region" tabindex="0" aria-labelledby="sync-rows-title">
+          <table class="sync-table sync-rows-table">
+            <caption id="sync-rows-caption"></caption>
+            <thead id="sync-rows-columns"></thead>
+            <tbody id="sync-rows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="sync-card" aria-labelledby="sync-history-title">
+        <p class="sync-eyebrow">05 · THEO DÕI</p>
+        <h2 id="sync-history-title">Lịch sử mô phỏng</h2>
+        <p class="sync-help">Tối đa 16 hoạt động gần nhất, theo thứ tự mới nhất trước.</p>
+        <ol id="sync-history" class="sync-list sync-history"></ol>
+        <p id="sync-history-empty" class="sync-empty">Chưa có hoạt động đồng bộ nào.</p>
+      </section>
+
+      <div class="sync-reset">
+        <details id="sync-reset-panel">
+          <summary id="sync-reset-summary">Đặt lại bản mô phỏng</summary>
+          <p>Thao tác này xóa hàng đợi, bảng kết quả và lịch sử mẫu trong phạm vi lưu của trang.</p>
+          <div class="sync-confirm"><input id="sync-reset-consent" type="checkbox"><label for="sync-reset-consent">Tôi xác nhận xóa dữ liệu mô phỏng.</label></div>
+          <button id="sync-reset" class="sync-button sync-danger" type="button" disabled>Xóa dữ liệu mô phỏng</button>
+        </details>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

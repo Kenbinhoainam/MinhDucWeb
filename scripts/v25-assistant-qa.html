@@ -1,0 +1,145 @@
+<!doctype html><meta charset="utf-8"><title>V25 assistant QA</title><h1>V25 assistant QA</h1><button id="run">Run assistant lifecycle checks</button><pre id="report">Ready</pre><iframe title="Assistant QA" style="width:1265px;height:720px;border:0"></iframe><script>
+async function browserSuite() {
+  const results = [], frame = document.querySelector('iframe');
+  const tick = () => new Promise(resolve => setTimeout(resolve, 10));
+  const check = (name, pass, details = '') => results.push({ name, pass: !!pass, details: pass ? '' : String(details) });
+  const must = (d, selector) => { const node = d.querySelector(selector); if (!node) throw Error('Missing ' + selector); return node; };
+  const visible = node => !!node?.getClientRects().length && getComputedStyle(node).visibility !== 'hidden';
+  const overlap = (a, b) => a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+  const load = async (route, lang = 'en') => {
+    await new Promise((resolve, reject) => {
+      const timer = setTimeout(() => reject(Error('Page load timed out: ' + route)), 7000);
+      frame.onload = () => { clearTimeout(timer); resolve(); };
+      frame.src = route + (route.includes('?') ? '&' : '?') + 'lang=' + lang;
+    });
+    await tick();
+    return frame.contentDocument;
+  };
+  const click = (d, selector) => must(d, selector).click();
+  const key = (d, target, value, shiftKey = false) => target.dispatchEvent(new d.defaultView.KeyboardEvent('keydown', { key: value, shiftKey, bubbles: true, cancelable: true }));
+  const sampleReview = d => {
+    while (d.querySelector('[data-ai-next]')) { click(d, '[data-ai-sample]'); click(d, '[data-ai-next]'); }
+    return must(d, '[data-ai-confirm]');
+  };
+  try {
+    for (const lang of ['vi', 'en', 'zh', 'ko']) {
+      for (const route of ['index.html', 'viec-lam.html', 'chi-tiet-viec-lam.html?id=cn-dien-tu']) {
+        const d = await load(route, lang), w = d.defaultView;
+        check('bridge locale / ' + route + ' / ' + lang, w.MDPrototypeBridge?.snapshot().lang === lang);
+        check('single launcher and inline / ' + route + ' / ' + lang, d.querySelectorAll('.md-ai-launcher').length === 1 && d.querySelectorAll('#main [data-ai-open]').length === 1);
+        for (const width of [320, 390, 768, 1265, 1440]) {
+          frame.style.width = width + 'px'; frame.style.height = '720px';
+          const launcher = must(d, '.md-ai-launcher'), lr = launcher.getBoundingClientRect();
+          const obstacles = [...d.querySelectorAll('.md-social-toggle,.mobile-action-dock')].filter(visible);
+          check('launcher clearance / ' + route + ' / ' + lang + ' / ' + width, obstacles.every(node => !overlap(lr, node.getBoundingClientRect())) && lr.left >= 0 && lr.bottom <= 720);
+          click(d, '.md-ai-launcher');
+          const dialog = must(d, '.md-ai-dialog'), box = dialog.getBoundingClientRect();
+          const input = must(d, '#md-ai-question').getBoundingClientRect(), footer = must(d, '.md-ai-privacy').getBoundingClientRect();
+          check('dialog input footer in viewport / ' + route + ' / ' + lang + ' / ' + width, box.left >= 0 && box.right <= width + 1 && box.top >= 0 && box.bottom <= 720 && input.bottom <= footer.top && footer.bottom <= box.bottom && dialog.scrollHeight <= dialog.clientHeight + 1, JSON.stringify({ width, box: box.toJSON(), input: input.toJSON(), footer: footer.toJSON(), scroll: [dialog.scrollHeight, dialog.clientHeight] }));
+          key(d, must(d, '.md-ai-close'), 'Escape');
+          check('escape returns focus / ' + route + ' / ' + lang + ' / ' + width, !d.querySelector('.md-ai-dialog') && d.activeElement === launcher);
+        }
+      }
+      const d = await load('chi-tiet-viec-lam.html?id=cn-dien-tu', lang), w = d.defaultView, form = must(d, '#applyForm');
+      const calls = { storage: 0, network: 0, submit: 0 };
+      w.Storage.prototype.setItem = () => { calls.storage++; };
+      w.fetch = () => { calls.network++; throw Error('No assistant network allowed'); };
+      w.XMLHttpRequest.prototype.open = () => { calls.network++; throw Error('No assistant network allowed'); };
+      form.addEventListener('submit', event => { event.preventDefault(); calls.submit++; });
+      form.submit = form.requestSubmit = () => { calls.submit++; };
+      click(d, '#main .md-ai-inline');
+      check('detail inline starts guided application / ' + lang, !!d.querySelector('#md-ai-answer'));
+      click(d, '[data-ai-next]');
+      check('empty answer error / ' + lang, must(d, '#md-ai-answer').getAttribute('aria-invalid') === 'true' && !!must(d, '#md-ai-voice-status').textContent);
+      w.SpeechRecognition = w.webkitSpeechRecognition = undefined;
+      click(d, '[data-ai-mic]');
+      check('unsupported speech keeps typed fallback / ' + lang, !!must(d, '#md-ai-voice-status').textContent && !must(d, '#md-ai-answer').disabled);
+      sampleReview(d);
+      check('review does not fill / ' + lang, !form.elements.name.value && !form.elements.phone.value && d.querySelectorAll('.md-ai-review dd').length === 5);
+      click(d, '[data-ai-edit]');
+      check('edit retains reviewed answer / ' + lang, !!must(d, '#md-ai-answer').value);
+      sampleReview(d); click(d, '[data-ai-confirm]');
+      check('confirmation fills real worker fields / ' + lang, !!form.elements.name.value && form.elements.phone.value === '0900000000' && !!form.elements.area.value && form.querySelector('[name=shift]:checked')?.value === 'Ca ngày' && form.querySelector('[name=shuttle]:checked')?.value === 'Có');
+      check('confirmation leaves consent and submission alone / ' + lang, !form.elements.consent.checked && !calls.storage && !calls.network && !calls.submit && !d.querySelector('.md-ai-dialog') && !!d.querySelector('.md-ai-fill-status'));
+      click(d, '.md-ai-launcher');
+      const input = must(d, '#md-ai-question'), payload = '<img src=x onerror=alert(1)>';
+      input.value = payload; must(d, '.md-ai-compose').dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
+      check('text injection safe and deterministic fallback / ' + lang, must(d, '.md-ai-message.is-user p').textContent === payload && !d.querySelector('.md-ai-log img') && d.querySelectorAll('.md-ai-message:last-child a').length === 2);
+      for (const topic of [0, 1, 2, 3]) click(d, '[data-ai-topic="' + topic + '"]');
+      check('suggested prompt links preserve locale / ' + lang, [...d.querySelectorAll('.md-ai-message a')].every(a => new URL(a.href).searchParams.get('lang') === lang));
+      const typedQuestions = {
+        vi: ['Tìm việc phù hợp', 'Lương & phúc lợi', 'Liên hệ doanh nghiệp', 'Gặp người tư vấn'],
+        en: ['Find a job', 'Salary and benefits', 'Business contact', 'Talk to a person'],
+        zh: ['查找职位', '薪资与福利', '企业联系', '联系人工顾问'],
+        ko: ['일자리 찾기', '급여 및 복지', '기업 문의', '상담원 문의']
+      };
+      typedQuestions[lang].forEach((question, topic) => {
+        input.value = question; must(d, '.md-ai-compose').dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
+        const response = must(d, '.md-ai-message:last-child');
+        check('typed topic routes without fallback / ' + lang + ' / ' + topic, topic < 2 ? !!response.querySelector('a[href*="chi-tiet-viec-lam.html"]') : response.querySelectorAll('a').length === 1 && !!response.querySelector('a[href*="lien-he.html"]'));
+      });
+      check('no chat network / storage / ' + lang, !calls.storage && !calls.network && !calls.submit);
+      const items = [...d.querySelectorAll('.md-ai-dialog button,.md-ai-dialog input,.md-ai-dialog a')].filter(visible);
+      items[0].focus(); key(d, items[0], 'Tab', true);
+      check('reverse tab wraps / ' + lang, d.activeElement === items.at(-1));
+      key(d, d.activeElement, 'Tab'); check('forward tab wraps / ' + lang, d.activeElement === items[0]);
+      key(d, items[0], 'Escape'); click(d, '.md-ai-launcher');
+      check('closing clears previous transcript / ' + lang, !must(d, '.md-ai-log').textContent.includes(payload));
+      key(d, must(d, '.md-ai-close'), 'Escape');
+    }
+
+    let d = await load('chi-tiet-viec-lam.html?id=ky-su-co-dien'), w = d.defaultView, form = must(d, '#applyForm');
+    const file = form.elements.cv, beforeFile = file.files;
+    click(d, '#main .md-ai-inline'); sampleReview(d); click(d, '[data-ai-confirm]');
+    check('internal form desired / CV / consent preserved', form.elements.desired.value === 'Bắc Ninh' && file === form.elements.cv && file.files === beforeFile && !form.elements.consent.checked);
+
+    // Simulated local WebSpeech: no real microphone permissions or audio are used by tests.
+    const installSpeech = (win, mode = 'local') => {
+      win.__recognitions = [];
+      win.SpeechRecognition = class {
+        constructor() { if (mode !== 'cloud') this.processLocally = false; this.aborts = 0; this.starts = 0; win.__recognitions.push(this); }
+        static available() { return Promise.resolve(mode === 'unavailable' ? 'downloadable' : 'available'); }
+        start() { this.starts++; if (mode === 'denied') this.onerror?.({ error: 'not-allowed' }); else this.onstart?.(); }
+        abort() { this.aborts++; }
+      };
+      win.webkitSpeechRecognition = undefined;
+    };
+    for (const mode of ['cloud', 'unavailable', 'denied', 'local']) {
+      d = await load('chi-tiet-viec-lam.html?id=cn-dien-tu'); w = d.defaultView; installSpeech(w, mode);
+      click(d, '#main .md-ai-inline');
+      check('speech never starts on open / ' + mode, !w.__recognitions.length);
+      click(d, '[data-ai-mic]'); await tick();
+      const rec = w.__recognitions.at(-1);
+      check('local-only gate / ' + mode, mode === 'cloud' || mode === 'unavailable' ? rec.starts === 0 : rec.starts === 1 && rec.processLocally === true);
+      if (mode === 'local') {
+        rec.onresult({ results: [[{ transcript: 'Demo Candidate' }]] });
+        check('speech transcript stays editable', must(d, '#md-ai-answer').value === 'Demo Candidate' && !must(d, '#md-ai-answer').disabled);
+      }
+      const lateResult = rec.onresult;
+      key(d, must(d, '.md-ai-close'), 'Escape');
+      check('speech stops on close / ' + mode, mode === 'cloud' || rec.aborts > 0);
+      lateResult?.({ results: [[{ transcript: 'Stale answer' }]] });
+      check('late callback cannot recreate dialog / ' + mode, !d.querySelector('.md-ai-dialog'));
+    }
+    for (const navigation of ['locale', 'popstate', 'hashchange', 'pagehide', 'view', 'rerender']) {
+      d = await load('chi-tiet-viec-lam.html?id=cn-dien-tu'); w = d.defaultView; installSpeech(w);
+      click(d, '#main .md-ai-inline'); click(d, '[data-ai-mic]'); await tick(); const rec = w.__recognitions.at(-1);
+      if (navigation === 'locale') { const select = must(d, '#languageSelect'); select.value = 'ko'; select.dispatchEvent(new w.Event('change', { bubbles: true })); }
+      else if (navigation === 'view') click(d, '[data-ai-view=chat]');
+      else if (navigation === 'rerender') { const old = must(d, '#applyForm'); old.replaceWith(old.cloneNode(true)); }
+      else w.dispatchEvent(new w.Event(navigation));
+      await tick();
+      check('microphone abort on / ' + navigation, rec.aborts > 0);
+      if (navigation === 'locale') {
+        check('locale change closes and clears', !d.querySelector('.md-ai-dialog') && d.querySelectorAll('#main [data-ai-open]').length === 1);
+        click(d, '.md-ai-launcher'); check('bridge locale used after switch', must(d, '.md-ai-dialog').lang === 'ko');
+      }
+    }
+    d = await load('index.html'); w = d.defaultView;
+    click(d, '.md-ai-launcher'); click(d, '[data-ai-view=voice]');
+    check('voice on home guides to actual vacancy', !d.querySelector('[data-ai-confirm]') && !!d.querySelector('.md-ai-content a[href*="viec-lam.html"]'));
+  } catch (error) { results.push({ name: 'browser suite exception', pass: false, details: error.stack }); }
+  document.querySelector('#report').textContent=JSON.stringify({complete:true,total:results.length,passed:results.filter(r=>r.pass).length,failed:results.filter(r=>!r.pass).length,results},null,2);
+}
+document.querySelector("#run").onclick=async()=>{document.querySelector("#run").disabled=true;document.querySelector("#report").textContent="Running";try{await browserSuite()}finally{document.querySelector("#run").disabled=false}};
+</script>

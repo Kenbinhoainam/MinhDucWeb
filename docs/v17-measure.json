@@ -1,0 +1,54 @@
+{
+  "suite": "measure",
+  "complete": true,
+  "results": [
+    {
+      "id": ".md-visual-caption",
+      "expected": "contrast >=4.5; targets >=44px where interactive",
+      "actual": {
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(21, 46, 69)",
+        "ratio": 13.920023468792518,
+        "width": 296,
+        "height": 92
+      },
+      "pass": true
+    },
+    {
+      "id": ".md-save",
+      "expected": "contrast >=4.5; targets >=44px where interactive",
+      "actual": {
+        "color": "rgb(21, 46, 69)",
+        "background": "rgb(255, 255, 255)",
+        "ratio": 13.920023468792518,
+        "width": 48,
+        "height": 48
+      },
+      "pass": true
+    },
+    {
+      "id": ".md-industry-card p",
+      "expected": "contrast >=4.5; targets >=44px where interactive",
+      "actual": {
+        "color": "rgb(82, 99, 115)",
+        "background": "rgb(255, 255, 255)",
+        "ratio": 6.192745342773444,
+        "width": 131.5,
+        "height": 74.0625
+      },
+      "pass": true
+    },
+    {
+      "id": "[data-motion-toggle]",
+      "expected": "contrast >=4.5; targets >=44px where interactive",
+      "actual": {
+        "color": "rgb(21, 46, 69)",
+        "background": "rgb(255, 255, 255)",
+        "ratio": 13.920023468792518,
+        "width": 132.390625,
+        "height": 44
+      },
+      "pass": true
+    }
+  ]
+}

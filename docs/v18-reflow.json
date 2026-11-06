@@ -1,0 +1,300 @@
+{
+  "complete": true,
+  "total": 21,
+  "passed": 21,
+  "results": [
+    {
+      "route": "index.html",
+      "lang": "vi",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "lang": "en",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "lang": "zh",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "lang": "ko",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "lang": "vi",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "lang": "en",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "lang": "zh",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "lang": "ko",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "lang": "vi",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "lang": "en",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "lang": "zh",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "lang": "ko",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "lang": "vi",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "lang": "en",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "lang": "zh",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "lang": "ko",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "lang": "vi",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "lang": "en",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "lang": "zh",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "lang": "ko",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "route": "cms-demo.html",
+      "lang": "vi",
+      "width": 640,
+      "textScale": 2,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": [
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": " Hồ sơ doanh nghiệp"
+          },
+          {
+            "tag": "svg",
+            "cls": {},
+            "text": ""
+          },
+          {
+            "tag": "rect",
+            "cls": {},
+            "text": ""
+          },
+          {
+            "tag": "path",
+            "cls": {},
+            "text": ""
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": " Cài đặt"
+          },
+          {
+            "tag": "svg",
+            "cls": {},
+            "text": ""
+          },
+          {
+            "tag": "path",
+            "cls": {},
+            "text": ""
+          },
+          {
+            "tag": "path",
+            "cls": {},
+            "text": ""
+          }
+        ]
+      },
+      "pass": true
+    }
+  ]
+}

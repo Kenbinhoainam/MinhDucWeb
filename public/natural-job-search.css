@@ -1,0 +1,162 @@
+#md-natural-job-search {
+  margin-block: 12px;
+  border: 1px solid var(--border, #dbe3ed);
+  border-radius: 14px;
+  background: #fffdfa;
+  box-shadow: 0 4px 16px #102b500d;
+  color: #102b50;
+  font-size: 16px;
+}
+
+#md-natural-job-search > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 8px 12px;
+  border-radius: 13px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+#md-natural-job-search > summary:hover { background: #f2f6fc; }
+#md-natural-job-search[open] > summary { border-end-start-radius: 0; border-end-end-radius: 0; }
+#md-natural-job-search > summary::-webkit-details-marker { display: none; }
+#md-natural-job-search > summary::after {
+  flex: 0 0 8px;
+  height: 8px;
+  margin-inline-end: 4px;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  content: '';
+  transform: rotate(45deg);
+}
+
+#md-natural-job-search[open] > summary::after { transform: rotate(225deg); }
+
+#md-natural-job-search .md-njs-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+#md-natural-job-search .md-njs-badge {
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: #1555b6;
+  background: #edf4ff;
+  font-size: 14px;
+}
+
+#md-natural-job-search .md-njs-body {
+  border-top: 1px solid var(--border, #dbe3ed);
+  padding: 12px;
+  overflow-wrap: anywhere;
+}
+
+#md-natural-job-search p {
+  margin-block: 0 12px;
+  color: #4b5e78;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+#md-natural-job-search p:empty { margin: 0; }
+#md-natural-job-search h2 { margin: 0 0 12px; font-size: 18px; }
+#md-natural-job-search form { margin: 0 0 12px; }
+#md-natural-job-search [hidden] { display: none; }
+
+#md-natural-job-search #md-njs-criteria-form {
+  padding: 12px;
+  border: 1px solid var(--border, #dbe3ed);
+  border-radius: 12px;
+  background: #f5f7fb;
+}
+
+#md-natural-job-search .md-njs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+  align-items: end;
+  gap: 10px 12px;
+  margin-block-end: 8px;
+}
+
+#md-natural-job-search .field { min-width: 0; margin: 0; }
+#md-natural-job-search .field label { margin-bottom: 4px; font-size: 14px; line-height: 1.4; }
+#md-natural-job-search .field :is(input, select) {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  border: 1px solid #798ba3;
+  border-radius: 8px;
+  background: #fff;
+  color: #102b50;
+  font-size: 16px;
+}
+
+#md-natural-job-search .md-njs-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin-block-start: 8px;
+}
+
+#md-natural-job-search button {
+  max-width: 100%;
+  min-height: 48px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+#md-natural-job-search .md-njs-text-button {
+  border: 0;
+  color: #1555b6;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: start;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+#md-natural-job-search .md-njs-text-button:hover { background: #edf4ff; }
+
+#md-natural-job-search #md-njs-message:not(:empty) {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #fff6e7;
+  color: #6b4312;
+}
+
+#md-natural-job-search #md-njs-result-status { font-weight: 650; }
+
+#md-natural-job-search #md-njs-results {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  margin: 0 0 8px;
+  list-style: none;
+}
+
+#md-natural-job-search #md-njs-results[hidden] { display: none; }
+#md-natural-job-search #md-njs-results li { border-inline-start: 2px solid var(--border, #dbe3ed); padding-inline-start: 10px; }
+#md-natural-job-search #md-njs-results a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: #1555b6;
+  font-weight: 700;
+  text-decoration: underline;
+}
+#md-natural-job-search #md-njs-results span { display: block; font-size: 14px; color: #4b5e78; }
+
+#md-natural-job-search :focus-visible { outline: 3px solid #1555b6; outline-offset: 2px; }

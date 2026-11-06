@@ -1,0 +1,617 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "id": "LAYOUT-0",
+      "expected": {
+        "route": "index.html",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-1",
+      "expected": {
+        "route": "viec-lam.html",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-2",
+      "expected": {
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-3",
+      "expected": {
+        "route": "dich-vu.html",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-4",
+      "expected": {
+        "route": "lien-he.html",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-5",
+      "expected": {
+        "route": "tin-tuc.html",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-6",
+      "expected": {
+        "route": "bai-viet.html?id=xu-huong-kcn",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-7",
+      "expected": {
+        "route": "ve-minh-duc.html",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-8",
+      "expected": {
+        "route": "tuyen-dung-noi-bo.html",
+        "width": 320,
+        "locale": "vi",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 305,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-9",
+      "expected": {
+        "route": "index.html",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-10",
+      "expected": {
+        "route": "viec-lam.html",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-11",
+      "expected": {
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-12",
+      "expected": {
+        "route": "dich-vu.html",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-13",
+      "expected": {
+        "route": "lien-he.html",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-14",
+      "expected": {
+        "route": "tin-tuc.html",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-15",
+      "expected": {
+        "route": "bai-viet.html?id=xu-huong-kcn",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-16",
+      "expected": {
+        "route": "ve-minh-duc.html",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-17",
+      "expected": {
+        "route": "tuyen-dung-noi-bo.html",
+        "width": 390,
+        "locale": "en",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 375,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-18",
+      "expected": {
+        "route": "index.html",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-19",
+      "expected": {
+        "route": "viec-lam.html",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-20",
+      "expected": {
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-21",
+      "expected": {
+        "route": "dich-vu.html",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-22",
+      "expected": {
+        "route": "lien-he.html",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-23",
+      "expected": {
+        "route": "tin-tuc.html",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-24",
+      "expected": {
+        "route": "bai-viet.html?id=xu-huong-kcn",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-25",
+      "expected": {
+        "route": "ve-minh-duc.html",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-26",
+      "expected": {
+        "route": "tuyen-dung-noi-bo.html",
+        "width": 768,
+        "locale": "zh",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 753,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-27",
+      "expected": {
+        "route": "index.html",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-28",
+      "expected": {
+        "route": "viec-lam.html",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-29",
+      "expected": {
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-30",
+      "expected": {
+        "route": "dich-vu.html",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-31",
+      "expected": {
+        "route": "lien-he.html",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-32",
+      "expected": {
+        "route": "tin-tuc.html",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-33",
+      "expected": {
+        "route": "bai-viet.html?id=xu-huong-kcn",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-34",
+      "expected": {
+        "route": "ve-minh-duc.html",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "LAYOUT-35",
+      "expected": {
+        "route": "tuyen-dung-noi-bo.html",
+        "width": 1440,
+        "locale": "ko",
+        "overflow": false,
+        "broken": 0,
+        "h1": 1
+      },
+      "actual": {
+        "scrollWidth": 1425,
+        "broken": [],
+        "h1": 1
+      },
+      "pass": true
+    }
+  ]
+}

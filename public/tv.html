@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Màn hình TV Minh Đức · Bản demo</title>
+  <link rel="icon" href="assets/logo-icon.png">
+  <link rel="stylesheet" href="tv.css">
+  <script src="tv.js" defer></script>
+</head>
+<body class="tv-body">
+  <main class="tv-root" data-tv-root>
+    <section class="tv-screen" id="welcome" data-tv-screen="welcome" aria-labelledby="welcome-title" aria-describedby="welcome-demo" tabindex="-1">
+      <div class="tv-safe-area tv-stack">
+        <header class="tv-header">
+          <div class="tv-brand">
+            <img src="assets/logo-icon.png" alt="" width="64" height="64">
+            <span>Minh Đức</span>
+          </div>
+          <p class="tv-demo" id="welcome-demo">Bản demo</p>
+        </header>
+        <div class="tv-content tv-copy">
+          <h1 id="welcome-title">Bạn cần gì hôm nay?</h1>
+          <noscript><p class="tv-hint">Bật JavaScript để dùng trình chiếu.</p></noscript>
+          <nav class="tv-choices tv-grid" aria-label="Chọn nhu cầu">
+            <a class="tv-button tv-choice" href="viec-lam.html" data-tv-action="worker" aria-controls="worker">Tôi đang tìm việc</a>
+            <a class="tv-button tv-choice" href="dich-vu.html" data-tv-action="business" aria-controls="business">Tôi cần nhân lực</a>
+          </nav>
+        </div>
+        <footer class="tv-actions">
+          <button class="tv-button" type="button" data-tv-action="display" aria-controls="display" hidden>Bắt đầu trình chiếu</button>
+          <a class="tv-button" href="index.html">Trang chủ Minh Đức</a>
+        </footer>
+      </div>
+    </section>
+
+    <section class="tv-screen" id="worker" data-tv-screen="worker" aria-labelledby="worker-title" aria-describedby="worker-demo" tabindex="-1" hidden>
+      <div class="tv-safe-area tv-stack">
+        <header class="tv-header">
+          <p>Dành cho người lao động</p>
+          <p class="tv-demo" id="worker-demo">Bản demo</p>
+        </header>
+        <div class="tv-content tv-copy">
+          <h2 id="worker-title">Tìm việc phù hợp</h2>
+          <ol class="tv-steps">
+            <li>
+              <h3>Chọn khu vực</h3>
+              <p>Bạn có thể đi làm ở đâu?</p>
+            </li>
+            <li>
+              <h3>Chọn ca làm</h3>
+              <p>Ca nào hợp với lịch của bạn?</p>
+            </li>
+            <li>
+              <h3>Đọc kỹ tin việc làm</h3>
+              <p>Kiểm tra công việc, thu nhập và yêu cầu.</p>
+            </li>
+          </ol>
+        </div>
+        <nav class="tv-actions" aria-label="Điều hướng tìm việc">
+          <a class="tv-button" href="viec-lam.html">Xem tin việc làm mẫu</a>
+          <a class="tv-button" href="tv.html" data-tv-action="welcome" aria-controls="welcome">Về màn hình chính</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="tv-screen" id="business" data-tv-screen="business" aria-labelledby="business-title" aria-describedby="business-demo" tabindex="-1" hidden>
+      <div class="tv-safe-area tv-stack">
+        <header class="tv-header">
+          <p>Dành cho doanh nghiệp</p>
+          <p class="tv-demo" id="business-demo">Bản demo</p>
+        </header>
+        <div class="tv-content tv-copy">
+          <h2 id="business-title">Lập kế hoạch nhân lực</h2>
+          <ol class="tv-steps">
+            <li>
+              <h3>Xác định vị trí</h3>
+              <p>Ghi rõ công việc và kỹ năng cần có.</p>
+            </li>
+            <li>
+              <h3>Dự kiến số người</h3>
+              <p>Ghi tổng số người và số người theo từng ca, từng nơi.</p>
+            </li>
+            <li>
+              <h3>Chọn ngày cần người</h3>
+              <p>Ghi ngày dự kiến bắt đầu.</p>
+            </li>
+          </ol>
+        </div>
+        <nav class="tv-actions" aria-label="Điều hướng dịch vụ">
+          <a class="tv-button" href="dich-vu.html">Xem dịch vụ nhân lực</a>
+          <a class="tv-button" href="tv.html" data-tv-action="welcome" aria-controls="welcome">Về màn hình chính</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="tv-screen" id="display" data-tv-screen="display" aria-labelledby="display-title" aria-describedby="display-demo" tabindex="-1" hidden>
+      <div class="tv-safe-area tv-stack">
+        <header class="tv-header">
+          <h2 id="display-title">Trình chiếu minh họa</h2>
+          <p class="tv-demo" id="display-demo">Bản demo</p>
+        </header>
+        <div class="tv-content tv-slides" id="tv-slides">
+          <article class="tv-slide tv-copy" data-tv-slide="1" aria-labelledby="slide-1-title">
+            <p>Dành cho người lao động</p>
+            <h3 id="slide-1-title">Chọn nơi làm và ca làm</h3>
+            <p>Cân nhắc thời gian đi lại và giờ vào ca.</p>
+          </article>
+          <article class="tv-slide tv-copy" data-tv-slide="2" aria-labelledby="slide-2-title" hidden>
+            <p>Dành cho người lao động</p>
+            <h3 id="slide-2-title">Đọc kỹ tin việc làm</h3>
+            <p>Xem yêu cầu. Hỏi cách tính thu nhập.</p>
+          </article>
+          <article class="tv-slide tv-copy" data-tv-slide="3" aria-labelledby="slide-3-title" hidden>
+            <p>Dành cho doanh nghiệp</p>
+            <h3 id="slide-3-title">Liệt kê vị trí cần người</h3>
+            <p>Ghi số người dự kiến cho từng ca.</p>
+          </article>
+          <article class="tv-slide tv-copy" data-tv-slide="4" aria-labelledby="slide-4-title" hidden>
+            <p>Dành cho doanh nghiệp</p>
+            <h3 id="slide-4-title">Chọn ngày cần người</h3>
+            <p>Ghi ngày bắt đầu và nơi làm việc.</p>
+          </article>
+        </div>
+        <footer class="tv-display-footer tv-stack">
+          <progress class="tv-progress" data-tv-progress value="1" max="4" aria-label="Vị trí trong trình chiếu" aria-valuetext="Trang 1 / 4">Trang 1 / 4</progress>
+          <p class="tv-assistance">Cần hỗ trợ tìm việc hoặc tư vấn nhân lực? Hỏi nhân viên Minh Đức.</p>
+          <p class="tv-status" data-tv-visible-status data-tv-mode="paused">Trang 1 / 4 · Đang tạm dừng</p>
+          <p class="tv-sr-status" data-tv-status role="status" aria-live="polite" aria-atomic="true">Trình chiếu · Trang 1 / 4 · Đang tạm dừng · Chọn nơi làm và ca làm. Cân nhắc thời gian đi lại và giờ vào ca.</p>
+          <nav class="tv-actions" aria-label="Điều khiển trình chiếu">
+            <button class="tv-button" type="button" data-tv-action="prev" aria-controls="tv-slides">Trang chiếu trước</button>
+            <button class="tv-button" type="button" data-tv-action="next" aria-controls="tv-slides">Trang chiếu sau</button>
+            <button class="tv-button" type="button" data-tv-action="toggle" aria-controls="tv-slides">Phát trình chiếu</button>
+            <a class="tv-button" href="tv.html" data-tv-action="welcome" aria-controls="welcome">Về màn hình chính</a>
+          </nav>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

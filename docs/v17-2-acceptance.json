@@ -1,0 +1,536 @@
+{
+  "version": "V17.2",
+  "baseCommit": "a873e3973fd92ad571c5d4de7b5429a1f0cff5ad",
+  "scope": "Company presentation, logo failure recovery and CMS image editor.",
+  "baselineIssue": {
+    "source": "assets/partners/samsung.svg",
+    "actualBefore": "Inline image editor stays open and reports: Hãy dùng ảnh tải lên, URL HTTPS hoặc tên tệp assets hợp lệ.",
+    "verifiedInBrowser": true
+  },
+  "viewportLocaleMatrix": {
+    "complete": true,
+    "results": [
+      {
+        "width": 320,
+        "lang": "vi",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 320,
+        "lang": "en",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "View all companies",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 320,
+        "lang": "zh",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "查看全部企业",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 320,
+        "lang": "ko",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "모든 기업 보기",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "vi",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "en",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "View all companies",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "zh",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "查看全部企业",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 390,
+        "lang": "ko",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 375,
+          "scrollWidth": 375,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "모든 기업 보기",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "vi",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "en",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "View all companies",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "zh",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "查看全部企业",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 768,
+        "lang": "ko",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 753,
+          "scrollWidth": 753,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "모든 기업 보기",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "vi",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "en",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "View all companies",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "zh",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "查看全部企业",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "width": 1440,
+        "lang": "ko",
+        "closedByDefault": true,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "모든 기업 보기",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "pass": true
+      },
+      {
+        "cms": 320,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "rows": 14,
+          "logos": 14
+        },
+        "pass": true
+      },
+      {
+        "cms": 1440,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "rows": 14,
+          "logos": 14
+        },
+        "pass": true
+      }
+    ]
+  },
+  "contentAndImageCases": {
+    "complete": true,
+    "results": [
+      {
+        "count": 0,
+        "width": 320,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": false,
+          "logos": 0,
+          "cards": 0,
+          "open": false,
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "controls": false,
+        "pass": true
+      },
+      {
+        "count": 0,
+        "width": 1440,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": false,
+          "logos": 0,
+          "cards": 0,
+          "open": false,
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "controls": false,
+        "pass": true
+      },
+      {
+        "count": 1,
+        "width": 320,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 1,
+          "cards": 0,
+          "open": false,
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "controls": false,
+        "pass": true
+      },
+      {
+        "count": 1,
+        "width": 1440,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 1,
+          "cards": 0,
+          "open": false,
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "controls": false,
+        "pass": true
+      },
+      {
+        "count": 14,
+        "width": 320,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": false,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "controls": true,
+        "pass": true
+      },
+      {
+        "count": 14,
+        "width": 1440,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": false,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "controls": true,
+        "pass": true
+      },
+      {
+        "missingLogo": 320,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 3,
+          "largeErrorPanels": 0
+        },
+        "fallbackName": "Samsung",
+        "pass": true
+      },
+      {
+        "missingLogo": 1440,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 3,
+          "largeErrorPanels": 0
+        },
+        "fallbackName": "Samsung",
+        "pass": true
+      },
+      {
+        "longName": 320,
+        "actual": {
+          "viewport": 305,
+          "scrollWidth": 305,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "fullName": "Doanh nghiệp công nghệ và sản xuất thiết bị thông minh quốc tế – tên dài phục vụ kiểm tra giao diện",
+        "pass": true
+      },
+      {
+        "longName": 1440,
+        "actual": {
+          "viewport": 1425,
+          "scrollWidth": 1425,
+          "section": true,
+          "logos": 14,
+          "cards": 14,
+          "open": true,
+          "label": "Xem toàn bộ doanh nghiệp",
+          "broken": [],
+          "fallbacks": 0,
+          "largeErrorPanels": 0
+        },
+        "fullName": "Doanh nghiệp công nghệ và sản xuất thiết bị thông minh quốc tế – tên dài phục vụ kiểm tra giao diện",
+        "pass": true
+      }
+    ]
+  },
+  "interactions": {
+    "inlineLogoSave": {
+      "pass": true,
+      "replacement": "assets/partners/canon.svg",
+      "formSource": "assets/partners/canon.svg",
+      "profilePreview": "assets/partners/canon.svg",
+      "listThumbnail": "assets/partners/canon.svg",
+      "unsavedName": "Samsung · bản đang chỉnh",
+      "dialogClosed": true,
+      "originalSamsungLogoRestoredAfterTest": true
+    },
+    "nativeKeyboardDisclosure": {
+      "pass": true,
+      "enterCloses": true,
+      "enterReopens": true,
+      "visibleCards": 14
+    },
+    "overviewPausesMarquee": {
+      "pass": true,
+      "animationPlayState": "paused"
+    },
+    "reducedMotion": {
+      "pass": true,
+      "animationName": "none",
+      "overviewRemainsOpen": true,
+      "viewport": 375,
+      "scrollWidth": 375
+    }
+  },
+  "unitTests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "build": "Validated by official Sites publication workflow.",
+  "evaluation": "Bounded iteration; historical Flagship scores not reassessed."
+}

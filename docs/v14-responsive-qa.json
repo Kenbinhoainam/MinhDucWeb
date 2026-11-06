@@ -1,0 +1,3026 @@
+[
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0.3618,
+      "domContentLoadedMs": 87,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0,
+      "domContentLoadedMs": 86,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 132,
+      "cls": 0,
+      "domContentLoadedMs": 106,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 136,
+      "cls": 0,
+      "domContentLoadedMs": 114,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 96,
+      "cls": 0.8556,
+      "domContentLoadedMs": 82,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0,
+      "domContentLoadedMs": 80,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 136,
+      "cls": 0,
+      "domContentLoadedMs": 103,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 124,
+      "cls": 0,
+      "domContentLoadedMs": 105,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 108,
+      "cls": 0.8556,
+      "domContentLoadedMs": 93,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 124,
+      "cls": 0,
+      "domContentLoadedMs": 102,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 108,
+      "cls": 0,
+      "domContentLoadedMs": 78,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 108,
+      "cls": 0,
+      "domContentLoadedMs": 91,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 71,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 116,
+      "cls": 0,
+      "domContentLoadedMs": 81,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 136,
+      "cls": 0,
+      "domContentLoadedMs": 109,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0.9378,
+      "domContentLoadedMs": 84,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 108,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 96,
+      "cls": 0,
+      "domContentLoadedMs": 74,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0,
+      "domContentLoadedMs": 80,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 100,
+      "cls": 0,
+      "domContentLoadedMs": 84,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 64,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 65,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 124,
+      "cls": 0,
+      "domContentLoadedMs": 83,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 112,
+      "cls": 0,
+      "domContentLoadedMs": 88,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 96,
+      "cls": 0.95,
+      "domContentLoadedMs": 75,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 112,
+      "cls": 0,
+      "domContentLoadedMs": 82,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 132,
+      "cls": 0,
+      "domContentLoadedMs": 100,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 100,
+      "cls": 0,
+      "domContentLoadedMs": 82,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0,
+      "domContentLoadedMs": 81,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "viec-lam.html",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 57,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 71,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0.9222,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0,
+      "domContentLoadedMs": 73,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 67,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0.95,
+      "domContentLoadedMs": 66,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 56,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 65,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0,
+      "domContentLoadedMs": 82,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 96,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0,
+      "domContentLoadedMs": 66,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tuyen-dung-noi-bo.html",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 112,
+      "cls": 0,
+      "domContentLoadedMs": 85,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 56,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 96,
+      "cls": 0,
+      "domContentLoadedMs": 74,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 53,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 60,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 100,
+      "cls": 0.9222,
+      "domContentLoadedMs": 72,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0.8339,
+      "domContentLoadedMs": 74,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 53,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 96,
+      "cls": 0.9222,
+      "domContentLoadedMs": 75,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0.8339,
+      "domContentLoadedMs": 70,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 64,
+      "cls": 0,
+      "domContentLoadedMs": 52,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 54,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 56,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 62,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 65,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 60,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0,
+      "domContentLoadedMs": 82,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 59,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 72,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 64,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 100,
+      "cls": 0,
+      "domContentLoadedMs": 76,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 48,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0.6868,
+      "domContentLoadedMs": 66,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0,
+      "domContentLoadedMs": 80,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 64,
+      "cls": 0,
+      "domContentLoadedMs": 51,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 67,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0.6868,
+      "domContentLoadedMs": 75,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 64,
+      "cls": 0,
+      "domContentLoadedMs": 50,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 56,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 59,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 66,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "dich-vu.html",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 51,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 64,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0.8556,
+      "domContentLoadedMs": 67,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 50,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0.9222,
+      "domContentLoadedMs": 72,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 64,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 67,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0.8556,
+      "domContentLoadedMs": 65,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 66,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 67,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0.6868,
+      "domContentLoadedMs": 72,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0.8556,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 60,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "ve-minh-duc.html",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 68,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 112,
+      "cls": 0,
+      "domContentLoadedMs": 66,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 65,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 72,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0.95,
+      "domContentLoadedMs": 57,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 65,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 57,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 54,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 73,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 74,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "tin-tuc.html",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 64,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 52,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 54,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 60,
+      "cls": 0,
+      "domContentLoadedMs": 49,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 64,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 54,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 60,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0.95,
+      "domContentLoadedMs": 61,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 62,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 60,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 58,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 60,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 59,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "bai-viet.html?id=chinh-sach-phuc-loi",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 72,
+      "cls": 0,
+      "domContentLoadedMs": 59,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 108,
+      "cls": 0,
+      "domContentLoadedMs": 76,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 64,
+      "cls": 0,
+      "domContentLoadedMs": 55,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 64,
+      "cls": 0,
+      "domContentLoadedMs": 51,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 148,
+      "cls": 0,
+      "domContentLoadedMs": 129,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 108,
+      "cls": 0,
+      "domContentLoadedMs": 89,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "zh",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "zh",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 84,
+      "cls": 0,
+      "domContentLoadedMs": 73,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "zh",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 116,
+      "cls": 0,
+      "domContentLoadedMs": 99,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "zh",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 112,
+      "cls": 0,
+      "domContentLoadedMs": 82,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "ko",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 63,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 92,
+      "cls": 0,
+      "domContentLoadedMs": 78,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "ko",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 88,
+      "cls": 0,
+      "domContentLoadedMs": 69,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "lien-he.html",
+    "lang": "ko",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 108,
+      "cls": 0,
+      "domContentLoadedMs": 80,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 2560,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 104,
+      "cls": 0.9222,
+      "domContentLoadedMs": 84,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "en",
+    "width": 2560,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 112,
+      "cls": 0,
+      "domContentLoadedMs": 88,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "zh",
+    "width": 2560,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 132,
+      "cls": 0,
+      "domContentLoadedMs": 101,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "index.html",
+    "lang": "ko",
+    "width": 2560,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 116,
+      "cls": 0,
+      "domContentLoadedMs": 94,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "quan-tri.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 80,
+      "cls": 0,
+      "domContentLoadedMs": 57,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "quan-tri.html",
+    "lang": "vi",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 64,
+      "cls": 0,
+      "domContentLoadedMs": 46,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "quan-tri.html",
+    "lang": "vi",
+    "width": 768,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 68,
+      "cls": 0,
+      "domContentLoadedMs": 44,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  },
+  {
+    "page": "quan-tri.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "clipped": [],
+    "broken": [],
+    "fallbacks": 0,
+    "enhanced": true,
+    "lab": {
+      "lcpMs": 76,
+      "cls": 0,
+      "domContentLoadedMs": 46,
+      "viewportHeight": 900,
+      "environment": "Chromium preview, unthrottled; snapshot after fonts ready"
+    }
+  }
+]

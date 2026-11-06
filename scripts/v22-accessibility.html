@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Minh Đức V22 — kiểm tra tiếp cận nội bộ</title>
+<style>body{font:16px/1.6 system-ui;margin:24px}button{padding:12px 20px}pre{white-space:pre-wrap}iframe{height:844px;border:0}</style>
+<h1>Kiểm tra tiếp cận V22</h1>
+<p>Kiểm tra tự động WCAG 2.2 A/AA bằng axe-core. Không thay thế đánh giá trình đọc màn hình hoặc thiết bị thật.</p>
+<button id="run">Chạy kiểm tra</button>
+<button id="textResize">Kiểm tra cỡ chữ 200%</button>
+<pre id="report" role="status">Sẵn sàng</pre>
+<iframe id="frame" title="Trang đang kiểm tra" src="about:blank"></iframe>
+<script>
+const frame=document.querySelector('#frame'),report=document.querySelector('#report'),button=document.querySelector('#run');
+const routes=['index.html','ve-minh-duc.html','dich-vu.html','lien-he.html','viec-lam.html','tin-tuc.html','chi-tiet-viec-lam.html?id=cn-dien-tu'];
+const results=[];
+function show(complete=false){report.textContent=JSON.stringify({complete,total:results.length,failed:results.filter(result=>result.violations?.length||result.error).length,results},null,2);}
+function load(route,width){frame.style.width=width+'px';return new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Load timeout')),10000);frame.onload=async()=>{clearTimeout(timer);const doc=frame.contentDocument;await doc.fonts.ready;resolve(doc);};frame.src=route+(route.includes('?')?'&':'?')+'lang=vi';});}
+async function inject(doc){await new Promise((resolve,reject)=>{const script=doc.createElement('script');script.src='/__axe.js';script.onload=resolve;script.onerror=reject;doc.head.append(script);});}
+button.onclick=async()=>{button.disabled=true;results.length=0;show();try{for(const width of [390,1440])for(const route of routes){try{const doc=await load(route,width);await inject(doc);const audit=await doc.defaultView.axe.run(doc,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}});results.push({route,width,passes:audit.passes.length,incomplete:audit.incomplete.map(item=>({id:item.id,nodes:item.nodes.length})),violations:audit.violations.map(item=>({id:item.id,impact:item.impact,description:item.description,nodes:item.nodes.map(node=>({target:node.target,summary:node.failureSummary}))}))});}catch(error){results.push({route,width,error:String(error)});}show();}}finally{button.disabled=false;show(true);}};
+document.querySelector('#textResize').onclick=async()=>{results.length=0;show();for(const width of [390,1440])for(const route of routes){try{const doc=await load(route,width);const elements=[doc.body,...doc.body.querySelectorAll('*')];const sizes=elements.map(element=>[element,parseFloat(doc.defaultView.getComputedStyle(element).fontSize)]);for(const [element,size] of sizes)element.style.setProperty('font-size',size*2+'px','important');await new Promise(resolve=>setTimeout(resolve,30));const viewport=doc.documentElement.clientWidth,scrollWidth=doc.documentElement.scrollWidth;results.push({route,width,method:'Double each computed element font size; does not claim native browser zoom testing',viewport,scrollWidth,violations:scrollWidth>viewport+1?[{id:'text-resize-overflow',nodes:[...doc.body.querySelectorAll('*')].filter(element=>element.getBoundingClientRect().right>viewport+1).slice(0,12).map(element=>({tag:element.tagName,className:element.className}))}]:[]});}catch(error){results.push({route,width,error:String(error)});}show();}show(true);};
+</script>
+</html>

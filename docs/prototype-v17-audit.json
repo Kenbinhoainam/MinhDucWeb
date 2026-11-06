@@ -1,0 +1,1173 @@
+{
+  "profile": "flagship-prototype",
+  "schema_version": "1.0",
+  "rubric_version": "P1.0.0",
+  "project": {
+    "title": "Website Minh Đức",
+    "target": "https://minh-duc-prototype.kenbinhoainam.chatgpt.site",
+    "version": "V17 — prototype với xuất bản logo theo bằng chứng",
+    "date": "2026-11-01"
+  },
+  "artifact_type": "browser",
+  "fidelity": "high_fidelity",
+  "scope": {
+    "audiences": [
+      "Lao động phổ thông",
+      "Đại diện nhân sự doanh nghiệp FDI",
+      "Nhân viên biên tập CMS demo"
+    ],
+    "primary_tasks": [
+      "T01 tìm/lọc/so sánh việc và mở chi tiết",
+      "T02 đọc điều kiện và ứng tuyển demo, sửa lỗi",
+      "T03 hiểu dịch vụ và gửi nhu cầu demo",
+      "T04 sửa Home/ảnh/tin/bản dịch, lưu, preview và reset nội dung",
+      "T05 tìm và đọc cẩm nang"
+    ],
+    "templates": [
+      "Home",
+      "About",
+      "Services",
+      "Worker/internal lists",
+      "Worker/internal detail and application",
+      "Knowledge hub/article",
+      "Two-step contact",
+      "CMS overview/Home/job/post/partner/settings",
+      "Dialogs and empty/error/success states"
+    ],
+    "viewports": [
+      "320",
+      "390",
+      "768",
+      "1440",
+      "CSS text200% at320/640"
+    ],
+    "locales": [
+      "vi",
+      "en",
+      "zh",
+      "ko",
+      "CMS chrome vi; content preview vi/en/zh/ko"
+    ],
+    "exclusions": [],
+    "simulation_limits": "Đánh giá UI và hành vi trong phạm vi prototype; ranh giới kết nối của mỗi snapshot ghi trong evidence. Không gồm backend production, uptime, DB, email/Sheets, tự dịch/AI thật, field CWV, SEO indexing hoặc doanh thu. CMS trong phạm vi demo. Expert review, không có user test; CSS text-resize không thay kiểm thiết bị/AT thực."
+  },
+  "evidence": [
+    {
+      "id": "V01",
+      "kind": "visual",
+      "artifact": "docs/v16-proof-mobile.jpg",
+      "location": "Home zh / About vi / CMS vi",
+      "procedure": "Mở3 iframe390px, đọc chữ/ảnh/breadcrumb và CMS ở kích thước xem thực.",
+      "result": "CJK rõ; hero/CTA theo persona; breadcrumb cùng hàng; CMS tập trung6 mục, không quality gate/preflight/server bar."
+    },
+    {
+      "id": "V02",
+      "kind": "visual",
+      "artifact": "docs/v16-before-breadcrumb.jpg; docs/v16-before-panels.jpg",
+      "location": "Ảnh người dùng V15",
+      "procedure": "Đối chiếu với source c478636 và trang About V15 trước xuất bản.",
+      "result": "Link có min-height36 nhưng text current không align-center; CMS hiển thị nhiều mục kiểm định, trạng thái production."
+    },
+    {
+      "id": "M01",
+      "kind": "measurement",
+      "artifact": "docs/v16-matrix.json",
+      "location": "164 template/width/locale cases",
+      "procedure": "10 routes×4 width×4 locale +4 CMS vi; đợi font và decode ảnh; đo scroll/client width, H1 và đường căn breadcrumb.",
+      "result": "164/164 pass; outer320/390/768/1440, client305/375/753/1425 do scrollbar; đây là geometry sample, không đo giao thoa mọi pixel."
+    },
+    {
+      "id": "M02",
+      "kind": "measurement",
+      "artifact": "docs/v16-reflow.json",
+      "location": "14 mẫu about/contact/detail/CMS",
+      "procedure": "CSS text resize200% cho từng phần tử mang chữ theo cỡ đo trước thay đổi; iframe320/640, VI/EN và CMSvi.",
+      "result": "14/14 giữ scrollWidth≤clientWidth+1 sau sửa header/grid/wrap. Không phải thử browser zoom/Safari/OS text size thực."
+    },
+    {
+      "id": "M03",
+      "kind": "measurement",
+      "artifact": "docs/v16-measurements.json",
+      "location": "Menu/CTA/sort/save/compare/breadcrumb",
+      "procedure": "Đọc computed màu/nền và bounds phần tử nhìn thấy; tính sRGB contrast cho nền đặc.",
+      "result": "Mẫu CTA6.53:1, sort13.92:1, breadcrumb5.73:1; menu/save48×48, sort44px, CTA48px. Màu alpha trên ảnh được loại khỏi kết luận pixel."
+    },
+    {
+      "id": "I01",
+      "kind": "interaction",
+      "artifact": "docs/v16-interactions.json#T01-T03; docs/v16-public-flows.json",
+      "location": "Form contact và worker",
+      "procedure": "Cua thử thiếu brief, phone sai, consent; sửa và hoàn tất contact; worker chọn ca/xe/khu vực và submit ở390px đủ4 locale.",
+      "result": "Field errors/focus đúng; completion ghi rõ mô phỏng, không gửi/lưu.4 locale hoàn tất. CV client giữ contract đã đọc, chưa chạy lại mọi biến thể file."
+    },
+    {
+      "id": "I02",
+      "kind": "interaction",
+      "artifact": "docs/v16-interactions.json#T04-T08",
+      "location": "CMS content/image/translation/preview/reset",
+      "procedure": "Sửa hero trước image studio; ArrowRight brightness, lưu ảnh, kiểm còn chữ; lưu/preview320; max1<min9; lưu EN job title, preview đúngid; reset.",
+      "result": "Chữ không mất; preview đúng nội dung; invalid range bị chặn; EN Electronics assembly — prototype review ở cn-dien-tu; reset phục hồi mẫu."
+    },
+    {
+      "id": "I03",
+      "kind": "interaction",
+      "artifact": "docs/v16-interactions.json#K01-K02-F01-F02-M01",
+      "location": "Keyboard, search, compare and motion",
+      "procedure": "Shift+Tab/Tab/Escape trong studio và preview iframe; Enter/Escape menu; query co khi, empty/reset,2-item compare; pause marquee.",
+      "result": "Vòng focus/return đúng; iframeEsc count0; search1 kết quả cơ khí, empty rõ;1 compare disabled/2 mở; menu true→false; pause aria-pressed true và is-paused."
+    },
+    {
+      "id": "I04",
+      "kind": "interaction",
+      "artifact": "docs/v16-stress.json",
+      "location": "0/1/2/5/9 content and image404",
+      "procedure": "Thay fixture local của Home/list/hub, có title dài/excerpt trống; image404 eager decode để kích hoạt lỗi; luôn restore dataset trong finally.",
+      "result": "16/16 pass; bố cục giữ thông tin; placeholder/retry hiện. Ảnh khác tỷ lệ kế thừa kiểm V14, chưa thử lại toàn bộ crop mới."
+    },
+    {
+      "id": "S01",
+      "kind": "source_review",
+      "artifact": "public/app.js; public/prototype-v16.js; public/prototype-v16.css",
+      "location": "Components, DOM/AX and simulation boundary",
+      "procedure": "Đọc handlers và Cua AX: field names, error IDs, URL/ranges, dialog role, CSS breakpoints.",
+      "result": "Local-only adapter không fetch/formData/file-read contacts; URL/ranges có tên; breadcrumb nav/ol; validation/pressed/selected; không nested button trong ảnh link lỗi."
+    },
+    {
+      "id": "S02",
+      "kind": "specification",
+      "artifact": "docs/PROTOTYPE-SCOPE-V16.md; docs/PROTOTYPE-HANDOFF-V16.md",
+      "location": "Locked scope / component and states contract",
+      "procedure": "Khóa scope trước so phiên bản; đọc entry/reset, type/color/responsive/content/locale/focus contracts và backlog production.",
+      "result": "Không N/A; rules có source và acceptance; phân biệt fake/real, expert/user test và CSS reflow/thiết bị thật."
+    },
+    {
+      "id": "H01",
+      "kind": "interaction",
+      "artifact": "docs/v14-interaction-qa.json; docs/v14-stress-qa.json",
+      "location": "Retained interactions and crop rules",
+      "procedure": "Đối chiếu handlers không đổi: filters/sort/bookmarks, service tabs/context, knowledge search, gallery và content boundaries.",
+      "result": "29 interaction checks và6 stress samples lịch sử được giữ làm evidence kế thừa; không gọi thành lượt chạy V16 mới."
+    },
+    {
+      "id": "V17",
+      "kind": "visual",
+      "artifact": "docs/v17-proof-mobile.jpg",
+      "location": "3 views390px: Home, industry paths, CMS rights",
+      "procedure": "Open authored proof fixture in Cua, verify rendered states, capture the same viewport JPEG.",
+      "result": "Hero/gallery no repeated AI labels; useful industry cards replace unverified company strip; CMS14 profiles/0 eligible."
+    },
+    {
+      "id": "M17",
+      "kind": "measurement",
+      "artifact": "docs/v17-matrix.json",
+      "location": "11 public route variants ×4 widths ×4 locales +CMS4 widths",
+      "procedure": "Browser iframe load +fonts ready +decode all images; record widths,H1,crumb alignment and forbidden image badges/logo sources.",
+      "result": "180/180 pass; prior Chinese320 intrinsic grid overflow found and corrected."
+    },
+    {
+      "id": "R17",
+      "kind": "measurement",
+      "artifact": "docs/v17-reflow.json",
+      "location": "Home,About,Contact,worker detail,info4 locales andCMS vi at320/640",
+      "procedure": "Synthetic CSS direct-text resize200%; capture document width and overflow. Does not emulate browser zoom, OS scaling or native device.",
+      "result": "42/42 pass; initial Home EN search grid overflow fixed using minmax(0,1fr), min-width0 and automatic control height."
+    },
+    {
+      "id": "C17",
+      "kind": "measurement",
+      "artifact": "docs/v17-measure.json; docs/v17-error-colors.json",
+      "location": "Image caption,save control,industry copy,motion control and form errors",
+      "procedure": "Read actual computed opaque colors/backgrounds/targets in browser; derive sRGB relative luminance ratios.",
+      "result": "Caption/save13.92:1,industry copy6.19:1; targets48×48 and44px. Error color tested on white and pale CV background. No pixel-ratio claim for alpha/photographs; text surfaces made opaque."
+    },
+    {
+      "id": "MEDIA17",
+      "kind": "interaction",
+      "artifact": "docs/v17-media.json; docs/v17-stress.json",
+      "location": "Image replacement,404 fallback,all4 locales rights import",
+      "procedure": "Use browser QA fixture to substitute portrait/landscape PNGs at320/1440;0/1/2/5/9 content counts; forced404; approved:true and unlicensedURL in imported profiles. Restore previous content in finally.",
+      "result": "8/8 media-rights and16/16 content stress pass. No unauthorized logo image;4 industry cards remain."
+    },
+    {
+      "id": "T17",
+      "kind": "interaction",
+      "artifact": "docs/v17-interactions.json",
+      "location": "Public industry/contact/CV, CMS image/preview/reset and390×480 dialog",
+      "procedure": "Cua keyboard/form/file chooser actions with fictional data and local files; record expected and observed outcomes.",
+      "result": "Contact prefill/error/correction/completion; CV oversize error and simulated success; assets path/crop0 preserved;320preview; iframeEscape; short-dialogTab loop and focus return; motion preference persists."
+    },
+    {
+      "id": "S17",
+      "kind": "source_review",
+      "artifact": "public/app.js; public/brand-rights.js; public/prototype-v17.js; scripts/prerender.mjs; tests/brand-rights-v17.test.mjs",
+      "location": "Source diff against401c197a; publication policy, labels,media transform and static detail shell",
+      "procedure": "Inspect default/import rendering and code paths; run contract tests and syntax/type/build checks.",
+      "result": "No checkbox can grant public logo rights; default logo URLs removed; no CV/request handling added to prototype adapter; detail/article prerender shows neutral shell until requested entity renders; descriptive alt and duplicate check glyphs corrected."
+    },
+    {
+      "id": "SPEC17",
+      "kind": "specification",
+      "artifact": "docs/PROTOTYPE-SCOPE-V17.md; docs/PROTOTYPE-HANDOFF-V17.md; docs/LOGO-RIGHTS-V17.md",
+      "location": "Locked comparison scope and prototype handoff",
+      "procedure": "Retain V16 scope object and P1.0.0 weights/N/A rules; document new behavior, publication evidence, reset and limits.",
+      "result": "Expert review only; production not assessed;0/14 permissions verified and unverified logos hidden, no invented approvals."
+    }
+  ],
+  "criteria": [
+    {
+      "id": "A01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Giá trị cho hai nhóm và CTA rõ; thông điệp còn tính ngành, chưa có nghiên cứu định vị khác biệt."
+    },
+    {
+      "id": "A02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Cấu trúc trả lời dịch vụ/phạm vi, địa điểm/lương/điều kiện, cách ứng tuyển và đường về."
+    },
+    {
+      "id": "A03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Public ưu tiên nhiệm vụ; CMS bỏ kiểm định và cảnh báo production, giữ chỉnh/lưu/preview."
+    },
+    {
+      "id": "A04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Bản kê cụ thể template/state/locale và nhánh lỗi; phần chưa tích hợp ghi riêng."
+    },
+    {
+      "id": "A05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Thay dải tên doanh nghiệp chưa xác minh bằng đường đi ngành có nội dung cụ thể;14 hồ sơ/0 cấp quyền được ghi rõ ở đúng nơi, không tạo tín nhiệm giả."
+    },
+    {
+      "id": "B01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Navy/đỏ và ảnh con người phù hợp Minh Đức, chưa là art direction độc quyền."
+    },
+    {
+      "id": "B02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Cùng palette/icon/ảnh/CTA xuyên public và CMS; mật độ CMS khác có lý do."
+    },
+    {
+      "id": "B03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Bỏ chú thích lặp, tiết chế phần hình ảnh; khối ngành mới chuyển nhịp từ câu chuyện sang nhu cầu cụ thể, có4 đường đi hữu ích và grid thích nghi."
+    },
+    {
+      "id": "B04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "MEDIA17",
+        "T17"
+      ],
+      "reason": "Giữ bộ ảnh thương hiệu đã chọn; crop0% và transform Hero nay áp dụng đúng, cùng tone/caption nền đặc; ảnh dọc/ngang thử ở320/1440, không cần giả lập tư liệu doanh nghiệp thật."
+    },
+    {
+      "id": "B05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Các trang tác vụ, CMS và states được rà cùng hệ; breadcrumb/ảnh lỗi/overlay đã sửa."
+    },
+    {
+      "id": "C01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Vai trò serif thương hiệu/sans nội dung/data và weights nhất quán, có fallback CJK."
+    },
+    {
+      "id": "C02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Chữ cần đọc đã tăng, reflow có test; một số metadata nhỏ và khả năng đọc thực trên điện thoại cần user test."
+    },
+    {
+      "id": "C03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Lương/địa điểm, tiêu đề, CTA và các nhóm field rõ trong màn hình thương hiệu và tác vụ."
+    },
+    {
+      "id": "C04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "R17"
+      ],
+      "reason": "Sửa ngắt dòng CJK, glyph trang chi tiết bớt lặp; thông tin demo và phần nội dung mới có4 locale, tên địa danh giữ nguyên có chủ đích."
+    },
+    {
+      "id": "C05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Copy lưu/chờ/error/complete/reset đúng demo; không nói đã nhận hồ sơ thật."
+    },
+    {
+      "id": "D01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "M01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. 164 mẫu bao phủ các width/locale đã khóa, không mất CTA/ảnh và không tràn ngang."
+    },
+    {
+      "id": "D02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "M02",
+        "I04",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. 14 phép CSS text200% và content stress qua; không suy browser zoom hoặc thiết bị thật."
+    },
+    {
+      "id": "D03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I03",
+        "H01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "T17",
+        "R17"
+      ],
+      "reason": "Dialog390×480 có cuộn nội bộ, chiều cao448px;Tab đưa nút cuối vàoviewport rồi vòng vềClose,Escape trả focus. Menu/dock trong ma trận và reflow giữ đường đi."
+    },
+    {
+      "id": "D04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Breadcrumb align-center, grids minmax/min-width, tiêu đề dài wrap thay cắt chữ; đồng nhất đường căn."
+    },
+    {
+      "id": "D05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I04",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. 0/1/2/5/9 items ở các template dữ liệu chính giữ đường đi; không ép chiều cao bằng cắt dữ liệu."
+    },
+    {
+      "id": "E01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I03",
+        "H01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "T17"
+      ],
+      "reason": "Trang chi tiết/bài viết không còn lộ nội dung entity mặc định sai trướcJS; shell trung tính, deep link/query đúng, nav cha cóaria-current, liên kết thông tin giữlocale."
+    },
+    {
+      "id": "E02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I01",
+        "I02",
+        "H01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "T17",
+        "MEDIA17"
+      ],
+      "reason": "Bổ sung nhánh CV nội bộ EN:6MB bị chặn và tệp mẫu hợp lệ hoàn tất mô phỏng; ngành->form cóprefill, sửa lỗi/đồng ý rõ, CMSảnh/save/preview/reset được thử lại. Giữ trace4worker locale V16 cho luồng không đổi."
+    },
+    {
+      "id": "E03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I03",
+        "H01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Query không dấu, empty/reset, sort/bookmark/compare và ngữ cảnh URL có evidence mới và kế thừa."
+    },
+    {
+      "id": "E04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Validation/errors/giữ nhập, checking, completion/retry được khai báo mô phỏng, chặn gửi lặp trong adapter."
+    },
+    {
+      "id": "E05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I02",
+        "I03",
+        "H01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Hủy studio, đóng preview/Escape và reset có xác nhận; không mất chữ khi lưu ảnh."
+    },
+    {
+      "id": "F01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Pattern component có source và variants, public/CMS theo vai trò, loại bỏ panel chấm điểm khỏi sản phẩm."
+    },
+    {
+      "id": "F02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I01",
+        "I03",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Default/selected/pressed/disabled/error/focus theo control được thử;1 compare disabled,2 mở được."
+    },
+    {
+      "id": "F03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I01",
+        "I04",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Rỗng, lỗi nhập/ảnh, checking và success demo có hành động tiếp theo, không dùng skeleton giấu nội dung."
+    },
+    {
+      "id": "F04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I01",
+        "I02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Lỗi field gắn ID, name/phone/consent được giữ; salary invalid có focus/native validity; labels studio đã sửa."
+    },
+    {
+      "id": "F05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I02",
+        "I03",
+        "H01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "T17",
+        "MEDIA17"
+      ],
+      "reason": "Các nhánh phức hợp rủi ro được thử thêm: CMSảnh/preview trênviewport thấp, inputURL mới, focus/iframeEscape, quyềnlogo kể cả nhậpJSONgiả. Tab/filter/accordion hiện hữu được rà hồi quy."
+    },
+    {
+      "id": "G01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "M03",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "C17"
+      ],
+      "reason": "Làm nền chú thích ảnh vàsave thành nền đặc, đo thực13.92:1; copy ngành6.19:1; lỗi trênwhite/CV pale có số đo. Các cặp CTA/error/base được đối chiếu token hiện hữu; disabled áp dụng ngoại lệ inactive."
+    },
+    {
+      "id": "G02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "M03",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Mẫu thao tác chính44–48px, đủ tách biệt, labels mở rộng checkbox/radio; CSS ràng buộc vùng dùng lặp."
+    },
+    {
+      "id": "G03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I03",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Tab/Shift+Tab/Arrow/Enter/Escape và focus restore được thao tác thật ở menu, comparison và studio/preview."
+    },
+    {
+      "id": "G04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "S01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. DOM/AX có heading, tên, state, error liên kết; URL/range và nested dialog đã sửa; chưa audit AT toàn bộ."
+    },
+    {
+      "id": "G05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "T17"
+      ],
+      "reason": "Lỗi có nội dung/focus/aria-invalid; giảm lặp ký hiệu✓ trong nội dung vàAX, không dùng logo màu hay trạng thái xanh để giả xác nhận; quyềnmotion cócontroltên rõ và trạng tháiđọcđược."
+    },
+    {
+      "id": "H01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Dữ liệu tuyển dụng đại diện nghiệp vụ, salary/location/CV/type/4 sections đủ thử; không dùng lorem ipsum."
+    },
+    {
+      "id": "H02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Ảnh/đồ họa theo vai trò, có khung/focal point và preview; crop nhiều viewport được xem."
+    },
+    {
+      "id": "H03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. 4 locale vào/ra flow rõ và có fallback; chưa hiệu đính bản ngữ toàn bộ nội dung."
+    },
+    {
+      "id": "H04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I04",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Tiêu đề dài, excerpt trống, lượng dữ liệu khác nhau qua các template chính, không cắt thông tin."
+    },
+    {
+      "id": "H05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I04",
+        "S01",
+        "H01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "MEDIA17",
+        "T17"
+      ],
+      "reason": "Đã thử thêm ảnh dọc/ngang ởhaiđộrộng,404 cùngfallback/retry, lưuđườngdẫnassets/ vàcrop0thật; layout vàđườngđi giữđược sau thay nguồn."
+    },
+    {
+      "id": "I01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Motion ít, hỗ trợ feedback; lựa chọn tĩnh vẫn đọc được toàn nội dung."
+    },
+    {
+      "id": "I02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I01",
+        "I02",
+        "I03",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Phản hồi đồng bộ, checking demo rõ; save/preview/corrected error không bỏ ngữ cảnh."
+    },
+    {
+      "id": "I03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I02",
+        "I03",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Quay lại, chỉnh ảnh/phiên ngôn ngữ, compare và preview giữ record; reset có điểm đầu rõ."
+    },
+    {
+      "id": "I04",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "I03",
+        "S01",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17",
+        "T17"
+      ],
+      "reason": "Nút giảm chuyển động được dùng bằngEnter:aria-pressedtrue,animationnone,transition0s; giữnộidung vàtrạngthái quađổi trang. Dải logo tự chạy được gỡ; fallbackOS được xemnguồn, không giả nhận đãbậtOS."
+    },
+    {
+      "id": "I05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "I01",
+        "I02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Quan sát các tác vụ đủ phản hồi; delay220ms là thiết kế minh họa, không là số đo production."
+    },
+    {
+      "id": "J01",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Một nhãn prototype gọn và ghi chú tại form; demo không gọi/lưu lead/CV; CMS key riêng."
+    },
+    {
+      "id": "J02",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Scope/task/template/locale/viewport/evidence được ghi, không đổi exclusions để tăng điểm."
+    },
+    {
+      "id": "J03",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Source+handoff có tokens, states, content/media/locale/focus/constraints và acceptance, backend tách riêng."
+    },
+    {
+      "id": "J04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "I02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Reset seed, URL explicit, import/export và hướng dẫn tái lập có sẵn; bookmark/preference có state riêng."
+    },
+    {
+      "id": "J05",
+      "status": "scored",
+      "rating": 5,
+      "evidence": [
+        "S02",
+        "V17",
+        "M17",
+        "S17",
+        "SPEC17"
+      ],
+      "reason": "Giữ mức đã có; rà hồi quy V17. Issue IDs, expected/actual/acceptance được ghi, expert review/user research và production tách bạch."
+    }
+  ],
+  "gates": [
+    {
+      "id": "PG1",
+      "status": "pass",
+      "evidence": [
+        "I01",
+        "I02",
+        "I03",
+        "T17"
+      ],
+      "reason": "Pass trong phạm vi prototype HTML và mẫu đã khóa; xem evidence và giới hạn tương ứng, không mở rộng thành production/WCAG certification."
+    },
+    {
+      "id": "PG2",
+      "status": "pass",
+      "evidence": [
+        "M01",
+        "M02",
+        "M17",
+        "R17"
+      ],
+      "reason": "Pass trong phạm vi prototype HTML và mẫu đã khóa; xem evidence và giới hạn tương ứng, không mở rộng thành production/WCAG certification."
+    },
+    {
+      "id": "PG3",
+      "status": "pass",
+      "evidence": [
+        "I03",
+        "T17"
+      ],
+      "reason": "Pass trong phạm vi prototype HTML và mẫu đã khóa; xem evidence và giới hạn tương ứng, không mở rộng thành production/WCAG certification."
+    },
+    {
+      "id": "PG4",
+      "status": "pass",
+      "evidence": [
+        "V01",
+        "S02",
+        "V17",
+        "SPEC17"
+      ],
+      "reason": "Pass trong phạm vi prototype HTML và mẫu đã khóa; xem evidence và giới hạn tương ứng, không mở rộng thành production/WCAG certification."
+    },
+    {
+      "id": "PG5",
+      "status": "pass",
+      "evidence": [
+        "V01",
+        "I04",
+        "V17",
+        "SPEC17"
+      ],
+      "reason": "Pass trong phạm vi prototype HTML và mẫu đã khóa; xem evidence và giới hạn tương ứng, không mở rộng thành production/WCAG certification."
+    },
+    {
+      "id": "PG6",
+      "status": "pass",
+      "evidence": [
+        "S02",
+        "I02",
+        "SPEC17",
+        "T17"
+      ],
+      "reason": "Pass trong phạm vi prototype HTML và mẫu đã khóa; xem evidence và giới hạn tương ứng, không mở rộng thành production/WCAG certification."
+    }
+  ],
+  "issues": [
+    {
+      "id": "MD16-01",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "Breadcrumb About và inner headers",
+      "expected": "Các phần cùng đường căn; không giữ khoảng ảnh banner cũ.",
+      "actual": "Ảnh1 lệch baseline; link36px và phần hiện tại chưa align-center.",
+      "evidence": [
+        "V02",
+        "V01",
+        "M01"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-02",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "CMS overview",
+      "expected": "Chỉ giữ biên tập/lưu/xem trước cần cho demo.",
+      "actual": "Ảnh2 có quality gate/production checklist dài và dư.",
+      "evidence": [
+        "V02",
+        "V01",
+        "M01"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-03",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "320px EN job details",
+      "expected": "Grid/fieldset co giãn đúng.",
+      "actual": "Lượt đầu scroll310>client305; grid con intrinsic min-width.",
+      "evidence": [
+        "M01",
+        "S01"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-04",
+      "severity": "P1",
+      "status": "resolved",
+      "location": "200% text mobile header/grid",
+      "expected": "Menu và nội dung quan trọng nằm trong viewport.",
+      "actual": "Header và label dài gây tràn trong lượt reflow đầu; đã wrap header/grid/text.",
+      "evidence": [
+        "M02"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-05",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "Image studio",
+      "expected": "URL/range có tên, một dialog.",
+      "actual": "URL/ranges thiếu tên và role dialog lồng; đã sửa và thử AX.",
+      "evidence": [
+        "I03",
+        "S01"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-06",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "CMS preview iframe",
+      "expected": "Escape bên trong preview đóng parent.",
+      "actual": "Escape không tới parent; đã thêm listener theo load và thử count0.",
+      "evidence": [
+        "I03",
+        "S01"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-07",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "Ảnh lỗi trong link decorative",
+      "expected": "Retry có thể truy cập, không lồng control hoặc thừa aria-hidden.",
+      "actual": "Placeholder cũ ở trong anchor aria-hidden; đã tách host và giữ cơ chế phục hồi.",
+      "evidence": [
+        "I04",
+        "S01"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-08",
+      "severity": "P3",
+      "status": "open",
+      "location": "Localization/accessibility breadth",
+      "expected": "Hiệu đính bản ngữ và user/AT/device test khi hoàn thiện sản phẩm.",
+      "actual": "Đây là expert review trong browser; chưa xác nhận bằng người dùng hoặc native-device/AT toàn bộ.",
+      "evidence": [
+        "S02"
+      ]
+    },
+    {
+      "id": "MD17-01",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "Home/gallery/company presentation",
+      "expected": "Giao diện gọn và không giả quyềnlogo/quan hệđốitác.",
+      "actual": "Đã gỡnhãn ảnhAI lặp; thay dải doanhnghiệp chưa xácminh bằng4 đườngđi tưvấn; chặn côngkhai logo.",
+      "evidence": [
+        "V17",
+        "MEDIA17",
+        "S17"
+      ]
+    },
+    {
+      "id": "MD17-02",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "Home zh320 /text200% EN search",
+      "expected": "Không có tràn document ởtổhợp đã camkết.",
+      "actual": "Sửa min-content CJK và searchgrid/controlheight; ma trận180 vàreflow42 đềuqua.",
+      "evidence": [
+        "M17",
+        "R17"
+      ]
+    },
+    {
+      "id": "MD17-03",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "CMS image path and transform",
+      "expected": "assets/ input được chấpnhận; crop0 giữ nguyên vàhiệnđúng trênHero.",
+      "actual": "DùngvalidMediaSource, áp dụngtransformHero vànullish thay ||; lưu/crop/preview đãthử.",
+      "evidence": [
+        "T17",
+        "S17"
+      ]
+    },
+    {
+      "id": "MD17-04",
+      "severity": "P2",
+      "status": "resolved",
+      "location": "Initial detail/article HTML",
+      "expected": "Không hiểnthị việc/bàimặcđịnh sai với id đangmở.",
+      "actual": "Prerender chuyển sang shelltrungtính trướcJS vàmetadata chungđúngloạitrang.",
+      "evidence": [
+        "S17",
+        "M17"
+      ]
+    },
+    {
+      "id": "MD17-05",
+      "severity": "P3",
+      "status": "open",
+      "location": "Business positioning/native language/AT/mobile depth",
+      "expected": "Nghiên cứu địnhvị và hiệuđính/test bởi người dùng mục tiêu khihoànthiện.",
+      "actual": "Expert review chọnmẫu; chưa cóuserstudy, bảnngữ,AT hoặc thiếtbịthật toànbộ. Giữ các mục liênquan ở4/5.",
+      "evidence": [
+        "SPEC17"
+      ]
+    },
+    {
+      "id": "MD17-06",
+      "severity": "P3",
+      "status": "open",
+      "location": "External logo permission records",
+      "expected": "Có văn bản thực cho đúng phápnhân,logo,domain,ngữcảnh vàthờihạn để côngkhai.",
+      "actual": "Chưa có hồsơ nhưvậy cho14mẫu; chưathểxácminh,đãẩnvàgiữcơchếduyệttheobằngchứng. Đây khôngphảilỗichặn prototype.",
+      "evidence": [
+        "SPEC17",
+        "S17"
+      ]
+    }
+  ],
+  "validation": {
+    "method": "expert_review",
+    "notes": "Expert review trên cùng P1.0.0/scope V16:250 cases + Cua task traces. Tăng điểm chỉ ở12 mục có sửa/test mới. Không user study/native-device/AT/native-language sign-off; production_readiness not_assessed. Quyền logo thực chưa xác minh, không ghi đã được cấp phép."
+  }
+}

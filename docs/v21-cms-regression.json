@@ -1,0 +1,259 @@
+{
+  "version": "V21",
+  "suite": "cms-regression",
+  "complete": true,
+  "startedAt": "2026-11-04T07:21:09.417Z",
+  "finishedAt": "2026-11-04T07:21:11.525Z",
+  "elapsedSeconds": 2,
+  "matrixExpected": 0,
+  "matrixCompleted": 0,
+  "total": 21,
+  "passed": 21,
+  "failed": 0,
+  "method": "Same-origin iframe; programmatic clicks/focus, form submissions and synthetic events. CMS suite snapshots and restores browser storage. No native keyboard or physical-device claim.",
+  "results": [
+    {
+      "id": "cms/public canonical article",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "cmsTitle": "Tìm việc tại khu công nghiệp: từ tin tuyển dụng đến quyết định",
+        "publicTitle": "Tìm việc tại khu công nghiệp: từ tin tuyển dụng đến quyết định",
+        "cmsBodyLength": 1636,
+        "publicBodyLength": 1626,
+        "equalNormalizedBody": true
+      }
+    },
+    {
+      "id": "CMS save retains en",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "QA edited English headline",
+        "status": "needs-review",
+        "reviewFields": [
+          "title"
+        ]
+      }
+    },
+    {
+      "id": "CMS save retains zh",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "QA 中文编辑标题",
+        "status": "needs-review",
+        "reviewFields": [
+          "title"
+        ]
+      }
+    },
+    {
+      "id": "CMS save retains ko",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "QA 한국어 편집 제목",
+        "status": "needs-review",
+        "reviewFields": [
+          "title"
+        ]
+      }
+    },
+    {
+      "id": "CMS reload source and review status",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "Tìm việc tại khu công nghiệp: từ tin tuyển dụng đến quyết định · QA source change",
+        "status": "🇻🇳 Tiếng Việt (Nguồn)Nguồn🇬🇧 EnglishNguồn đã đổi · Cần rà lại🇨🇳 中文Nguồn đã đổi · Cần rà lại🇰🇷 한국어Nguồn đã đổi · Cần rà lại"
+      }
+    },
+    {
+      "id": "CMS public preview / vi",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "Tìm việc tại khu công nghiệp: từ tin tuyển dụng đến quyết định · QA source change",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "CMS public preview / en",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "QA edited English headline",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "CMS public preview / zh",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "QA 中文编辑标题",
+        "lang": "zh"
+      }
+    },
+    {
+      "id": "CMS public preview / ko",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "QA 한국어 편집 제목",
+        "lang": "ko"
+      }
+    },
+    {
+      "id": "CMS crop saves independent record settings",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "sharedImage": "gallery-line.webp",
+        "first": {
+          "x": 0,
+          "y": 50,
+          "zoom": 170,
+          "brightness": 100,
+          "contrast": 100
+        },
+        "second": {
+          "x": 100,
+          "y": 50,
+          "zoom": 110,
+          "brightness": 100,
+          "contrast": 100
+        }
+      }
+    },
+    {
+      "id": "public listing crop / cn-dien-tu",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "0% 50%",
+        "inlineTransform": "scale(1.7)",
+        "computedTransform": "matrix(1.7, 0, 0, 1.7, 0, 0)",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "public listing crop / qc",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "100% 50%",
+        "inlineTransform": "scale(1.1)",
+        "computedTransform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "reloaded listing crop / cn-dien-tu",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "0% 50%",
+        "inlineTransform": "scale(1.7)",
+        "computedTransform": "matrix(1.7, 0, 0, 1.7, 0, 0)",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "reloaded listing crop / qc",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "100% 50%",
+        "inlineTransform": "scale(1.1)",
+        "computedTransform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "language-switched listing crop / cn-dien-tu",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "0% 50%",
+        "inlineTransform": "scale(1.7)",
+        "computedTransform": "matrix(1.7, 0, 0, 1.7, 0, 0)",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "language-switched listing crop / qc",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "100% 50%",
+        "inlineTransform": "scale(1.1)",
+        "computedTransform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "sorted listing crop / cn-dien-tu",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "0% 50%",
+        "inlineTransform": "scale(1.7)",
+        "computedTransform": "matrix(1.7, 0, 0, 1.7, 0, 0)",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "sorted listing crop / qc",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "100% 50%",
+        "inlineTransform": "scale(1.1)",
+        "computedTransform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "mobile listing crop / cn-dien-tu",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "0% 50%",
+        "inlineTransform": "scale(1.7)",
+        "computedTransform": "matrix(1.7, 0, 0, 1.7, 0, 0)",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "mobile listing crop / qc",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "src": "assets/gallery-line.webp",
+        "objectPosition": "100% 50%",
+        "inlineTransform": "scale(1.1)",
+        "computedTransform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "JSON roundtrip keeps edited translation",
+      "kind": "cms",
+      "pass": true,
+      "actual": {
+        "title": "QA edited English headline"
+      }
+    }
+  ]
+}

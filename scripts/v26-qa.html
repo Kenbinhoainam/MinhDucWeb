@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>V26 audience fit checks</title><style>body{font:15px/1.6 system-ui;margin:20px;color:#102b50}button{padding:12px}pre{white-space:pre-wrap}iframe{display:block;height:844px;border:1px solid #bbb}</style>
+<h1>V26 audience fit checks</h1><button id="run">Run V26 checks</button><p id="status" role="status">Ready</p><pre id="report"></pre><iframe id="frame" title="V26 viewport"></iframe>
+<script>
+const frame=document.querySelector('#frame'),rows=[];let serial=0,started;
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+function record(id,pass,details){rows.push({id,pass:!!pass,details});show(false)}
+function show(complete){const r={version:'V26',complete,total:rows.length,passed:rows.filter(x=>x.pass).length,failed:rows.filter(x=>!x.pass).length,elapsedSeconds:Math.round((performance.now()-started)/1000),method:'same-origin iframe DOM actions; native keyboard separately; fictional data only',results:rows};document.querySelector('#report').textContent=JSON.stringify(r,null,2);document.querySelector('#status').textContent=(complete?'Complete':'Running')+' '+r.passed+'/'+r.total+' passed'}
+async function load(route,width,lang){frame.style.width=width+'px';await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Load timeout')),12000);frame.onload=()=>{clearTimeout(timer);resolve()};const u=new URL(route,location.href);u.searchParams.set('lang',lang);u.searchParams.set('__qa',String(++serial));frame.src=u.href});const d=frame.contentDocument;await d.fonts.ready;await wait(60);return d}
+const visible=e=>!!e&&!!e.getClientRects().length;
+function inspect(d){const ids=[...d.querySelectorAll('[id]')].map(e=>e.id),fields=[...d.querySelectorAll('input:not([type=hidden]),select,textarea')].filter(visible);return{viewport:d.documentElement.clientWidth,scroll:d.documentElement.scrollWidth,h1:[...d.querySelectorAll('h1')].filter(visible).length,duplicates:ids.filter((id,i)=>ids.indexOf(id)!==i),unnamed:fields.filter(e=>!e.labels?.length&&!e.getAttribute('aria-label')&&!e.getAttribute('aria-labelledby')).map(e=>e.id||e.name)}}
+async function attempt(id,fn){try{await fn()}catch(e){record(id,false,{error:e.message})}}
+async function matrix(){for(const width of [320,390,768,1440])for(const lang of ['vi','en','zh','ko'])for(const route of ['index.html','viec-lam.html','chi-tiet-viec-lam.html?id=cn-dien-tu','dich-vu.html','lien-he.html'])await attempt(`matrix ${route} ${width} ${lang}`,async()=>{const d=await load(route,width,lang),a=inspect(d);record(`matrix ${route} ${width} ${lang}`,a.scroll<=a.viewport+1&&a.h1===1&&!a.duplicates.length&&!a.unnamed.length&&d.documentElement.lang.split('-')[0]===lang,a)})}
+async function audience(){for(const width of [390,1440])for(const lang of ['vi','en','zh','ko'])await attempt(`home ${width} ${lang}`,async()=>{
+ sessionStorage.removeItem('md_persona');const d=await load('index.html',width,lang);record(`worker priority ${width} ${lang}`,d.querySelector('[data-persona=candidate]').getAttribute('aria-selected')==='true'&&visible(d.querySelector('#panel-candidate h1'))&&d.querySelector('#find-work').compareDocumentPosition(d.querySelector('#solutions'))&4,{searchTop:d.querySelector('#find-work').getBoundingClientRect().top,solutionsTop:d.querySelector('#solutions').getBoundingClientRect().top});
+ d.querySelector('[data-persona=business]').click();await wait(20);record(`business access ${width} ${lang}`,visible(d.querySelector('#panel-business h1'))&&d.querySelector('#panel-business a[href="#workforce"]'),{});d.querySelector('#panel-business a[href="#workforce"]').click();await wait(20);record(`brief opens ${width} ${lang}`,d.querySelector('.home-brief-disclosure').open&&d.activeElement===d.querySelector('.home-brief-disclosure summary'),{});
+ const listing=await load('viec-lam.html',width,lang),tool=listing.querySelector('#md-career-tools'),pages=listing.querySelector('#pages');record(`jobs before tools ${width} ${lang}`,!!tool&&!!pages&&!!(pages.compareDocumentPosition(tool)&4)&&!tool.querySelector('[data-ct-panel=optional]').open&&!!listing.querySelector('[data-ct-discover]'),{});
+ })}
+function change(d,el,value){el.value=value;el.dispatchEvent(new d.defaultView.Event('change',{bubbles:true}));}
+async function journeys(){for(const width of [390,1440])for(const lang of ['vi','en','zh','ko']){
+ await attempt(`worker flow ${width} ${lang}`,async()=>{
+  sessionStorage.removeItem('md_preferences_cn-dien-tu');const d=await load('chi-tiet-viec-lam.html?id=cn-dien-tu',width,lang),form=d.querySelector('#applyForm');
+  record(`worker facts ${width} ${lang}`,!!d.querySelector('#md-worker-facts')&&d.querySelector('#md-worker-facts').textContent.length>80,{});
+  record(`no default consent/preferences ${width} ${lang}`,!form.elements.consent.checked&&!form.elements.shift.value&&!form.elements.shuttle.value,{});
+  form.querySelector('#applyShiftUncertain').click();form.querySelector('#applyShuttleUncertain').click();change(d,form.elements.area,'Chưa rõ');d.querySelector('#applyNext').click();await wait(40);
+  record(`uncertain preferences continue ${width} ${lang}`,!form.querySelector('[data-step="2"]').hidden&&visible(d.querySelector('#md-worker-review'))&&form.elements.shift.value==='Chưa rõ',{});
+  d.querySelector('[data-wj-edit]').click();await wait(20);record(`worker edit ${width} ${lang}`,!form.querySelector('[data-step="1"]').hidden&&form.elements.shuttle.value==='Chưa rõ',{});d.querySelector('#applyNext').click();
+  form.elements.name.value='Demo QA V26';form.elements.phone.value='0900000000';change(d,d.querySelector('#languageSelect'),lang==='en'?'ko':'en');await wait(80);
+  const current=d.querySelector('#applyForm');record(`worker locale keeps fields ${width} ${lang}`,current.elements.name.value==='Demo QA V26'&&current.elements.phone.value==='0900000000'&&!current.elements.consent.checked&&current.elements.area.value==='Chưa rõ'&&current.elements.shift.value==='Chưa rõ',{});
+  current.elements.consent.checked=true;current.requestSubmit();await wait(650);record(`worker completes demo ${width} ${lang}`,!!d.querySelector('.prototype-success')&&!d.querySelector('#applyForm'),{});
+  record(`worker no contact storage ${width} ${lang}`,!JSON.stringify({...localStorage,...sessionStorage}).includes('Demo QA V26'),{});
+ });
+ await attempt(`business flow ${width} ${lang}`,async()=>{
+  let d=await load('dich-vu.html?service=supply',width,lang),form=d.querySelector('#staffingCalculator');
+  form.querySelector('.wb-details').open=true;change(d,form.elements.industry,'warehouse');change(d,form.elements.area,'Bắc Giang');change(d,form.querySelector('#wb-start'),'month');change(d,form.querySelector('#wb-shift'),'rotating');change(d,form.querySelector('#wb-count'),'-1');
+  record(`business invalid count ${width} ${lang}`,form.querySelector('#wb-count').getAttribute('aria-invalid')==='true',{});change(d,form.querySelector('#wb-count'),'180');
+  const link=form.querySelector('#staffingCta'),u=new URL(link.href);record(`business context link ${width} ${lang}`,u.searchParams.get('wb_n')==='180'&&u.searchParams.get('wb_s')==='large'&&u.searchParams.get('service')==='supply',Object.fromEntries(u.searchParams));
+  d=await load(link.href,width,lang);form=d.querySelector('#contactForm');record(`business no retyping ${width} ${lang}`,form.elements.message.value.length>=10&&form.elements.message.value.includes('180'),{});d.querySelector('#contactNext').click();await wait(40);
+  record(`business review ${width} ${lang}`,!form.querySelector('[data-contact-step="2"]').hidden&&form.querySelector('[data-wb-review]').textContent.includes('180'),{});
+  d.querySelector('[data-wb-edit]').click();await wait(20);change(d,form.querySelector('#wb-count'),'200');form.elements.message.value='Demo V26 custom business message';d.querySelector('#contactNext').click();await wait(20);form.elements.name.value='Demo QA V26';form.elements.phone.value='0900000000';change(d,d.querySelector('#languageSelect'),lang==='en'?'ko':'en');await wait(80);form=d.querySelector('#contactForm');
+  record(`business edit locale keeps free text ${width} ${lang}`,form.elements.message.value==='Demo V26 custom business message'&&form.querySelector('#wb-count').value==='200'&&form.elements.name.value==='Demo QA V26'&&!form.elements.consent.checked,{});
+  form.elements.consent.checked=true;form.requestSubmit();await wait(650);record(`business completes demo ${width} ${lang}`,!!d.querySelector('.prototype-success')&&!!d.querySelector('.prototype-success [data-wb-review]'),{});
+  record(`business no contact storage ${width} ${lang}`,!JSON.stringify({...localStorage,...sessionStorage}).includes('Demo QA V26')&&!JSON.stringify({...localStorage,...sessionStorage}).includes('Demo V26 custom business message'),{});
+ });
+}}
+async function deniedStorage(){for(const width of [390,1440])for(const lang of ['vi','en','zh','ko'])await attempt(`storage denied ${width} ${lang}`,async()=>{
+ const d=await load('chi-tiet-viec-lam.html?id=cn-dien-tu',width,lang),w=d.defaultView,form=d.querySelector('#applyForm');
+ Object.defineProperty(w,'sessionStorage',{configurable:true,get(){throw new w.DOMException('QA storage denied','SecurityError')}});
+ form.querySelector('#applyShiftUncertain').click();form.querySelector('#applyShuttleUncertain').click();change(d,form.elements.area,'Chưa rõ');d.querySelector('#applyNext').click();
+ form.elements.name.value='Demo denied storage';form.elements.phone.value='0900000000';change(d,d.querySelector('#languageSelect'),lang==='en'?'ko':'en');await wait(100);
+ const fresh=d.querySelector('#applyForm');record(`storage denied locale keeps explicit choices ${width} ${lang}`,['shift','shuttle','area'].every(k=>fresh.elements[k].value==='Chưa rõ')&&fresh.elements.name.value==='Demo denied storage'&&fresh.elements.phone.value==='0900000000'&&!fresh.elements.consent.checked,{});
+})}
+document.querySelector('#run').onclick=async()=>{const b=document.querySelector('#run');b.disabled=true;rows.length=0;started=performance.now();const sessionBefore={...sessionStorage};try{await matrix();await audience();await journeys();await deniedStorage()}catch(e){record('suite',false,{error:e.message})}finally{for(const k of Object.keys(sessionStorage))if(k.startsWith('md_')&&!Object.hasOwn(sessionBefore,k))sessionStorage.removeItem(k);for(const [k,v] of Object.entries(sessionBefore))if(k.startsWith('md_'))sessionStorage.setItem(k,v);frame.src='about:blank';show(true);b.disabled=false}};
+</script></html>

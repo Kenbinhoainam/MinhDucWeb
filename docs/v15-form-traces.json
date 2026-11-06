@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-31",
+  "environment": "managed preview http://terminal.local:4173; browser Chrome; fictional data only",
+  "tests": [
+    {
+      "id": "FORM-01",
+      "test": "Business form empty message then invalid phone and missing consent",
+      "expected": "Step and field errors; focus on invalid field; no receipt",
+      "actual": "Passed; message at least 10 characters, phone and two confirmations validated",
+      "pass": true
+    },
+    {
+      "id": "FORM-02",
+      "test": "Business two-step valid fictional submission",
+      "expected": "D1 receipt and independent receipt verification",
+      "actual": "MD-0b548c17-53a0-452f-bd3b-5ec29341a704; verified stored",
+      "pass": true
+    },
+    {
+      "id": "FORM-03",
+      "test": "Internal application PDF extension with invalid signature",
+      "expected": "Server rejects; name/phone/consent kept; error receives focus",
+      "actual": "422; retained booleans and focus verified in v15-cv-error.json after fix",
+      "pass": true
+    },
+    {
+      "id": "FORM-04",
+      "test": "Replace invalid CV with valid fictional PDF and retry",
+      "expected": "Stored application/CV then verified receipt",
+      "actual": "MD-d3585e5a-4351-4847-8508-4a2ca0d1cff7; stored + verified",
+      "pass": true
+    },
+    {
+      "id": "FORM-05",
+      "test": "Worker shift/shuttle/area then contact step",
+      "expected": "No CV required; verified receipt",
+      "actual": "MD-825036db-0195-4b1a-bd50-55b16a667ac7; stored + verified",
+      "pass": true
+    }
+  ]
+}

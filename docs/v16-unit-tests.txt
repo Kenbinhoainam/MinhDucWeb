@@ -1,0 +1,10 @@
+✔ CMS uses its own local content store and reports quota failure (5.108383ms)
+✔ form completion never serializes contacts, reads CVs or sends a request; repeat is guarded (1.436725ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 192.543141

@@ -1,0 +1,306 @@
+.md-home-opening {
+  display: block;
+  color: var(--navy);
+}
+
+.md-home-opening .md-hero {
+  display: block;
+  overflow: visible;
+  background: linear-gradient(130deg, #edf4ff, #faf9f6 72%);
+}
+
+.md-home-opening .md-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "copy" "search" "photo";
+  align-items: start;
+  width: min(1280px, calc(100% - clamp(32px, 7vw, 96px)));
+  gap: clamp(20px, 3vw, 32px);
+  padding-block: clamp(18px, 4vw, 52px) clamp(24px, 4vw, 52px);
+}
+
+.md-home-opening .md-hero-copy {
+  grid-area: copy;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.md-home-opening .md-audience {
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: min(100%, 360px);
+  gap: 4px;
+  padding: 4px;
+  margin: 0 0 16px;
+  border: 1px solid #cddced;
+  border-radius: 12px;
+  background: #eaf2ff;
+}
+
+.md-home-opening .md-audience button {
+  min-width: 0;
+  min-height: 44px;
+  margin: 0;
+  padding: 7px 8px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.md-home-opening .md-audience button:hover {
+  background: #dceaff;
+}
+
+.md-home-opening .md-audience button[aria-selected="true"] {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: #fff;
+  box-shadow: 0 2px 5px #102b501a;
+}
+
+.md-home-opening .md-hero .eyebrow {
+  margin-bottom: 8px;
+  color: #ad2039;
+  font-size: 12px;
+  letter-spacing: .07em;
+}
+
+.md-home-opening .md-hero-panel :is(h1, .md-hero-heading) {
+  max-width: 24ch;
+  margin: 0 0 12px;
+  font-size: clamp(28px, 5.7vw, 42px);
+  line-height: 1.22;
+  text-wrap: wrap;
+}
+
+.md-home-opening .md-hero-panel :is(h1, .md-hero-heading) span {
+  display: block;
+  color: var(--blue);
+}
+
+.md-home-opening .md-hero-panel > p {
+  max-width: 55ch;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.md-home-opening .hero-buttons {
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 4px 12px;
+  margin-top: 12px;
+}
+
+.md-home-opening .hero-buttons .btn {
+  flex: 0 1 auto;
+  width: auto;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 8px 12px;
+  gap: 8px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.md-home-opening .hero-buttons .btn.blue {
+  background: var(--blue);
+}
+
+.md-home-opening .hero-buttons .btn.blue:hover {
+  background: var(--navy);
+}
+
+.md-home-opening .hero-text-link {
+  align-self: center;
+  gap: 6px;
+  color: var(--blue);
+  font-size: 14px;
+}
+
+.md-home-opening .hero-text-link:hover {
+  color: var(--navy);
+  border-color: currentColor;
+}
+
+.md-home-opening .md-hero-panel .md-hero-note {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.md-home-opening .md-search {
+  grid-area: search;
+  margin: 0;
+  padding: clamp(14px, 2.4vw, 24px);
+  border: 1px solid #d7e3f2;
+  border-radius: 16px;
+  background: #fffefa;
+  box-shadow: 0 8px 28px #102b500d;
+  scroll-margin-top: 12px;
+}
+
+.md-home-opening .md-search-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  padding: 0;
+}
+
+.md-home-opening .md-search-title {
+  max-width: none;
+  gap: 9px;
+  margin: 0;
+  font-size: clamp(19px, 2.7vw, 23px);
+  line-height: 1.35;
+  letter-spacing: -.02em;
+  text-wrap: wrap;
+}
+
+.md-home-opening .md-search-title > .icon {
+  width: 21px;
+  height: 21px;
+  color: var(--blue);
+}
+
+.md-home-opening .md-search-form {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+}
+
+.md-home-opening .md-search-form label {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.md-home-opening .md-search-form :is(input, select) {
+  height: 48px;
+  min-height: 48px;
+  padding: 6px 10px;
+  border: 1px solid #a8bbd0;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+.md-home-opening .md-search-form > .btn {
+  grid-column: 1 / -1;
+  min-height: 48px;
+  gap: 8px;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+.md-home-opening .md-search-discovery {
+  display: grid;
+  gap: 8px;
+  padding-top: 12px;
+}
+
+.md-home-opening .md-search-discovery p {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.md-home-opening .md-area-links a {
+  min-width: 0;
+  max-width: 100%;
+  gap: 7px;
+  padding: 6px 10px;
+  border-color: #ccdcef;
+  border-radius: 8px;
+  background: #f3f7fd;
+  color: var(--blue);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.md-home-opening .md-area-links a:hover {
+  border-color: var(--blue);
+  background: #e7f0ff;
+}
+
+.md-home-opening .md-visual {
+  grid-area: photo;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d7e3f2;
+  border-radius: 16px;
+  background: #fffefa;
+  box-shadow: 0 10px 30px #102b5010;
+}
+
+.md-home-opening .md-visual::before {
+  content: none;
+}
+
+.md-home-opening .md-visual-frame {
+  aspect-ratio: 16 / 9;
+  max-height: none;
+  border-radius: 15px 15px 0 0;
+  box-shadow: none;
+}
+
+.md-home-opening .md-visual-caption {
+  min-height: 0;
+  max-width: none;
+  margin: 0;
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 0 0 15px 15px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--navy);
+}
+
+.md-home-opening .md-visual-caption span {
+  max-width: none;
+  font-size: 14px;
+  letter-spacing: normal;
+}
+
+.md-home-opening :is(a, button, input, select):focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+@media (min-width: 380px) {
+  .md-home-opening .md-search-form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 680px) and (max-width: 999px), (min-width: 1280px) {
+  .md-home-opening .md-search-form {
+    grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr) auto;
+  }
+
+  .md-home-opening .md-search-form > .btn {
+    grid-column: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .md-home-opening .md-hero-grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    grid-template-areas: "copy photo" "search photo";
+    column-gap: clamp(28px, 4vw, 64px);
+  }
+
+  .md-home-opening .md-hero-panel :is(h1, .md-hero-heading) {
+    font-size: clamp(40px, 3.5vw, 54px);
+  }
+
+  .md-home-opening .md-visual {
+    align-self: center;
+  }
+
+  .md-home-opening .md-visual-frame {
+    aspect-ratio: 5 / 4;
+  }
+}

@@ -1,0 +1,145 @@
+.md-translation-drafts {
+  min-width: 0;
+  margin: 14px 0;
+  border: 1px solid #c7d8ee;
+  border-radius: 10px;
+  background: #fff;
+  color: #213d5e;
+  overflow-wrap: anywhere;
+}
+
+.md-translation-drafts > summary {
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #124487;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.md-translation-drafts-body,
+.md-translation-drafts-review {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.md-translation-drafts-body {
+  padding: 0 12px 12px;
+}
+
+.md-translation-drafts p {
+  margin: 0;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+
+.md-translation-drafts-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: end;
+}
+
+.md-translation-drafts-controls > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.md-translation-drafts-controls .btn {
+  min-height: 44px;
+  white-space: normal;
+  text-align: center;
+}
+
+.md-translation-drafts-controls .btn:disabled {
+  opacity: .65;
+  cursor: default;
+}
+
+.md-translation-drafts-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  gap: 10px;
+}
+
+.md-translation-drafts-field {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.md-translation-drafts-field select,
+.md-translation-drafts-field textarea {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  border: 1px solid #aabfd9;
+  border-radius: 7px;
+  padding: 8px 10px;
+  background: #fff;
+  color: #213d5e;
+  font: inherit;
+  font-weight: 400;
+}
+
+.md-translation-drafts-field textarea {
+  resize: vertical;
+}
+
+.md-translation-drafts-field textarea[readonly] {
+  background: #f2f6fb;
+}
+
+.md-translation-drafts-confirm {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: .875rem;
+}
+
+.md-translation-drafts-confirm input {
+  flex: none;
+  width: 1.125rem;
+  height: 1.125rem;
+  margin: 1px 0 0;
+}
+
+.md-translation-drafts-previous > summary {
+  padding: 6px 0;
+  color: #124487;
+  font-size: .875rem;
+  cursor: pointer;
+}
+
+.md-translation-drafts-previous-value {
+  max-height: 12rem;
+  overflow: auto;
+  padding: 8px 10px;
+  border-radius: 7px;
+  background: #f2f6fb;
+  font-size: .875rem;
+  white-space: pre-wrap;
+}
+
+.md-translation-drafts :focus-visible {
+  outline: 2px solid #124487;
+  outline-offset: 2px;
+}
+
+.md-translation-drafts-status {
+  color: #124487;
+  font-weight: 700;
+}
+
+.md-translation-drafts-status:empty {
+  margin-top: -12px;
+}
+
+.md-translation-drafts [hidden] {
+  display: none;
+}

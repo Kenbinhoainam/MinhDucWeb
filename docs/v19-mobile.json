@@ -1,0 +1,822 @@
+{
+  "version": "V19",
+  "suite": "mobile",
+  "complete": true,
+  "startedAt": "2026-11-01T12:39:11.653Z",
+  "finishedAt": "2026-11-01T12:40:13.621Z",
+  "expectedTotal": 48,
+  "total": 48,
+  "passed": 48,
+  "failed": 0,
+  "elapsedSeconds": 62,
+  "results": [
+    {
+      "id": "first-result / viec-lam.html / vi",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 637,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / viec-lam.html / vi",
+      "pass": true,
+      "actual": {
+        "checked": 25,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / viec-lam.html / vi",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-result / tuyen-dung-noi-bo.html / vi",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 637,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / tuyen-dung-noi-bo.html / vi",
+      "pass": true,
+      "actual": {
+        "checked": 19,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / tuyen-dung-noi-bo.html / vi",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-targets / index.html / vi",
+      "pass": true,
+      "actual": {
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / dich-vu.html / vi",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / lien-he.html / vi",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / chi-tiet-viec-lam.html?id=cn-dien-tu / vi",
+      "pass": true,
+      "actual": {
+        "checked": 15,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / index.html / vi",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / viec-lam.html / vi",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 25,
+        "small": []
+      }
+    },
+    {
+      "id": "first-result / viec-lam.html / en",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 637,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / viec-lam.html / en",
+      "pass": true,
+      "actual": {
+        "checked": 25,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / viec-lam.html / en",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-result / tuyen-dung-noi-bo.html / en",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 637,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / tuyen-dung-noi-bo.html / en",
+      "pass": true,
+      "actual": {
+        "checked": 19,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / tuyen-dung-noi-bo.html / en",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-targets / index.html / en",
+      "pass": true,
+      "actual": {
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / dich-vu.html / en",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / lien-he.html / en",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / chi-tiet-viec-lam.html?id=cn-dien-tu / en",
+      "pass": true,
+      "actual": {
+        "checked": 15,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / index.html / en",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / viec-lam.html / en",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 25,
+        "small": []
+      }
+    },
+    {
+      "id": "first-result / viec-lam.html / zh",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 615,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / viec-lam.html / zh",
+      "pass": true,
+      "actual": {
+        "checked": 25,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / viec-lam.html / zh",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-result / tuyen-dung-noi-bo.html / zh",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 615,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / tuyen-dung-noi-bo.html / zh",
+      "pass": true,
+      "actual": {
+        "checked": 19,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / tuyen-dung-noi-bo.html / zh",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-targets / index.html / zh",
+      "pass": true,
+      "actual": {
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / dich-vu.html / zh",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / lien-he.html / zh",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / chi-tiet-viec-lam.html?id=cn-dien-tu / zh",
+      "pass": true,
+      "actual": {
+        "checked": 15,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / index.html / zh",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / viec-lam.html / zh",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 25,
+        "small": []
+      }
+    },
+    {
+      "id": "first-result / viec-lam.html / ko",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 600,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / viec-lam.html / ko",
+      "pass": true,
+      "actual": {
+        "checked": 25,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / viec-lam.html / ko",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-result / tuyen-dung-noi-bo.html / ko",
+      "pass": true,
+      "actual": {
+        "width": 390,
+        "viewport": 375,
+        "firstJobTop": 600,
+        "limit": 700,
+        "filterOpen": false
+      }
+    },
+    {
+      "id": "mobile-targets / tuyen-dung-noi-bo.html / ko",
+      "pass": true,
+      "actual": {
+        "checked": 19,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-job-type / tuyen-dung-noi-bo.html / ko",
+      "pass": true,
+      "actual": {
+        "minimum": 13,
+        "sizes": [
+          {
+            "cls": "sortbtn active",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "sortbtn ",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          },
+          {
+            "cls": "v14-job-location",
+            "size": 13
+          },
+          {
+            "cls": "v14-compare-toggle",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-targets / index.html / ko",
+      "pass": true,
+      "actual": {
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / dich-vu.html / ko",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / lien-he.html / ko",
+      "pass": true,
+      "actual": {
+        "checked": 5,
+        "small": []
+      }
+    },
+    {
+      "id": "mobile-targets / chi-tiet-viec-lam.html?id=cn-dien-tu / ko",
+      "pass": true,
+      "actual": {
+        "checked": 15,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / index.html / ko",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 17,
+        "small": []
+      }
+    },
+    {
+      "id": "narrow-mobile-targets / viec-lam.html / ko",
+      "pass": true,
+      "actual": {
+        "width": 320,
+        "checked": 25,
+        "small": []
+      }
+    }
+  ]
+}

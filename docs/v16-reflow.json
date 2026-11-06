@@ -1,0 +1,299 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "id": "Z0",
+      "expected": {
+        "width": 320,
+        "route": "ve-minh-duc.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z1",
+      "expected": {
+        "width": 320,
+        "route": "ve-minh-duc.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z2",
+      "expected": {
+        "width": 320,
+        "route": "lien-he.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z3",
+      "expected": {
+        "width": 320,
+        "route": "lien-he.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z4",
+      "expected": {
+        "width": 320,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z5",
+      "expected": {
+        "width": 320,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z6",
+      "expected": {
+        "width": 320,
+        "route": "cms-demo.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": [
+          {
+            "cls": "",
+            "text": " Tuyển dụng"
+          },
+          {
+            "cls": "",
+            "text": " Bài viết / Tin tức · AI & SEO"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": "",
+            "text": " Doanh nghiệp hợp tác"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": "",
+            "text": " Cài đặt"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "Z7",
+      "expected": {
+        "width": 640,
+        "route": "ve-minh-duc.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z8",
+      "expected": {
+        "width": 640,
+        "route": "ve-minh-duc.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z9",
+      "expected": {
+        "width": 640,
+        "route": "lien-he.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z10",
+      "expected": {
+        "width": 640,
+        "route": "lien-he.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z11",
+      "expected": {
+        "width": 640,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z12",
+      "expected": {
+        "width": 640,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z13",
+      "expected": {
+        "width": 640,
+        "route": "cms-demo.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": [
+          {
+            "cls": "",
+            "text": " Doanh nghiệp hợp tác"
+          },
+          {
+            "cls": "",
+            "text": " Cài đặt"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          }
+        ]
+      },
+      "pass": true
+    }
+  ]
+}

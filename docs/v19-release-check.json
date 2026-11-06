@@ -1,0 +1,52 @@
+{
+  "version": "V19",
+  "checkedAt": "2026-11-01T12:50:13.798Z",
+  "checks": [
+    {
+      "file": "index.html",
+      "match": true,
+      "sha256": "bcd536bb4aaf27da196a6d83608dcbd422de5aaf934f1d8a7354fac1a1c63219"
+    },
+    {
+      "file": "dich-vu.html",
+      "match": true,
+      "sha256": "520b1c2618048bcb068f136506f3d0d33d73e418795123589fbe557deb2fc1cc"
+    },
+    {
+      "file": "viec-lam.html",
+      "match": true,
+      "sha256": "a31d01c4677feff3f5da537a7cfc2010c442e852fd4f52a0ec2ccf4b87451de2"
+    },
+    {
+      "file": "bai-viet.html",
+      "match": true,
+      "sha256": "50e27afa8f82f50acdf69af8f4597cd8fa62a94f3bec162388ac04d8ef1b32f0"
+    },
+    {
+      "file": "site.css",
+      "match": true,
+      "sha256": "46de9c61b578a64b3de41deb6ef365fd9903dd9a611b1d5db354138b35013a10"
+    },
+    {
+      "file": "site-runtime.js",
+      "match": true,
+      "sha256": "0d6f999ca43a86f6969dc5481bfe6b13d5e51f7129e5489fb103c98d64c55253"
+    },
+    {
+      "file": "chinh-sach-du-lieu.html",
+      "match": true,
+      "sha256": "8f1ec435547bc1228dc0a671489a6d031b1b38785c2dac91dd5cacea2380cce4"
+    },
+    {
+      "file": "demo-info.js",
+      "match": true,
+      "sha256": "f2e625f7a47dd0ce6bdea29ca34fab4ff3df213de3a14f3fc72d873e12c80a08"
+    },
+    {
+      "file": "locale-routing.js",
+      "match": true,
+      "sha256": "bf1670efb1bd9073164943b1adc36bccf6e4db262cefcb13fd5b13d851f8e7a8"
+    }
+  ],
+  "temporaryAndProtectedAssetsExcluded": true
+}

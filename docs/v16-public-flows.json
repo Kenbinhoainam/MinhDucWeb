@@ -1,0 +1,26 @@
+[
+  {
+    "task": "worker-mobile-demo",
+    "locale": "vi",
+    "width": 390,
+    "result": "✓\nĐã hoàn tất bản demo\n\nĐây là bước xác nhận mô phỏng. Thông tin và CV không được gửi hoặc lưu.\n\nThử lại"
+  },
+  {
+    "task": "worker-mobile-demo",
+    "locale": "en",
+    "width": 390,
+    "result": "✓\nDemo complete\n\nThis is a simulated confirmation. Your details and CV are not sent or stored.\n\nTry again"
+  },
+  {
+    "task": "worker-mobile-demo",
+    "locale": "zh",
+    "width": 390,
+    "result": "✓\n演示已完成\n\n此为模拟确认，不会发送或保存您的信息和简历。\n\n再试一次"
+  },
+  {
+    "task": "worker-mobile-demo",
+    "locale": "ko",
+    "width": 390,
+    "result": "✓\n데모 완료\n\n모의 확인 화면입니다. 입력 정보와 이력서는 전송되거나 저장되지 않습니다.\n\n다시 체험"
+  }
+]

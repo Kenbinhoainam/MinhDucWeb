@@ -1,0 +1,16 @@
+✔ seed passes server contract and both storage bindings are checked (14.014908ms)
+✔ admin authorization rejects anonymous and non-owner, binds first verified owner ID (5.306577ms)
+✔ draft isolation, stale-write conflict, publish replay and rollback preserve draft (25.702757ms)
+✔ server rejects invalid content, origin and malformed bodies without writing (86.038686ms)
+✔ intake validates consent, phone, job, origin, session, honeypot and body cap (4.046052ms)
+✔ receipt proves stored intake, repeated send has no duplicate and altered payload conflicts (16.093032ms)
+✔ internal application requires signature-checked private CV and owner-only attachment (57.946537ms)
+✔ worker application stores preferences; rate limit and storage outage return errors (9.780883ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 399.941744

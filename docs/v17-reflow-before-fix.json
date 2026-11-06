@@ -1,0 +1,800 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "id": "Z0",
+      "expected": {
+        "width": 320,
+        "route": "index.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z1",
+      "expected": {
+        "width": 320,
+        "route": "index.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 329,
+        "overflow": [
+          {
+            "cls": "md-search-title",
+            "text": "Find opportunities near you"
+          },
+          {
+            "cls": "md-search-form",
+            "text": "Role / keywordWork locationAll locationsBắc NinhBắ"
+          },
+          {
+            "cls": "",
+            "text": "Role / keyword"
+          },
+          {
+            "cls": "",
+            "text": "Role / keyword"
+          },
+          {
+            "cls": "",
+            "text": ""
+          },
+          {
+            "cls": "",
+            "text": "Work locationAll locationsBắc NinhBắc GiangHà Nội"
+          },
+          {
+            "cls": "",
+            "text": "Work location"
+          },
+          {
+            "cls": "",
+            "text": "All locationsBắc NinhBắc GiangHà Nội"
+          },
+          {
+            "cls": "btn red",
+            "text": "Find a role"
+          }
+        ]
+      },
+      "pass": false
+    },
+    {
+      "id": "Z2",
+      "expected": {
+        "width": 320,
+        "route": "index.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z3",
+      "expected": {
+        "width": 320,
+        "route": "index.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z4",
+      "expected": {
+        "width": 320,
+        "route": "ve-minh-duc.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z5",
+      "expected": {
+        "width": 320,
+        "route": "ve-minh-duc.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z6",
+      "expected": {
+        "width": 320,
+        "route": "ve-minh-duc.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z7",
+      "expected": {
+        "width": 320,
+        "route": "ve-minh-duc.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z8",
+      "expected": {
+        "width": 320,
+        "route": "lien-he.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z9",
+      "expected": {
+        "width": 320,
+        "route": "lien-he.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z10",
+      "expected": {
+        "width": 320,
+        "route": "lien-he.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z11",
+      "expected": {
+        "width": 320,
+        "route": "lien-he.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z12",
+      "expected": {
+        "width": 320,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z13",
+      "expected": {
+        "width": 320,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z14",
+      "expected": {
+        "width": 320,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z15",
+      "expected": {
+        "width": 320,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z16",
+      "expected": {
+        "width": 320,
+        "route": "cms-demo.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": [
+          {
+            "cls": "",
+            "text": " Tuyển dụng"
+          },
+          {
+            "cls": "",
+            "text": " Bài viết / Tin tức · Nội dung & SEO"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": "",
+            "text": " Hồ sơ doanh nghiệp"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": "",
+            "text": " Cài đặt"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "Z17",
+      "expected": {
+        "width": 320,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z18",
+      "expected": {
+        "width": 320,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z19",
+      "expected": {
+        "width": 320,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z20",
+      "expected": {
+        "width": 320,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 305,
+        "scrollWidth": 305,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z21",
+      "expected": {
+        "width": 640,
+        "route": "index.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z22",
+      "expected": {
+        "width": 640,
+        "route": "index.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z23",
+      "expected": {
+        "width": 640,
+        "route": "index.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z24",
+      "expected": {
+        "width": 640,
+        "route": "index.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z25",
+      "expected": {
+        "width": 640,
+        "route": "ve-minh-duc.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z26",
+      "expected": {
+        "width": 640,
+        "route": "ve-minh-duc.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z27",
+      "expected": {
+        "width": 640,
+        "route": "ve-minh-duc.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z28",
+      "expected": {
+        "width": 640,
+        "route": "ve-minh-duc.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z29",
+      "expected": {
+        "width": 640,
+        "route": "lien-he.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z30",
+      "expected": {
+        "width": 640,
+        "route": "lien-he.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z31",
+      "expected": {
+        "width": 640,
+        "route": "lien-he.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z32",
+      "expected": {
+        "width": 640,
+        "route": "lien-he.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z33",
+      "expected": {
+        "width": 640,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z34",
+      "expected": {
+        "width": 640,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z35",
+      "expected": {
+        "width": 640,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z36",
+      "expected": {
+        "width": 640,
+        "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z37",
+      "expected": {
+        "width": 640,
+        "route": "cms-demo.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": [
+          {
+            "cls": "",
+            "text": " Bài viết / Tin tức · Nội dung & SEO"
+          },
+          {
+            "cls": "",
+            "text": " Hồ sơ doanh nghiệp"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": "",
+            "text": " Cài đặt"
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          },
+          {
+            "cls": {},
+            "text": ""
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "Z38",
+      "expected": {
+        "width": 640,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "vi",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z39",
+      "expected": {
+        "width": 640,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "en",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z40",
+      "expected": {
+        "width": 640,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "zh",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    },
+    {
+      "id": "Z41",
+      "expected": {
+        "width": 640,
+        "route": "chinh-sach-du-lieu.html",
+        "locale": "ko",
+        "scale": 2
+      },
+      "actual": {
+        "textScale": 2,
+        "viewport": 625,
+        "scrollWidth": 625,
+        "overflow": []
+      },
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Flagship V18 acceptance</title>
+<style>body{font:14px/1.6 system-ui;margin:24px;color:#172e40}button{padding:12px;margin:4px}pre{white-space:pre-wrap;max-height:360px;overflow:auto;background:#f7f5f0;padding:16px}#stage{overflow:auto}iframe{border:1px solid #ddd;height:900px;display:block}</style>
+<h1>Flagship V18 · Browser acceptance</h1>
+<button id="matrix">Run viewport and locale matrix</button><button id="reflow">Run text reflow samples</button><button id="flows">Run interaction regression</button>
+<pre id="report">Ready</pre><div id="stage"><iframe id="frame" title="Prototype inspection" style="width:390px" src="index.html"></iframe></div>
+<script>
+const frame=document.getElementById('frame'),report=document.getElementById('report'),key='md_prototype_v16_content';
+const locales=['vi','en','zh','ko'];
+const routes=['index.html','ve-minh-duc.html','dich-vu.html','viec-lam.html','tuyen-dung-noi-bo.html','chi-tiet-viec-lam.html?id=cn-dien-tu','chi-tiet-viec-lam.html?id=ky-su-co-dien','tin-tuc.html','bai-viet.html?id=xu-huong-kcn','lien-he.html','chinh-sach-du-lieu.html'];
+async function settle(d){await d.fonts.ready;await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));}
+async function load(route,width,lang='vi'){
+  frame.style.width=width+'px';
+  await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(new Error('Frame timeout: '+route)),15000);frame.onload=()=>{clearTimeout(timer);resolve()};frame.src=route+(route.includes('?')?'&':'?')+'lang='+lang;});
+  const d=frame.contentDocument;await settle(d);return d;
+}
+function inspect(d){
+  const visible=e=>e.getClientRects().length>0;
+  const headings=[...d.querySelectorAll('h1')].filter(visible);
+  const ids=[...d.querySelectorAll('[id]')].map(x=>x.id),duplicateIds=[...new Set(ids.filter((id,i)=>ids.indexOf(id)!==i))];
+  const unnamed=[...d.querySelectorAll('input:not([type=hidden]),select,textarea')].filter(visible).filter(e=>!e.labels?.length&&!e.getAttribute('aria-label')&&!e.getAttribute('aria-labelledby')).map(e=>e.id||e.name);
+  return {viewport:d.documentElement.clientWidth,scrollWidth:d.documentElement.scrollWidth,h1:headings.length,lang:d.documentElement.lang,broken:[...d.images].filter(i=>visible(i)&&!i.naturalWidth).map(i=>i.getAttribute('src')),duplicateIds,unnamed};
+}
+function geometryPass(a){return a.scrollWidth<=a.viewport+1&&a.h1===1&&!a.broken.length&&!a.duplicateIds.length&&!a.unnamed.length;}
+function show(results,complete=false){report.textContent=JSON.stringify({complete,total:results.length,passed:results.filter(x=>x.pass).length,results},null,2);}
+async function run(fn){const backup=localStorage.getItem(key),persona=sessionStorage.getItem('md_persona');const results=[];try{sessionStorage.removeItem('md_persona');await fn(results);show(results,true)}catch(e){report.textContent=JSON.stringify({complete:true,error:e.message,results},null,2)}finally{if(backup===null)localStorage.removeItem(key);else localStorage.setItem(key,backup);if(persona===null)sessionStorage.removeItem('md_persona');else sessionStorage.setItem('md_persona',persona)}}
+document.getElementById('matrix').onclick=()=>run(async results=>{
+  for(const width of [320,390,768,1440])for(const lang of locales)for(const route of routes){const d=await load(route,width,lang);await Promise.all([...d.images].map(async img=>{img.loading='eager';try{await img.decode()}catch{}}));const actual=inspect(d);results.push({route,width,lang,actual,pass:geometryPass(actual)&&actual.lang.split('-')[0]===lang});show(results)}
+  for(const width of [320,390,768,1440]){const d=await load('cms-demo.html',width),actual=inspect(d);results.push({route:'cms-demo.html',width,actual,pass:actual.scrollWidth<=actual.viewport+1&&actual.h1===1});show(results)}
+});
+document.getElementById('reflow').onclick=()=>run(async results=>{
+  for(const route of ['index.html','dich-vu.html','viec-lam.html','lien-he.html','chi-tiet-viec-lam.html?id=cn-dien-tu','cms-demo.html'])for(const lang of route==='cms-demo.html'?['vi']:locales){
+    const d=await load(route,640,lang),nodes=[...d.querySelectorAll('body *')].filter(el=>[...el.childNodes].some(n=>n.nodeType===3&&n.textContent.trim())||el.matches('input,select,textarea')),sizes=nodes.map(el=>parseFloat(getComputedStyle(el).fontSize));
+    nodes.forEach((el,i)=>{el.style.fontSize=(sizes[i]*2)+'px';el.style.lineHeight='1.7'});await settle(d);
+    const actual={viewport:d.documentElement.clientWidth,scrollWidth:d.documentElement.scrollWidth,overflow:[...d.querySelectorAll('body *')].filter(el=>{const b=el.getBoundingClientRect();return b.width>0&&b.right>d.documentElement.clientWidth+1&&!el.closest('.partner-marquee')}).map(el=>({tag:el.tagName,cls:el.className,text:el.textContent.slice(0,70)})).slice(0,10)};
+    results.push({route,lang,width:640,textScale:2,actual,pass:actual.scrollWidth<=actual.viewport+1});show(results);
+  }
+});
+document.getElementById('flows').onclick=()=>run(async results=>{
+  const record=(id,pass,actual)=>{results.push({id,pass,actual});show(results)};
+  for(const lang of locales){
+    let d=await load('index.html',390,lang);
+    d.querySelector('[data-persona=candidate]').click();record('persona-'+lang,d.querySelector('#panel-business').hidden&&!d.querySelector('#panel-candidate').hidden&&d.querySelectorAll('h1').length===1,{heading:d.querySelector('h1').textContent});
+    d.querySelector('[data-persona=business]').click();record('persona-back-'+lang,d.querySelector('#panel-candidate').hidden&&!d.querySelector('#panel-business').hidden,{heading:d.querySelector('h1').textContent});
+    const search=d.querySelector('.md-search-form');record('search-locale-'+lang,lang==='vi'||search.querySelector('[name=lang]')?.value===lang,{action:search.getAttribute('action'),lang:search.querySelector('[name=lang]')?.value||'vi'});
+    d.querySelector('#staffIndustry').value='warehouse';d.querySelector('#staffSize').value='large';d.querySelector('#staffArea').value='Hà Nội';d.querySelector('#staffSize').dispatchEvent(new Event('change',{bubbles:true}));
+    const next=new URL(d.querySelector('#staffingCta').href);record('brief-'+lang,next.searchParams.get('lang')===lang&&next.searchParams.get('staffing').includes('Hà Nội'),{summary:d.querySelector('#staffingSummary').textContent});
+    d=await load(next.pathname.slice(1)+next.search,390,lang);record('brief-transfer-'+lang,d.querySelector('#briefMessage').value.includes('Hà Nội'),{message:d.querySelector('#briefMessage').value});
+    d.querySelector('#contactNext').click();record('contact-step-'+lang,!d.querySelector('[data-contact-step="2"]').hidden,{step:d.querySelector('#contactName')!==null});
+    d=await load('dich-vu.html?service=recruitment',390,lang);record('service-deep-link-'+lang,d.querySelector('[data-service=recruitment]').getAttribute('aria-selected')==='true',{title:d.querySelector('.v14-service-title').textContent});
+    d.querySelector('[data-service=factory]').click();record('service-tabs-'+lang,d.querySelector('[data-service=factory]').getAttribute('aria-selected')==='true',{title:d.querySelector('.v14-service-title').textContent});
+    d=await load('index.html',390,lang);d.querySelector('.partner-directory summary').click();record('company-directory-'+lang,d.querySelector('.partner-directory').open&&d.querySelectorAll('.partner-directory-card').length===14,{cards:d.querySelectorAll('.partner-directory-card').length});
+  }
+  let d=await load('index.html',390);const original=frame.contentWindow.MD15.getData();
+  for(const count of [0,1,9]){const data=structuredClone(original);data.jobs=Array.from({length:count},(_,i)=>({...original.jobs[0],id:'qa-'+i,title:'Công việc kiểm tra nội dung dài tại nhà máy sản xuất và lắp ráp linh kiện'}));data.posts=Array.from({length:count},(_,i)=>({...original.posts[0],id:'qa-post-'+i}));data.home.sections.stats=false;localStorage.setItem(key,JSON.stringify(data));for(const route of ['index.html','viec-lam.html','tin-tuc.html']){d=await load(route,320);record('content-'+count+'-'+route,d.documentElement.scrollWidth<=d.documentElement.clientWidth+1&&(route!=='index.html'||!d.querySelector('.md-principles')),{width:d.documentElement.scrollWidth,principles:!!d.querySelector('.md-principles')})}}
+});
+</script></html>

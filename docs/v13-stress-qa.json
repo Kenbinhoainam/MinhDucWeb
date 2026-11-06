@@ -1,0 +1,32 @@
+[
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 320,
+    "overflow": 0,
+    "h1": 1,
+    "broken": [],
+    "over": [],
+    "clipped": []
+  },
+  {
+    "page": "index.html",
+    "lang": "ko",
+    "width": 390,
+    "overflow": 0,
+    "h1": 1,
+    "broken": [],
+    "over": [],
+    "clipped": []
+  },
+  {
+    "page": "index.html",
+    "lang": "vi",
+    "width": 1440,
+    "overflow": 0,
+    "h1": 1,
+    "broken": [],
+    "over": [],
+    "clipped": []
+  }
+]

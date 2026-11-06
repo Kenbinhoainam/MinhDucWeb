@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Minh Đức V27 — xem prototype theo kích thước</title>
+<style>body{margin:0;background:#e9eef4;color:#102b50;font:14px/1.5 system-ui}header{display:flex;flex-wrap:wrap;gap:12px;padding:12px;align-items:center}button,select{font:inherit;padding:8px;min-height:40px}iframe{display:block;border:0;background:white}</style>
+<header><b>Prototype V27</b><select id="route" aria-label="Trang"><option value="index.html">Trang chủ</option><option value="lien-he.html">Liên hệ &amp; chi nhánh</option><option value="ve-minh-duc.html">Hồ sơ Minh Đức</option><option value="cms-demo.html">CMS nội dung</option><option value="dich-vu.html">Dịch vụ</option><option value="viec-lam.html">Việc làm</option><option value="chi-tiet-viec-lam.html?id=cn-dien-tu">Ứng tuyển</option><option value="lien-he.html?wb=1&amp;wb_i=warehouse&amp;wb_a=bg&amp;wb_n=180&amp;wb_t=month&amp;wb_h=rotating&amp;service=supply">Brief doanh nghiệp</option><option value="cms-demo.html#ops-candidates">Vận hành</option></select><select id="locale" aria-label="Ngôn ngữ"><option>vi</option><option>en</option><option>zh</option><option>ko</option></select><button data-width="1440">Desktop 1440</button><button data-width="390">Mobile 390</button><button data-width="320">Mobile 320</button><button id="viewportMode">Thao tác 844px</button><button id="refreshHeight">Cập nhật chiều cao</button><span id="dimensions" role="status"></span></header>
+<iframe id="reviewFrame" title="Bản prototype theo kích thước" src="about:blank" style="width:1440px;height:1000px"></iframe>
+<script>
+const frame=document.querySelector('#reviewFrame'),route=document.querySelector('#route'),locale=document.querySelector('#locale'),dimensions=document.querySelector('#dimensions');
+let width=1440,fullPage=true,navigationId=0;
+function resize(){frame.style.height='1000px';const doc=frame.contentDocument;frame.style.height=(fullPage?doc.documentElement.scrollHeight:844)+'px';dimensions.textContent=doc.documentElement.clientWidth+' × '+doc.documentElement.scrollHeight;}
+function load(){frame.setAttribute('aria-busy','true');frame.style.width=width+'px';const url=new URL(route.value,location.href);url.searchParams.set('lang',locale.value);url.searchParams.set('__review',String(++navigationId));frame.src=url.href;}
+frame.onload=async()=>{const doc=frame.contentDocument;await doc.fonts.ready;for(const image of doc.images)image.loading='eager';await Promise.all([...doc.images].map(image=>image.decode().catch(()=>{})));resize();frame.setAttribute('aria-busy','false');};
+document.querySelectorAll('[data-width]').forEach(button=>button.onclick=()=>{width=Number(button.dataset.width);load();});route.onchange=load;locale.onchange=load;load();
+document.querySelector('#refreshHeight').onclick=resize;
+document.querySelector('#viewportMode').onclick=()=>{fullPage=!fullPage;document.querySelector('#viewportMode').textContent=fullPage?'Thao tác 844px':'Xem toàn trang';resize();};
+</script>
+</html>

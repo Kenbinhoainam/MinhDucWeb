@@ -1,0 +1,17 @@
+/* V18 editor surface; public layouts live in design-system.css. */
+.admin-body{--p-ink:#102b50;--p-red:#d52642;--p-paper:#f2f7ff;--text:#102b50;--accent:#d52642;--border:#dbe5f1;--text-muted:#4b5e78;background:#f2f7ff;font-size:14px}
+.admin-header{box-shadow:none;border-bottom:1px solid #dbe5f1;background:#fff}.admin-main{max-width:1500px;margin-inline:auto}.admin-nav{background:#102b50}.admin-intro h1{font-family:'Noto Sans',Arial,sans-serif;letter-spacing:-.04em}.admin-card{box-shadow:none;border-color:#dbe5f1;border-radius:7px}.admin-card p{font-size:14px}.admin-body .field label{font-size:13px}.admin-body .field input,.admin-body .field select,.admin-body .field textarea{font-size:15px;min-height:46px}.cms-metric{border-color:#dbe5f1;border-radius:7px}.cms-metric strong{font-family:'Noto Sans',Arial,sans-serif;color:#102b50}.cms-metric span,.cms-quick p{font-size:13px}.prototype-toolbar{font-size:13px}.cms-quick{border-radius:7px;box-shadow:none}.admin-body .btn{border-radius:4px;min-height:46px}.admin-body .prototype-toolbar button{font-size:12px}.admin-body .partner-directory-card{background:#fff}
+@media(max-width:700px){.admin-body .field input,.admin-body .field select,.admin-body .field textarea{font-size:16px}.admin-main{padding:25px 18px 50px}.admin-card p{font-size:13px}.cms-metric span{font-size:12px}}
+/* Image studio uses content ratios rather than a generic phone-shaped crop. */
+.v7-display[data-kind="job"]{aspect-ratio:4/3}
+.v7-display[data-kind="job"].mobile{aspect-ratio:16/9}
+.v7-display[data-kind="post"]{aspect-ratio:16/10}
+.v7-display[data-kind="post"].mobile{aspect-ratio:16/10}
+.v7-display[data-kind="video"],.v7-display[data-kind="video"].mobile{aspect-ratio:16/9}
+.v7-display[data-kind="gallery"],.v7-display[data-kind="gallery"].mobile{aspect-ratio:4/3}
+.v7-display:not([data-kind="hero"]) .v7-preview-overlay{display:none}
+.v7-display[data-kind="hero"]{aspect-ratio:1/1.16}
+.v7-display[data-kind="hero"].mobile{aspect-ratio:1.5/1}
+.v7-display[data-kind="hero"] .v7-preview-overlay{display:none}
+/* CMS brand caption remains readable on the white header. */
+.admin-head-logo small{color:#4b5e78;font-size:10px}

@@ -1,0 +1,499 @@
+{
+  "version": "V19",
+  "suite": "flows",
+  "complete": true,
+  "startedAt": "2026-11-01T12:46:27.933Z",
+  "finishedAt": "2026-11-01T12:46:34.469Z",
+  "expectedTotal": 61,
+  "total": 61,
+  "passed": 61,
+  "failed": 0,
+  "elapsedSeconds": 7,
+  "results": [
+    {
+      "id": "persona / vi",
+      "pass": true,
+      "actual": {
+        "heading": "Công việc vững vàng.\nTương lai rộng mở."
+      }
+    },
+    {
+      "id": "persona-back / vi",
+      "pass": true,
+      "actual": {
+        "heading": "Nhân lực vững vàng.Doanh nghiệp vươn xa."
+      }
+    },
+    {
+      "id": "search-locale / vi",
+      "pass": true,
+      "actual": {
+        "action": "viec-lam.html",
+        "lang": "vi"
+      }
+    },
+    {
+      "id": "brief / vi",
+      "pass": true,
+      "actual": {
+        "summary": "Kho vận / logistics · 150–350 người · Hà Nội"
+      }
+    },
+    {
+      "id": "brief-transfer / vi",
+      "pass": true,
+      "actual": {
+        "message": "Nhu cầu tư vấn nhân sự: Kho vận / logistics · 150–350 người · Hà Nội"
+      }
+    },
+    {
+      "id": "contact-step / vi",
+      "pass": true,
+      "actual": {
+        "step": true
+      }
+    },
+    {
+      "id": "service-deep-link / vi",
+      "pass": true,
+      "actual": {
+        "title": "Tuyển dụng theo yêu cầu"
+      }
+    },
+    {
+      "id": "service-tabs / vi",
+      "pass": true,
+      "actual": {
+        "title": "Nhân sự nhà máy & KCN"
+      }
+    },
+    {
+      "id": "service-tabs-reload / vi",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=factory&lang=vi",
+        "documentLang": "vi",
+        "selected": "vi",
+        "urlLang": "vi",
+        "sessionLang": "vi",
+        "preserved": {
+          "service": "factory"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "company-directory / vi",
+      "pass": true,
+      "actual": {
+        "cards": 14
+      }
+    },
+    {
+      "id": "persona / en",
+      "pass": true,
+      "actual": {
+        "heading": "Find your next role.\nBuild your next chapter."
+      }
+    },
+    {
+      "id": "persona-back / en",
+      "pass": true,
+      "actual": {
+        "heading": "A dependable workforce.Stronger businesses."
+      }
+    },
+    {
+      "id": "search-locale / en",
+      "pass": true,
+      "actual": {
+        "action": "viec-lam.html",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "brief / en",
+      "pass": true,
+      "actual": {
+        "summary": "Warehousing / logistics · 150–350 people · Hà Nội"
+      }
+    },
+    {
+      "id": "brief-transfer / en",
+      "pass": true,
+      "actual": {
+        "message": "Workforce consultation request: Warehousing / logistics · 150–350 people · Hà Nội"
+      }
+    },
+    {
+      "id": "contact-step / en",
+      "pass": true,
+      "actual": {
+        "step": true
+      }
+    },
+    {
+      "id": "service-deep-link / en",
+      "pass": true,
+      "actual": {
+        "title": "Targeted recruitment"
+      }
+    },
+    {
+      "id": "service-tabs / en",
+      "pass": true,
+      "actual": {
+        "title": "Factory & industrial teams"
+      }
+    },
+    {
+      "id": "service-tabs-reload / en",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=factory&lang=en",
+        "documentLang": "en",
+        "selected": "en",
+        "urlLang": "en",
+        "sessionLang": "en",
+        "preserved": {
+          "service": "factory"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "company-directory / en",
+      "pass": true,
+      "actual": {
+        "cards": 14
+      }
+    },
+    {
+      "id": "persona / zh",
+      "pass": true,
+      "actual": {
+        "heading": "找到合适工作。\n开启崭新未来。"
+      }
+    },
+    {
+      "id": "persona-back / zh",
+      "pass": true,
+      "actual": {
+        "heading": "可靠的人力资源。助力企业更进一步。"
+      }
+    },
+    {
+      "id": "search-locale / zh",
+      "pass": true,
+      "actual": {
+        "action": "viec-lam.html",
+        "lang": "zh"
+      }
+    },
+    {
+      "id": "brief / zh",
+      "pass": true,
+      "actual": {
+        "summary": "仓储 / 物流 · 150–350人 · Hà Nội"
+      }
+    },
+    {
+      "id": "brief-transfer / zh",
+      "pass": true,
+      "actual": {
+        "message": "人力咨询需求: 仓储 / 物流 · 150–350人 · Hà Nội"
+      }
+    },
+    {
+      "id": "contact-step / zh",
+      "pass": true,
+      "actual": {
+        "step": true
+      }
+    },
+    {
+      "id": "service-deep-link / zh",
+      "pass": true,
+      "actual": {
+        "title": "定向招聘"
+      }
+    },
+    {
+      "id": "service-tabs / zh",
+      "pass": true,
+      "actual": {
+        "title": "工厂与园区用工"
+      }
+    },
+    {
+      "id": "service-tabs-reload / zh",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=factory&lang=zh",
+        "documentLang": "zh",
+        "selected": "zh",
+        "urlLang": "zh",
+        "sessionLang": "zh",
+        "preserved": {
+          "service": "factory"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "company-directory / zh",
+      "pass": true,
+      "actual": {
+        "cards": 14
+      }
+    },
+    {
+      "id": "persona / ko",
+      "pass": true,
+      "actual": {
+        "heading": "나에게 맞는 일자리.\n새롭게 열리는 미래."
+      }
+    },
+    {
+      "id": "persona-back / ko",
+      "pass": true,
+      "actual": {
+        "heading": "믿을 수 있는 인력.기업의 지속 성장."
+      }
+    },
+    {
+      "id": "search-locale / ko",
+      "pass": true,
+      "actual": {
+        "action": "viec-lam.html",
+        "lang": "ko"
+      }
+    },
+    {
+      "id": "brief / ko",
+      "pass": true,
+      "actual": {
+        "summary": "창고 / 물류 · 150~350명 · Hà Nội"
+      }
+    },
+    {
+      "id": "brief-transfer / ko",
+      "pass": true,
+      "actual": {
+        "message": "인력 상담 요청: 창고 / 물류 · 150~350명 · Hà Nội"
+      }
+    },
+    {
+      "id": "contact-step / ko",
+      "pass": true,
+      "actual": {
+        "step": true
+      }
+    },
+    {
+      "id": "service-deep-link / ko",
+      "pass": true,
+      "actual": {
+        "title": "맞춤 채용"
+      }
+    },
+    {
+      "id": "service-tabs / ko",
+      "pass": true,
+      "actual": {
+        "title": "공장 및 산업단지 인력"
+      }
+    },
+    {
+      "id": "service-tabs-reload / ko",
+      "pass": true,
+      "actual": {
+        "url": "/dich-vu.html?service=factory&lang=ko",
+        "documentLang": "ko",
+        "selected": "ko",
+        "urlLang": "ko",
+        "sessionLang": "ko",
+        "preserved": {
+          "service": "factory"
+        },
+        "hash": ""
+      }
+    },
+    {
+      "id": "company-directory / ko",
+      "pass": true,
+      "actual": {
+        "cards": 14
+      }
+    },
+    {
+      "id": "cms-restored-seed-heading-translates",
+      "pass": true,
+      "actual": {
+        "heading": "A dependable workforce.Stronger businesses."
+      }
+    },
+    {
+      "id": "cms-custom-heading-preserved",
+      "pass": true,
+      "actual": {
+        "heading": "V19 CMS custom headlineStronger businesses."
+      }
+    },
+    {
+      "id": "cms-heading-explicit-translation-wins",
+      "pass": true,
+      "actual": {
+        "heading": "V19 CMS explicit English headlineStronger businesses."
+      }
+    },
+    {
+      "id": "cms-custom-article / vi",
+      "pass": true,
+      "actual": {
+        "prose": "V19 CMS source sentinel. Owner supplied article content stays visible."
+      }
+    },
+    {
+      "id": "cms-custom-article / en",
+      "pass": true,
+      "actual": {
+        "prose": "V19 CMS source sentinel. Owner supplied article content stays visible."
+      }
+    },
+    {
+      "id": "cms-custom-article / zh",
+      "pass": true,
+      "actual": {
+        "prose": "V19 CMS source sentinel. Owner supplied article content stays visible."
+      }
+    },
+    {
+      "id": "cms-custom-article / ko",
+      "pass": true,
+      "actual": {
+        "prose": "V19 CMS source sentinel. Owner supplied article content stays visible."
+      }
+    },
+    {
+      "id": "cms-article-translation / en",
+      "pass": true,
+      "actual": {
+        "prose": "V19 CMS en translation sentinel. Explicit editorial override."
+      }
+    },
+    {
+      "id": "cms-article-translation / zh",
+      "pass": true,
+      "actual": {
+        "prose": "V19 CMS zh translation sentinel. Explicit editorial override."
+      }
+    },
+    {
+      "id": "cms-article-translation / ko",
+      "pass": true,
+      "actual": {
+        "prose": "V19 CMS ko translation sentinel. Explicit editorial override."
+      }
+    },
+    {
+      "id": "content / 0 / index.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "content / 0 / viec-lam.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "content / 0 / tin-tuc.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "empty-bare-detail / chi-tiet-viec-lam.html",
+      "pass": true,
+      "actual": {
+        "heading": "Không tìm thấy nội dung",
+        "visibleH1": 1,
+        "ready": true
+      }
+    },
+    {
+      "id": "empty-bare-detail / bai-viet.html",
+      "pass": true,
+      "actual": {
+        "heading": "Không tìm thấy nội dung",
+        "visibleH1": 1,
+        "ready": true
+      }
+    },
+    {
+      "id": "content / 1 / index.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "content / 1 / viec-lam.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "content / 1 / tin-tuc.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "content / 9 / index.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "content / 9 / viec-lam.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    },
+    {
+      "id": "content / 9 / tin-tuc.html",
+      "pass": true,
+      "actual": {
+        "width": 305,
+        "viewport": 305,
+        "principles": false
+      }
+    }
+  ]
+}

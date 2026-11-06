@@ -1,0 +1,2703 @@
+{
+  "complete": true,
+  "total": 180,
+  "passed": 180,
+  "results": [
+    {
+      "route": "index.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 320,
+      "lang": "vi",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 320,
+      "lang": "en",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 320,
+      "lang": "zh",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 320,
+      "lang": "ko",
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 390,
+      "lang": "vi",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 390,
+      "lang": "en",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 390,
+      "lang": "zh",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 390,
+      "lang": "ko",
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 768,
+      "lang": "vi",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 768,
+      "lang": "en",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 768,
+      "lang": "zh",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 768,
+      "lang": "ko",
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 1440,
+      "lang": "vi",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 1440,
+      "lang": "en",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "en",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh-CN",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 1440,
+      "lang": "zh",
+      "actual": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "lang": "zh",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "ve-minh-duc.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "dich-vu.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "viec-lam.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tuyen-dung-noi-bo.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=cn-dien-tu",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chi-tiet-viec-lam.html?id=ky-su-co-dien",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "tin-tuc.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "bai-viet.html?id=xu-huong-kcn",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "lien-he.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "chinh-sach-du-lieu.html",
+      "width": 1440,
+      "lang": "ko",
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "ko",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "cms-demo.html",
+      "width": 320,
+      "actual": {
+        "viewport": 305,
+        "scrollWidth": 305,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "cms-demo.html",
+      "width": 390,
+      "actual": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "cms-demo.html",
+      "width": 768,
+      "actual": {
+        "viewport": 753,
+        "scrollWidth": 753,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    },
+    {
+      "route": "cms-demo.html",
+      "width": 1440,
+      "actual": {
+        "viewport": 1425,
+        "scrollWidth": 1425,
+        "h1": 1,
+        "lang": "vi",
+        "broken": [],
+        "duplicateIds": [],
+        "unnamed": []
+      },
+      "pass": true
+    }
+  ]
+}

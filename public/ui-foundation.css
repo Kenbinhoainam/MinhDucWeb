@@ -1,0 +1,122 @@
+/* Shared public refinements. Feature styles can still set their own geometry. */
+body:where(:not(.admin-body, .tv-body)) {
+  --surface: #fffdfa;
+  --paper: #f5f7fb;
+  --surface-alt: var(--paper);
+  --border: #dbe3ed;
+  --line: var(--border);
+  --border-subtle: var(--border);
+  --radius: 14px;
+  --shadow: 0 10px 28px #102b500d;
+  --focus: var(--blue);
+  --field-border: #798ba3;
+  --field-disabled: #e9edf2;
+  --field-error: #a01d35;
+  --wide: clamp(1280px, calc(50vw + 560px), 1680px);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+:where(body:not(.admin-body, .tv-body)) .card {
+  background: var(--surface);
+  border-radius: var(--radius);
+}
+
+:where(body:not(.admin-body, .tv-body)) .btn {
+  min-height: 48px;
+  padding-block: 11px;
+  border-radius: 10px;
+}
+
+:where(body:not(.admin-body, .tv-body)) .btn:is(:disabled, [aria-disabled="true"]) {
+  color: var(--muted);
+  background: var(--field-disabled);
+  border-color: var(--border);
+  box-shadow: none;
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+:where(body:not(.admin-body, .tv-body)) :focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+:where(body:not(.admin-body, .tv-body)) :where(.story-section, .footer) {
+  --focus: #b6d4ff;
+}
+
+/* Preserve native choices and uploads. Align the text and selection fields. */
+:where(body:not(.admin-body, .tv-body)) :is(.field, .md-search-form) label,
+:where(body:not(.admin-body, .tv-body)) :is(.field-caption, .form-note, .prototype-form-note),
+:where(body:not(.admin-body, .tv-body)) .field .hint {
+  font-size: 14px;
+}
+
+:where(body:not(.admin-body, .tv-body)) :is(.field, .md-search-form)
+  :is(input:where(:not([type]), [type="text"], [type="search"], [type="email"],
+    [type="tel"], [type="url"], [type="number"], [type="password"], [type="date"]), select, textarea) {
+  border: 1px solid var(--field-border);
+  border-radius: 8px;
+  background: var(--surface);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+:where(body:not(.admin-body, .tv-body)) :is(.field, .md-search-form)
+  :is(input:where(:not([type]), [type="text"], [type="search"], [type="email"],
+    [type="tel"], [type="url"], [type="number"], [type="password"], [type="date"]), select) {
+  min-height: 48px;
+}
+
+:where(body:not(.admin-body, .tv-body)) :is(.field, .md-search-form)
+  :is(input, select, textarea):focus-visible {
+  border-color: var(--focus);
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+:where(body:not(.admin-body, .tv-body)) :is(.field, .md-search-form)
+  :is(input, select, textarea)[aria-invalid="true"] {
+  border-color: var(--field-error);
+}
+
+:where(body:not(.admin-body, .tv-body)) :is(.field, .md-search-form)
+  :is(input:where(:not([type]), [type="text"], [type="search"], [type="email"],
+    [type="tel"], [type="url"], [type="number"], [type="password"], [type="date"]), select, textarea):disabled {
+  color: var(--muted);
+  background: var(--field-disabled);
+  border-color: var(--border);
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+:where(body:not(.admin-body, .tv-body)) :is(.micro-error, .md-field-error, .field-error, .form-error-summary) {
+  color: var(--field-error);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+:where(body:not(.admin-body, .tv-body)) .form-error-summary {
+  border-radius: 8px;
+}
+
+/* Keep task-page intros compact and allow localized copy to wrap. */
+:where(body:not(.admin-body, .tv-body)) :is(.v14-page-intro, .hero-sub) .crumb {
+  font-size: 14px;
+}
+
+body:where(:not(.admin-body, .tv-body)) :is(.v14-page-intro, .hero-sub) .container h1 {
+  margin-block: 8px clamp(12px, 1.3vw, 20px);
+}
+
+body:where(:not(.admin-body, .tv-body)) :is(.v14-page-intro, .hero-sub) .container p {
+  max-inline-size: 65ch;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+body:where(:not(.admin-body, .tv-body)) :is(.v14-page-intro, .hero-sub) .container p:where(:lang(zh), :lang(ko)) {
+  max-inline-size: 38ic;
+  line-height: 1.85;
+}

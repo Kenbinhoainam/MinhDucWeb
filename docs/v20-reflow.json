@@ -1,0 +1,266 @@
+{
+  "version": "V20",
+  "suite": "reflow",
+  "complete": true,
+  "startedAt": "2026-11-03T18:36:21.637Z",
+  "finishedAt": "2026-11-03T18:36:26.158Z",
+  "expectedTotal": 21,
+  "total": 21,
+  "passed": 21,
+  "failed": 0,
+  "elapsedSeconds": 5,
+  "results": [
+    {
+      "id": "index.html / vi",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "index.html / en",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "index.html / zh",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "index.html / ko",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "dich-vu.html / vi",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "dich-vu.html / en",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "dich-vu.html / zh",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "dich-vu.html / ko",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "viec-lam.html / vi",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "viec-lam.html / en",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "viec-lam.html / zh",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "viec-lam.html / ko",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "lien-he.html / vi",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "lien-he.html / en",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "lien-he.html / zh",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "lien-he.html / ko",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "chi-tiet-viec-lam.html?id=cn-dien-tu / vi",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "chi-tiet-viec-lam.html?id=cn-dien-tu / en",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "chi-tiet-viec-lam.html?id=cn-dien-tu / zh",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "chi-tiet-viec-lam.html?id=cn-dien-tu / ko",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    },
+    {
+      "id": "cms-demo.html / vi",
+      "pass": true,
+      "actual": {
+        "viewport": 625,
+        "scrollWidth": 625,
+        "visibleH1": 1,
+        "clipped": [],
+        "textScale": 2,
+        "width": 640
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-31",
+  "version": "V14",
+  "svg": [
+    {
+      "file": "dist/assets/editorial-insight.svg",
+      "valid": true
+    },
+    {
+      "file": "dist/assets/editorial-process.svg",
+      "valid": true
+    },
+    {
+      "file": "dist/assets/editorial-career.svg",
+      "valid": true
+    },
+    {
+      "file": "dist/assets/editorial-work.svg",
+      "valid": true
+    },
+    {
+      "file": "dist/assets/editorial-benefits.svg",
+      "valid": true
+    }
+  ],
+  "fonts": [
+    {
+      "file": "dist/assets/fonts/chinese-0.woff",
+      "weight": 400,
+      "demo_characters": 322,
+      "missing": 0
+    },
+    {
+      "file": "dist/assets/fonts/chinese-1.woff",
+      "weight": 600,
+      "demo_characters": 322,
+      "missing": 0
+    },
+    {
+      "file": "dist/assets/fonts/chinese-2.woff",
+      "weight": 700,
+      "demo_characters": 322,
+      "missing": 0
+    },
+    {
+      "file": "dist/assets/fonts/korean-0.woff",
+      "weight": 400,
+      "demo_characters": 232,
+      "missing": 0
+    },
+    {
+      "file": "dist/assets/fonts/korean-1.woff",
+      "weight": 600,
+      "demo_characters": 232,
+      "missing": 0
+    },
+    {
+      "file": "dist/assets/fonts/korean-2.woff",
+      "weight": 700,
+      "demo_characters": 232,
+      "missing": 0
+    }
+  ],
+  "contrast": {
+    "152e45/ffffff": 13.92,
+    "526474/ffffff": 6.12,
+    "526474/f7f6f2": 5.66,
+    "b51f37/ffffff": 6.53,
+    "214b6b/ffffff": 9.2
+  },
+  "resources": {
+    "site.css": {
+      "bytes": 151446,
+      "gzip_bytes": 32798
+    },
+    "app.js": {
+      "bytes": 184228,
+      "gzip_bytes": 54631
+    },
+    "v14-copy.js": {
+      "bytes": 18402,
+      "gzip_bytes": 8846
+    }
+  }
+}

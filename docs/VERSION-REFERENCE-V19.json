@@ -1,0 +1,39 @@
+{
+  "productVersion": "V19",
+  "documentationRevision": "2026-11-02",
+  "runtimeBaseline": {
+    "sourceCommit": "848425392ec54e9aafe70922a0de203b5b862222",
+    "sitesVersionNumber": 11,
+    "deploymentId": "appgdep_6ae735cfdc1881918ad96d7d1eadaffc",
+    "deploymentStatus": "succeeded",
+    "deployedAt": "2026-11-01T12:52:28.149791+00:00",
+    "url": "https://minh-duc-prototype.kenbinhoainam.chatgpt.site"
+  },
+  "note": "Reference UI release; later documentation-only publications may increase the Sites counter without changing V19. Not a latest-deployment pointer.",
+  "evidence": "PROTOTYPE-HANDOFF-V19.md",
+  "archivedMarkdownWithContextNotice": [
+    "AUDIT-V14.md",
+    "ACCEPTANCE-V14.md",
+    "KE-HOACH-MINHDUCWEB-V17-TO-PRODUCTION.md",
+    "RUNBOOK-V15.md",
+    "PROTOTYPE-SCOPE-V16.md",
+    "DESIGN-SYSTEM-V11.md",
+    "AUDIT-V15.md",
+    "UI-AUDIT-V11.md",
+    "PROTOTYPE-SCOPE-V17.md",
+    "PROTOTYPE-HANDOFF-V16.md",
+    "AUDIT-V13.md",
+    "README-V12.md",
+    "README-V11.md",
+    "CHANGELOG-V12.md",
+    "ROADMAP-FLAGSHIP-V15.md",
+    "DANH-GIA-VA-KE-HOACH-FLAGSHIP-2026-11-01.md",
+    "PROTOTYPE-HANDOFF-V18.md",
+    "CHANGELOG-V17.2.md",
+    "CHANGELOG-V17.1.md",
+    "PROTOTYPE-HANDOFF-V17.md",
+    "AUDIT-PROTOTYPE-V16.md",
+    "LOGO-RIGHTS-V17.md",
+    "AUDIT-PROTOTYPE-V17.md"
+  ]
+}

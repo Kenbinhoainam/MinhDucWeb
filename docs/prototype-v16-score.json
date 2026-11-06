@@ -1,0 +1,147 @@
+{
+  "profile": "flagship-prototype",
+  "rubric_version": "P1.0.0",
+  "project": {
+    "title": "Website Minh Đức",
+    "target": "https://minh-duc-prototype.kenbinhoainam.chatgpt.site",
+    "version": "V16 — prototype trình duyệt đã rút gọn",
+    "date": "2026-10-31"
+  },
+  "artifact_type": "browser",
+  "fidelity": "high_fidelity",
+  "earned_points": 91.4,
+  "tested_weight": 100.0,
+  "applicable_weight": 100.0,
+  "observed_score": 91.4,
+  "coverage_percent": 100.0,
+  "lower_bound": 91.4,
+  "upper_bound": 91.4,
+  "domains": [
+    {
+      "id": "A",
+      "name": "Mục tiêu, nội dung và kiến trúc",
+      "earned_points": 9.2,
+      "tested_weight": 10.0,
+      "applicable_weight": 10.0,
+      "observed_score": 92.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 92.0,
+      "upper_bound": 92.0
+    },
+    {
+      "id": "B",
+      "name": "Bản sắc và chỉ đạo nghệ thuật",
+      "earned_points": 14.0,
+      "tested_weight": 16.0,
+      "applicable_weight": 16.0,
+      "observed_score": 87.5,
+      "coverage_percent": 100.0,
+      "lower_bound": 87.5,
+      "upper_bound": 87.5
+    },
+    {
+      "id": "C",
+      "name": "Typography và phân cấp thông tin",
+      "earned_points": 9.2,
+      "tested_weight": 10.0,
+      "applicable_weight": 10.0,
+      "observed_score": 92.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 92.0,
+      "upper_bound": 92.0
+    },
+    {
+      "id": "D",
+      "name": "Bố cục và thiết kế đa thiết bị",
+      "earned_points": 11.0,
+      "tested_weight": 12.0,
+      "applicable_weight": 12.0,
+      "observed_score": 91.7,
+      "coverage_percent": 100.0,
+      "lower_bound": 91.7,
+      "upper_bound": 91.7
+    },
+    {
+      "id": "E",
+      "name": "Điều hướng và hành trình chính",
+      "earned_points": 12.8,
+      "tested_weight": 14.0,
+      "applicable_weight": 14.0,
+      "observed_score": 91.4,
+      "coverage_percent": 100.0,
+      "lower_bound": 91.4,
+      "upper_bound": 91.4
+    },
+    {
+      "id": "F",
+      "name": "Component và trạng thái giao diện",
+      "earned_points": 9.6,
+      "tested_weight": 10.0,
+      "applicable_weight": 10.0,
+      "observed_score": 96.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 96.0,
+      "upper_bound": 96.0
+    },
+    {
+      "id": "G",
+      "name": "Khả năng tiếp cận trong prototype",
+      "earned_points": 8.8,
+      "tested_weight": 10.0,
+      "applicable_weight": 10.0,
+      "observed_score": 88.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 88.0,
+      "upper_bound": 88.0
+    },
+    {
+      "id": "H",
+      "name": "Nội dung, hình ảnh và bản địa hóa",
+      "earned_points": 7.4,
+      "tested_weight": 8.0,
+      "applicable_weight": 8.0,
+      "observed_score": 92.5,
+      "coverage_percent": 100.0,
+      "lower_bound": 92.5,
+      "upper_bound": 92.5
+    },
+    {
+      "id": "I",
+      "name": "Chuyển động và phản hồi cảm nhận",
+      "earned_points": 4.6,
+      "tested_weight": 5.0,
+      "applicable_weight": 5.0,
+      "observed_score": 92.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 92.0,
+      "upper_bound": 92.0
+    },
+    {
+      "id": "J",
+      "name": "Tính trung thực và khả năng bàn giao",
+      "earned_points": 4.8,
+      "tested_weight": 5.0,
+      "applicable_weight": 5.0,
+      "observed_score": 96.0,
+      "coverage_percent": 100.0,
+      "lower_bound": 96.0,
+      "upper_bound": 96.0
+    }
+  ],
+  "excluded_weight": 0,
+  "scope_signature": "ad573cf8910c3e22a06e3e1f5bf7c54b899e0a4f0ff80da16b82437540b1636d",
+  "flagship_prototype_verified": true,
+  "verdict": "Prototype HTML đạt ngưỡng Flagship nội bộ",
+  "blockers": [],
+  "untested_criteria": [],
+  "open_critical_issues": [],
+  "validation_method": "expert_review",
+  "production_readiness": "not_assessed",
+  "limits": [
+    "Công cụ kiểm tra dữ liệu/công thức; người đánh giá phải mở và xác thực nội dung evidence.",
+    "Điểm P1.0.0 không so trực tiếp với điểm website runtime 2.0.0.",
+    "Đánh giá Figma theo thiết kế/spec không chứng minh HTML, screen reader hoặc CSS đã chạy đúng.",
+    "Không chứng nhận WCAG, hiệu năng thực tế, bảo mật, tích hợp backend hay kết quả kinh doanh.",
+    "Khoảng điểm là biên toán học cho phần chưa kiểm, không phải khoảng tin cậy thống kê."
+  ]
+}

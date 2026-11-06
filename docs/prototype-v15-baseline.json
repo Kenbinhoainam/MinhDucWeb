@@ -1,0 +1,575 @@
+{
+  "profile": "flagship-prototype",
+  "schema_version": "1.0",
+  "rubric_version": "P1.0.0",
+  "project": {
+    "title": "Website Minh Đức",
+    "target": "https://minh-duc-prototype.kenbinhoainam.chatgpt.site",
+    "version": "V15 baseline — partial prototype re-review of preserved snapshot",
+    "date": "2026-10-31"
+  },
+  "artifact_type": "browser",
+  "fidelity": "high_fidelity",
+  "scope": {
+    "audiences": [
+      "Lao động phổ thông",
+      "Đại diện nhân sự doanh nghiệp FDI",
+      "Nhân viên biên tập CMS demo"
+    ],
+    "primary_tasks": [
+      "T01 tìm/lọc/so sánh việc và mở chi tiết",
+      "T02 đọc điều kiện và ứng tuyển demo, sửa lỗi",
+      "T03 hiểu dịch vụ và gửi nhu cầu demo",
+      "T04 sửa Home/ảnh/tin/bản dịch, lưu, preview và reset nội dung",
+      "T05 tìm và đọc cẩm nang"
+    ],
+    "templates": [
+      "Home",
+      "About",
+      "Services",
+      "Worker/internal lists",
+      "Worker/internal detail and application",
+      "Knowledge hub/article",
+      "Two-step contact",
+      "CMS overview/Home/job/post/partner/settings",
+      "Dialogs and empty/error/success states"
+    ],
+    "viewports": [
+      "320",
+      "390",
+      "768",
+      "1440",
+      "CSS text200% at320/640"
+    ],
+    "locales": [
+      "vi",
+      "en",
+      "zh",
+      "ko",
+      "CMS chrome vi; content preview vi/en/zh/ko"
+    ],
+    "exclusions": [],
+    "simulation_limits": "Đánh giá UI và hành vi trong phạm vi prototype; ranh giới kết nối của mỗi snapshot ghi trong evidence. Không gồm backend production, uptime, DB, email/Sheets, tự dịch/AI thật, field CWV, SEO indexing hoặc doanh thu. CMS trong phạm vi demo. Expert review, không có user test; CSS text-resize không thay kiểm thiết bị/AT thực."
+  },
+  "evidence": [
+    {
+      "id": "V02",
+      "kind": "visual",
+      "artifact": "docs/v16-before-breadcrumb.jpg; docs/v16-before-panels.jpg",
+      "location": "Ảnh người dùng V15",
+      "procedure": "Đối chiếu với source c478636 và trang About V15 trước xuất bản.",
+      "result": "Link có min-height36 nhưng text current không align-center; CMS hiển thị nhiều mục kiểm định, trạng thái production."
+    },
+    {
+      "id": "H01",
+      "kind": "interaction",
+      "artifact": "docs/v14-interaction-qa.json; docs/v14-stress-qa.json",
+      "location": "Retained interactions and crop rules",
+      "procedure": "Đối chiếu handlers không đổi: filters/sort/bookmarks, service tabs/context, knowledge search, gallery và content boundaries.",
+      "result": "29 interaction checks và6 stress samples lịch sử được giữ làm evidence kế thừa; không gọi thành lượt chạy V16 mới."
+    },
+    {
+      "id": "B01",
+      "kind": "specification",
+      "artifact": "git commit478636e14d97bbb8c098f337057937180fcc7276; docs/AUDIT-V15.md",
+      "location": "V15 preserved source and screenshots",
+      "procedure": "Đọc lại bằng rubricP1.0.0; chỉ chấm phần thể hiện/đặc tả, không lấy số75.3 runtime làm số prototype.",
+      "result": "Public có same brand/type/templates; CMS có nhiều operational panels. Interaction/measurement chưa phủ lại toàn bộ bằng P profile nên giữ untested."
+    }
+  ],
+  "criteria": [
+    {
+      "id": "A01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "A02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "A03",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "A04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "A05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "B01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "B02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "B03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "B04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "B05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "C01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "C02",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "C03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "C04",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "C05",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "D01",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "D02",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "D03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "D04",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "D05",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "E01",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "E02",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "E03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "E04",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "E05",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "F01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "F02",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "F03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "F04",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "F05",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "G01",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "G02",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "G03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "G04",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "G05",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "H01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "H02",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "H03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "H04",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "H05",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "I01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "I02",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "I03",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "I04",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "I05",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "J01",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "J02",
+      "status": "scored",
+      "rating": 3,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "J03",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    },
+    {
+      "id": "J04",
+      "status": "untested",
+      "rating": null,
+      "evidence": [],
+      "reason": "Chưa re-review đủ bằng chứng tương tác/đo theo profile prototype cho snapshot V15."
+    },
+    {
+      "id": "J05",
+      "status": "scored",
+      "rating": 4,
+      "evidence": [
+        "B01",
+        "V02"
+      ],
+      "reason": "Baseline source/visual tạm thời; chỉ dùng evidence phần đã đọc, không suy kiểm browser/production."
+    }
+  ],
+  "gates": [
+    {
+      "id": "PG1",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Baseline partial không đủ xác nhận gates prototype."
+    },
+    {
+      "id": "PG2",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Baseline partial không đủ xác nhận gates prototype."
+    },
+    {
+      "id": "PG3",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Baseline partial không đủ xác nhận gates prototype."
+    },
+    {
+      "id": "PG4",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Baseline partial không đủ xác nhận gates prototype."
+    },
+    {
+      "id": "PG5",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Baseline partial không đủ xác nhận gates prototype."
+    },
+    {
+      "id": "PG6",
+      "status": "unknown",
+      "evidence": [],
+      "reason": "Baseline partial không đủ xác nhận gates prototype."
+    }
+  ],
+  "issues": [
+    {
+      "id": "MD16-01",
+      "severity": "P2",
+      "status": "open",
+      "location": "Breadcrumb About và inner headers",
+      "expected": "Các phần cùng đường căn; không giữ khoảng ảnh banner cũ.",
+      "actual": "Ảnh1 lệch baseline; link36px và phần hiện tại chưa align-center.",
+      "evidence": [
+        "V02"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    },
+    {
+      "id": "MD16-02",
+      "severity": "P2",
+      "status": "open",
+      "location": "CMS overview",
+      "expected": "Chỉ giữ biên tập/lưu/xem trước cần cho demo.",
+      "actual": "Ảnh2 có quality gate/production checklist dài và dư.",
+      "evidence": [
+        "V02"
+      ],
+      "acceptance": "Đối chiếu evidence sau sửa và không hồi quy template/state liên quan."
+    }
+  ],
+  "validation": {
+    "method": "expert_review",
+    "notes": "Đánh giá bởi chuyên gia trên source, ảnh và Cua browser traces; không có nghiên cứu người dùng. Chỉ áp dụng prototype HTML/mẫu đã khóa; không chứng nhận production, full WCAG, native-device hay field performance."
+  }
+}

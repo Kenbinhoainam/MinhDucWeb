@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Minh Duc V23 browser regression</title>
+<style>
+body{font:14px/1.6 system-ui;margin:24px;color:#102b50}button{min-height:44px;padding:10px 20px}pre{white-space:pre-wrap;background:#f2f7ff;padding:18px;max-height:480px;overflow:auto}#stage{overflow:auto;margin-top:20px}iframe{display:block;border:1px solid #c4d4e5;height:844px}#status{font-weight:700}
+</style>
+<h1>V23 browser regression</h1>
+<p>Local QA only. This checks browser layout and simulated DOM interactions, not a flagship score or certification. Real keyboard Tab order, screen readers and physical phones require separate checks.</p>
+<button id="run" type="button">Run checks</button>
+<button id="runCms" type="button">Run CMS checks</button>
+<p id="status" role="status" aria-live="polite">Ready</p>
+<pre id="report">Ready</pre>
+<div id="stage"><iframe id="frame" title="Prototype regression viewport" src="about:blank" style="width:390px"></iframe></div>
+<script>
+'use strict';
+const frame=document.querySelector('#frame'),report=document.querySelector('#report'),status=document.querySelector('#status'),runButton=document.querySelector('#run');
+const locales=['vi','en','zh','ko'],widths=[320,375,390,768,1024,1440];
+const routes=['index.html','ve-minh-duc.html','dich-vu.html','lien-he.html','viec-lam.html','tin-tuc.html','chi-tiet-viec-lam.html?id=cn-dien-tu'];
+const contentKey='md_prototype_v16_content';
+let rows=[],started=0,startedAt='',running=false,complete=false,suiteName='browser-regression',suiteLimit=170000;
+const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+const visible=el=>!!el&&el.getClientRects().length>0&&el.ownerDocument.defaultView.getComputedStyle(el).visibility!=='hidden';
+const must=(d,selector)=>{const el=d.querySelector(selector);if(!el)throw Error('Missing '+selector);return el;};
+const css=el=>el.ownerDocument.defaultView.getComputedStyle(el);
+function show(){const summary={version:'V23',suite:suiteName,complete,startedAt,finishedAt:complete?new Date().toISOString():null,elapsedSeconds:Math.round((performance.now()-started)/1000),matrixExpected:suiteName==='cms-regression'?0:168,matrixCompleted:rows.filter(r=>r.kind==='matrix').length,total:rows.length,passed:rows.filter(r=>r.pass).length,failed:rows.filter(r=>!r.pass).length,method:'Same-origin iframe; programmatic clicks/focus, form submissions and synthetic events. CMS suite snapshots and restores browser storage. No native keyboard or physical-device claim.',results:rows};report.textContent=JSON.stringify(summary,null,2);status.textContent=(complete?'Complete':'Running')+' · '+summary.passed+'/'+summary.total+' passed · '+summary.failed+' failed';window.qaResult=summary;}
+function record(id,pass,actual,kind='interaction'){rows.push({id,kind,pass:!!pass,actual});show();}
+function deadline(){if(performance.now()-started>suiteLimit)throw Error((suiteLimit/1000)+' second suite limit reached; remaining cases not run');}
+async function settle(d){await Promise.race([d.fonts?.ready||Promise.resolve(),wait(400)]);await wait(20);}
+async function navigate(action){deadline();await new Promise((resolve,reject)=>{const done=()=>{clearTimeout(timer);resolve()};const timer=setTimeout(()=>{frame.removeEventListener('load',done);reject(Error('Iframe load exceeded 6 seconds'))},6000);frame.addEventListener('load',done,{once:true});try{action()}catch(error){clearTimeout(timer);frame.removeEventListener('load',done);reject(error)}});const d=frame.contentDocument;await settle(d);return d;}
+async function load(route,width=390,lang='vi'){frame.style.width=width+'px';frame.style.height=(width===320?600:844)+'px';const url=new URL(route,location.href);url.searchParams.set('lang',lang);return navigate(()=>{if(frame.contentWindow.location.href===url.href)frame.contentWindow.location.reload();else frame.src=url.href;});}
+async function follow(el){return navigate(()=>el.click());}
+async function attempt(id,fn,kind='interaction'){try{deadline();await fn();}catch(error){record(id,false,{error:error.message},kind);if(performance.now()-started>suiteLimit)throw error;}}
+function storageSnapshot(storage){return Object.fromEntries(Object.keys(storage).filter(k=>/^md[_-]/.test(k)).map(k=>[k,storage.getItem(k)]));}
+function restoreStorage(storage,snapshot){for(const k of Object.keys(storage))if(/^md[_-]/.test(k)&&!Object.hasOwn(snapshot,k))storage.removeItem(k);for(const [k,v] of Object.entries(snapshot))storage.setItem(k,v);}
+function inspect(d){const fields=[...d.querySelectorAll('input:not([type=hidden]),select,textarea')].filter(visible),ids=[...d.querySelectorAll('[id]')].map(el=>el.id);return{viewport:d.documentElement.clientWidth,scrollWidth:d.documentElement.scrollWidth,visibleH1:[...d.querySelectorAll('h1')].filter(visible).length,lang:d.documentElement.lang,unnamed:fields.filter(el=>!el.labels?.length&&!el.getAttribute('aria-label')&&!el.getAttribute('aria-labelledby')).map(el=>el.id||el.name),duplicateIds:[...new Set(ids.filter((id,i)=>ids.indexOf(id)!==i))]};}
+async function matrix(){for(const width of widths)for(const lang of locales)for(const route of routes){const id=`matrix / ${route} / ${width} / ${lang}`;await attempt(id,async()=>{const d=await load(route,width,lang),a=inspect(d);record(id,a.scrollWidth<=a.viewport+1&&a.visibleH1===1&&a.lang.split('-')[0]===lang&&!a.unnamed.length&&!a.duplicateIds.length,a,'matrix');},'matrix');}}
+async function menus(){for(const width of [320,390])for(const lang of locales){await attempt(`menu / ${width} / ${lang}`,async()=>{const d=await load('index.html',width,lang),button=must(d,'#mobileMenu'),nav=must(d,'#mainNav');button.focus();button.click();await settle(d);record(`menu-open-focus / ${width} / ${lang}`,button.getAttribute('aria-expanded')==='true'&&nav.contains(d.activeElement)&&visible(d.activeElement),{expanded:button.getAttribute('aria-expanded'),active:d.activeElement?.outerHTML.slice(0,250)});d.activeElement.dispatchEvent(new d.defaultView.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));record(`menu-escape / ${width} / ${lang}`,button.getAttribute('aria-expanded')==='false'&&d.activeElement===button&&!visible(nav),{expanded:button.getAttribute('aria-expanded'),activeId:d.activeElement?.id,navVisible:visible(nav)});button.click();must(d,'#homeQuery').focus();await settle(d);record(`menu-focus-leaves / ${width} / ${lang}`,button.getAttribute('aria-expanded')==='false'&&!visible(nav)&&d.activeElement.id==='homeQuery',{expanded:button.getAttribute('aria-expanded'),activeId:d.activeElement?.id,navVisible:visible(nav)});});}}
+async function dockLinks(){for(const width of [320,390])for(const lang of locales)for(const job of ['cn-dien-tu','ky-su-co-dien'])await attempt(`detail-dock / ${job} / ${width} / ${lang}`,async()=>{const d=await load('chi-tiet-viec-lam.html?id='+job,width,lang),dock=must(d,'.mobile-action-dock'),links=[...dock.querySelectorAll('a')],list=links.find(a=>/\/(viec-lam|tuyen-dung-noi-bo)(\.html)?$/.test(new URL(a.href).pathname)),apply=links.find(a=>new URL(a.href).hash==='#ung-tuyen'),url=list?new URL(list.href):null;record(`detail-dock / ${job} / ${width} / ${lang}`,visible(list)&&!!apply&&url.searchParams.get('lang')===lang&&!list.hasAttribute('data-social-open'),{listing:list?.getAttribute('href'),apply:apply?.getAttribute('href'),contactBinding:list?.hasAttribute('data-social-open')});});}
+async function marquee(){await attempt('pause/resume',async()=>{const d=await load('index.html',1440,'vi'),button=must(d,'[data-pause-marquee]'),track=must(d,'.partner-marquee-track');button.click();must(d,'#homeQuery').focus();await wait(80);const before=css(track).transform,state=css(track).animationPlayState;await wait(5100);const after=css(track).transform;record('pause-persists-five-seconds',before===after&&button.getAttribute('aria-pressed')==='true'&&(state==='paused'||css(track).animationName==='none'),{before,after,animationPlayState:state,waitMilliseconds:5100,focus:d.activeElement.id});button.click();must(d,'#homeQuery').focus();const resumedBefore=css(track).transform;await wait(350);const resumedAfter=css(track).transform,reduced=d.defaultView.matchMedia('(prefers-reduced-motion: reduce)').matches||d.documentElement.classList.contains('md-reduce-motion');record('resume-or-reduced-motion',button.getAttribute('aria-pressed')==='false'&&(reduced?css(track).animationName==='none':css(track).animationPlayState==='running'&&resumedAfter!==resumedBefore),{before:resumedBefore,after:resumedAfter,reducedMotion:reduced,animationPlayState:css(track).animationPlayState,animationName:css(track).animationName});});}
+async function newsJourney(){for(const lang of locales)await attempt('news-navigation / '+lang,async()=>{let d=await load('index.html',390,lang);const footerVideo=[...d.querySelectorAll('footer a,.footer a')].find(a=>new URL(a.href).searchParams.get('kind')==='video');if(!footerVideo)throw Error('Footer video link missing kind=video');d=await follow(footerVideo);let u=new URL(d.location.href);record('footer-video-filter / '+lang,u.searchParams.get('kind')==='video'&&u.searchParams.get('lang')===lang&&must(d,'[data-news-kind="video"]').getAttribute('aria-pressed')==='true',{url:u.pathname+u.search,count:must(d,'#newsResultCount').textContent});const first=must(d,'#newsListing h3 a'),query=first.textContent.trim().slice(0,2),field=must(d,'#newsQuery');field.value=query;field.dispatchEvent(new d.defaultView.Event('input',{bubbles:true}));await wait(300);const count=must(d,'#newsResultCount');record('video-count-context / '+lang,visible(count)&&!count.textContent.includes('Tất cả nội dung'),{count:count.textContent,query});d=await follow(must(d,'#newsListing h3 a'));u=new URL(d.location.href);record('article-preserves-filter / '+lang,u.searchParams.get('kind')==='video'&&u.searchParams.get('q')===query&&u.searchParams.get('lang')===lang,{url:u.pathname+u.search});d=await follow(must(d,'.v14-article-intro>a,.v14-article-intro .container>a'));u=new URL(d.location.href);record('back-preserves-filter / '+lang,u.searchParams.get('kind')==='video'&&u.searchParams.get('q')===query&&u.searchParams.get('lang')===lang&&must(d,'#newsQuery').value===query&&must(d,'[data-news-kind="video"]').getAttribute('aria-pressed')==='true',{url:u.pathname+u.search,query:must(d,'#newsQuery').value});d=await navigate(()=>frame.contentWindow.location.reload());u=new URL(d.location.href);record('reload-preserves-filter / '+lang,u.searchParams.get('kind')==='video'&&must(d,'#newsQuery').value===query,{url:u.pathname+u.search,query:must(d,'#newsQuery').value});});}
+async function videoEmpty(){await attempt('video-empty-setup',async()=>{let d=await load('bai-viet.html?id=video-moi-truong',390,'vi');const before=localStorage.getItem(contentKey),data=structuredClone(d.defaultView.MD15.getData()),post=data.posts.find(p=>p.id==='video-moi-truong');if(!post)throw Error('Video sample record missing');post.video='';localStorage.setItem(contentKey,JSON.stringify(data));try{for(const lang of locales){d=await load('bai-viet.html?id=video-moi-truong',390,lang);const empty=d.querySelector('.md-video-unavailable'),play=d.querySelector('.v14-article-content [data-video]');record('video-unconfigured / '+lang,visible(empty)&&!play&&!!empty.querySelector('figcaption')?.textContent.trim(),{emptyVisible:visible(empty),playControl:!!play,label:empty?.textContent.trim()});}}finally{if(before===null)localStorage.removeItem(contentKey);else localStorage.setItem(contentKey,before);}});}
+
+async function discoveryJourney(){
+ for(const lang of locales)await attempt('discovery / '+lang,async()=>{
+  let d=await load('index.html',390,lang);
+  const links=[...d.querySelectorAll('.md-area-links a')];
+  record('area-links / '+lang,links.length>0&&links.every(link=>new URL(link.href).searchParams.get('lang')===lang&&link.getBoundingClientRect().height>=44),{links:links.map(link=>link.getAttribute('href'))});
+  must(d,'a[href="#workforce"]').click();await settle(d);
+  const disclosure=must(d,'.home-brief-disclosure');
+  record('brief-opens-and-focuses / '+lang,disclosure.open&&d.activeElement===disclosure.querySelector('summary'),{open:disclosure.open,focused:d.activeElement.tagName});
+  const link=must(d,'.md-area-links a'),area=new URL(link.href).searchParams.get('area');
+  d=await follow(link);
+  const selected=must(d,'#jobFilter select[name="area"]');
+  record('area-filter / '+lang,selected.value===area&&new URL(d.location.href).searchParams.get('lang')===lang,{area,selected:selected.value});
+  d=await load('index.html#workforce',390,lang);
+  record('brief-deep-link / '+lang,must(d,'.home-brief-disclosure').open,{hash:d.location.hash});
+  d=await navigate(()=>frame.contentWindow.location.reload());
+  record('brief-reload / '+lang,must(d,'.home-brief-disclosure').open,{hash:d.location.hash});
+  const language=must(d,'#languageSelect');language.value=lang==='en'?'vi':'en';language.dispatchEvent(new d.defaultView.Event('change',{bubbles:true}));await settle(d);
+  record('brief-locale-change / '+lang,must(d,'.home-brief-disclosure').open,{hash:d.location.hash,lang:d.documentElement.lang});
+  record('brief-does-not-assume-location / '+lang,must(d,'#staffArea').value==='',{selected:must(d,'#staffArea').value,summary:must(d,'#staffingSummary').textContent});
+ });
+}
+async function flagshipLayouts(){
+ for(const width of [320,390,768,1440])for(const lang of locales){
+  await attempt('editorial-home / '+width+' / '+lang,async()=>{const doc=await load('index.html',width,lang),search=must(doc,'#find-work'),jobs=must(doc,'.opportunities-section'),story=must(doc,'.md-connection-story');record('editorial-home / '+width+' / '+lang,search.compareDocumentPosition(jobs)&Node.DOCUMENT_POSITION_FOLLOWING&&story.querySelectorAll('article').length===3&&!doc.querySelector('.story-section,.work-section'),{height:doc.documentElement.scrollHeight,storyCards:story.querySelectorAll('article').length});});
+  for(const service of ['supply','recruitment','factory','consulting'])await attempt('blueprint / '+service+' / '+width+' / '+lang,async()=>{const doc=await load('dich-vu.html?service='+service,width,lang),blueprint=must(doc,'.md-service-blueprint'),stages=[...blueprint.querySelectorAll('.md-blueprint-stage')],action=must(doc,'.md-blueprint-cta'),target=new URL(action.href);record('blueprint / '+service+' / '+width+' / '+lang,target.searchParams.get('service')===service&&target.searchParams.get('lang')===lang&&stages.length===3&&stages.every(stage=>visible(stage)&&stage.getBoundingClientRect().right<=doc.documentElement.clientWidth+1),{stages:stages.length,overflow:doc.documentElement.scrollWidth>doc.documentElement.clientWidth+1});});
+ }
+}
+
+runButton.addEventListener('click',async()=>{if(running)return;suiteName='browser-regression';suiteLimit=170000;running=true;complete=false;rows=[];started=performance.now();startedAt=new Date().toISOString();runButton.disabled=true;const local=storageSnapshot(localStorage),session=storageSnapshot(sessionStorage);try{sessionStorage.removeItem('md_persona');show();await matrix();await menus();await dockLinks();await marquee();await newsJourney();await videoEmpty();await discoveryJourney();await flagshipLayouts();}catch(error){record('suite-incomplete',false,{error:error.message},'harness');}finally{frame.src='about:blank';restoreStorage(localStorage,local);restoreStorage(sessionStorage,session);complete=true;running=false;runButton.disabled=false;show();}});
+
+const cmsButton=document.querySelector('#runCms');
+const normalized=value=>String(value).replace(/•/g,'').replace(/\s+/g,' ').trim();
+function changeField(d,field,value){field.value=value;field.dispatchEvent(new d.defaultView.Event('input',{bubbles:true}));field.dispatchEvent(new d.defaultView.Event('change',{bubbles:true}));}
+async function openCmsRecord(d,kind,id){must(d,'[data-admin="'+(kind==='post'?'posts':'jobs')+'"]').click();must(d,'[data-edit-'+kind+'="'+id+'"]').click();await settle(d);return must(d,kind==='post'?'#postEditForm':'#jobEditForm');}
+
+async function cmsEditorialAndTranslations(){
+  let d=await load('cms-demo.html',1440,'vi');
+  let form=await openCmsRecord(d,'post','xu-huong-kcn');
+  const original={title:form.elements.title.value,body:form.elements.body.value};
+  d=await load('bai-viet.html?id=xu-huong-kcn',1440,'vi');
+  const publicTitle=must(d,'.v14-article-intro h1').textContent,publicBody=must(d,'.v14-article-prose').innerText;
+  record('cms/public canonical article',normalized(original.title)===normalized(publicTitle)&&normalized(original.body)===normalized(publicBody),{cmsTitle:original.title,publicTitle,cmsBodyLength:original.body.length,publicBodyLength:publicBody.length,equalNormalizedBody:normalized(original.body)===normalized(publicBody)},'cms');
+  d=await load('cms-demo.html',1440,'vi');form=await openCmsRecord(d,'post','xu-huong-kcn');
+  const translations={en:'QA edited English headline',zh:'QA 中文编辑标题',ko:'QA 한국어 편집 제목'};
+  for(const [lang,title] of Object.entries(translations)){
+    const panel=must(d,'[data-l10n-kind="post"]');changeField(d,must(panel,'[data-l10n-lang]'),lang);
+    changeField(d,must(panel,'[data-l10n-key="title"]'),title);must(panel,'[data-l10n-save]').click();
+  }
+  const viTitle=original.title+' · QA source change';changeField(d,form.elements.title,viTitle);form.requestSubmit();await settle(d);
+  const stored=JSON.parse(localStorage.getItem(contentKey));
+  for(const [lang,title] of Object.entries(translations)){const result=stored.i18n['post:xu-huong-kcn'][lang];record('CMS save retains '+lang,result.title===title&&result.status==='needs-review'&&result.reviewFields.includes('title'),{title:result.title,status:result.status,reviewFields:result.reviewFields},'cms');}
+  d=await load('cms-demo.html',1440,'vi');form=await openCmsRecord(d,'post','xu-huong-kcn');
+  record('CMS reload source and review status',form.elements.title.value===viTitle&&must(d,'[data-l10n-kind="post"] .status-list').textContent.includes('Cần rà lại'),{title:form.elements.title.value,status:must(d,'[data-l10n-kind="post"] .status-list').textContent},'cms');
+  for(const lang of locales){d=await load('bai-viet.html?id=xu-huong-kcn',390,lang);const title=must(d,'.v14-article-intro h1').textContent;record('CMS public preview / '+lang,title===(translations[lang]||viTitle)&&d.documentElement.lang.split('-')[0]===lang,{title,lang:d.documentElement.lang},'cms');}
+}
+
+async function cmsIndependentCrops(){
+  let d=await load('cms-demo.html',1440,'vi');
+  // Deliberately give two records the same source; V24 changed their defaults.
+  const fixture=structuredClone(d.defaultView.MD15.getData());fixture.jobs.find(j=>j.id==='qc').image=fixture.jobs.find(j=>j.id==='cn-dien-tu').image;localStorage.setItem(contentKey,JSON.stringify(fixture));d=await navigate(()=>frame.contentWindow.location.reload());
+  const crops=[{id:'cn-dien-tu',x:0,zoom:170},{id:'qc',x:100,zoom:110}];
+  for(const crop of crops){await openCmsRecord(d,'job',crop.id);must(d,'[data-inline-media="job:'+crop.id+'"]').click();const studio=must(d,'#v7StudioForm');changeField(d,studio.elements.x,crop.x);changeField(d,studio.elements.zoom,crop.zoom);studio.requestSubmit();await settle(d);}
+  const saved=JSON.parse(localStorage.getItem(contentKey)),first=saved.jobs.find(j=>j.id===crops[0].id),second=saved.jobs.find(j=>j.id===crops[1].id);
+  record('CMS crop saves independent record settings',first.image===second.image&&saved.mediaTransforms['job:'+first.id].x===0&&saved.mediaTransforms['job:'+second.id].x===100,{sharedImage:first.image,first:saved.mediaTransforms['job:'+first.id],second:saved.mediaTransforms['job:'+second.id]},'cms');
+  const inspectCrops=(doc,id)=>{for(const crop of crops){const image=must(doc,'img[data-media-key="job:'+crop.id+'"]'),computed=css(image);record(id+' / '+crop.id,image.style.transform==='scale('+(crop.zoom/100)+')'&&computed.objectPosition===crop.x+'% 50%',{src:image.getAttribute('src'),objectPosition:computed.objectPosition,inlineTransform:image.style.transform,computedTransform:computed.transform,lang:doc.documentElement.lang},'cms');}};
+  d=await load('viec-lam.html',1440,'vi');inspectCrops(d,'public listing crop');
+  d=await navigate(()=>frame.contentWindow.location.reload());inspectCrops(d,'reloaded listing crop');
+  changeField(d,must(d,'#languageSelect'),'en');await settle(d);inspectCrops(d,'language-switched listing crop');
+  must(d,'[data-sort="high"]').click();await settle(d);inspectCrops(d,'sorted listing crop');
+  d=await load('viec-lam.html',390,'vi');inspectCrops(d,'mobile listing crop');
+  const roundTrip=JSON.parse(JSON.stringify(JSON.parse(localStorage.getItem(contentKey))));localStorage.setItem(contentKey,JSON.stringify(roundTrip));d=await load('bai-viet.html?id=xu-huong-kcn',390,'en');
+  record('JSON roundtrip keeps edited translation',must(d,'.v14-article-intro h1').textContent==='QA edited English headline',{title:must(d,'.v14-article-intro h1').textContent},'cms');
+}
+
+cmsButton.addEventListener('click',async()=>{
+  if(running)return;suiteName='cms-regression';suiteLimit=55000;running=true;complete=false;rows=[];started=performance.now();startedAt=new Date().toISOString();runButton.disabled=true;cmsButton.disabled=true;
+  const local=storageSnapshot(localStorage),session=storageSnapshot(sessionStorage);
+  try{localStorage.removeItem(contentKey);sessionStorage.removeItem('md_persona');show();await attempt('cms-editorial-and-translations',cmsEditorialAndTranslations,'cms');await attempt('cms-independent-crops',cmsIndependentCrops,'cms');}
+  catch(error){record('cms-suite-incomplete',false,{error:error.message},'harness');}
+  finally{frame.src='about:blank';restoreStorage(localStorage,local);restoreStorage(sessionStorage,session);complete=true;running=false;runButton.disabled=false;cmsButton.disabled=false;show();}
+});
+</script>
+</html>

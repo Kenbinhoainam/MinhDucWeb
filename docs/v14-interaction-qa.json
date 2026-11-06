@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Accent-insensitive search",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Filters survive URL",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Bookmark state",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Clear filters",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Salary sorting",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Comparison tray",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Comparison dialog",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Dialog restores page",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Query and salary restored",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Language follows links",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Service selector",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Service scope",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Context carried to enquiry",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry second step",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry errors at fields",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry simulated completion",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "No contact details persisted",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Application requires preferences",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Application second step",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Back preserves preferences",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Knowledge type filter",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Knowledge empty state",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Knowledge clear restores content",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "All homepage editorial images decode",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Image failure has retry state",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CMS live structural audit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CMS job preview available",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CMS preview uses correct record",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CMS rejects reversed salary",
+    "passed": true,
+    "detail": ""
+  }
+]

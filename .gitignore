@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+.env
+*.tar.gz
+dist/__qa.html
+
+.sites-runtime/
+.wrangler/
+.vinext/
+dist/
+.dev.vars
+.dev.vars.*
+.env*
+tsconfig.tsbuildinfo
+public/__qa.html
+
+public/__proof.html
+
+artifacts/
+
+# Local documents and working files are not website source.
+output/
+outputs/
+tmp/

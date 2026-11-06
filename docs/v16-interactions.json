@@ -1,0 +1,96 @@
+{
+  "validation": "expert_review; Chrome managed preview; fictional data only",
+  "tests": [
+    {
+      "id": "T01",
+      "test": "Contact empty brief, invalid phone and unchecked consent",
+      "expected": "field errors, focus invalid control, retain entered name/brief",
+      "actual": "Message error focus briefMessage; invalid phone and consent errors; name retained; correction proceeds",
+      "pass": true
+    },
+    {
+      "id": "T02",
+      "test": "Contact successful demo",
+      "expected": "loading then simulated confirmation, no receipt/API claim",
+      "actual": "Đang kiểm tra → Đã hoàn tất bản demo; explicitly no send/store",
+      "pass": true
+    },
+    {
+      "id": "T03",
+      "test": "Worker application on mobile390px VI/EN/ZH/KO",
+      "expected": "shift/shuttle/area → name/phone/consent → localized simulated completion",
+      "actual": "4/4 completed; raw completion copy in v16-public-flows.json",
+      "pass": true
+    },
+    {
+      "id": "T04",
+      "test": "CMS Home title edited before opening image editor",
+      "expected": "do not lose text when changing brightness and saving image",
+      "actual": "Nhân lực kết nối tương lai. retained after ArrowRight brightness and Lưu & áp dụng",
+      "pass": true
+    },
+    {
+      "id": "T05",
+      "test": "CMS Home save and320px preview",
+      "expected": "preview saved current record",
+      "actual": "Preview H1 Nhân lực kết nối tương lai. / Doanh nghiệp vươn xa.",
+      "pass": true
+    },
+    {
+      "id": "T06",
+      "test": "Job editor salary max1 below min9",
+      "expected": "reject invalid range without saving",
+      "actual": "max field matched :invalid; corrected to12",
+      "pass": true
+    },
+    {
+      "id": "T07",
+      "test": "Manual EN job title translation and preview",
+      "expected": "correct job ID cn-dien-tu and saved EN content",
+      "actual": "Preview H1 Electronics assembly — prototype review; URL id=cn-dien-tu&lang=en",
+      "pass": true
+    },
+    {
+      "id": "T08",
+      "test": "Content reset and reload",
+      "expected": "restore seed content without author support",
+      "actual": "Home original title restored; salary9–12; Có bản dịch demo restored; protected backend untouched",
+      "pass": true
+    },
+    {
+      "id": "K01",
+      "test": "Image studio keyboard and accessible names",
+      "expected": "labelled URL/ranges; Shift+Tab first→last; Tab last→first; Escape returns focus",
+      "actual": "URL and five range names appear in AX; Shift+Tab→Lưu & áp dụng; Tab→Đóng; Escape→data-inline-media hero",
+      "pass": true
+    },
+    {
+      "id": "K02",
+      "test": "Escape inside CMS preview iframe",
+      "expected": "close parent overlay",
+      "actual": "iframe count0 after Escape; fixed listener on same-origin iframe load",
+      "pass": true
+    },
+    {
+      "id": "F01",
+      "test": "Mobile accent-insensitive filter and empty/reset",
+      "expected": "nonsense query→empty; reset; co khi→one mechanical role",
+      "actual": "empty shown; after debounce only Công nhân lắp ráp cơ khí",
+      "pass": true
+    },
+    {
+      "id": "F02",
+      "test": "Job comparison and mobile menu keyboard",
+      "expected": "compare disabled until2; open2; Escape closes; Enter/Escape mobile menu",
+      "actual": "1 item button disabled;2 items dialog opened/closed; menu expanded true→false",
+      "pass": true
+    },
+    {
+      "id": "M01",
+      "test": "Partner marquee pause",
+      "expected": "pause state and stopped class",
+      "actual": "aria-pressed true, partner-marquee is-paused",
+      "pass": true
+    }
+  ]
+}

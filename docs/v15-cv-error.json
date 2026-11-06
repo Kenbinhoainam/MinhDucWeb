@@ -1,0 +1,8 @@
+{
+  "consent": true,
+  "error": "Chưa gửi được. Thông tin bạn nhập vẫn được giữ để thử lại.Nội dung tệp không khớp định dạng CV.",
+  "errorHasFocus": true,
+  "nameRetained": true,
+  "phoneRetained": true,
+  "testOnly": true
+}
